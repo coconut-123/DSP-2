@@ -1,0 +1,1615 @@
+test/W.207/0857_box00.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/W.224/0857_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.104/1683_box00.jpg	bien_chinh	29	27	P.104	Cấm mô tô và xe máy
+test/P.127_80/1683_box01.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/P.127_60/1683_box02.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_50/1683_box03.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.103a/1683_box04.jpg	bien_chinh	20	20	P.103a	Cấm ô tô
+test/P.102/1049_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/1049_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.130/1049_box02.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/1049_box03.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.124a_/1049_box04.jpg	bien_chinh	17	17	P.124a*	Cấm quay đầu
+test/W.224/1049_box05.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.102/2688_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/2688_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/R.415a/2688_box02.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.127_60/2688_box03.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_60/2688_box04.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_60/2688_box05.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.131a/2688_box06.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/W.245a/2775_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/I.434a/2775_box01.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/R.303/1300_box00.jpg	bien_chinh	9	9	R.303	Nơi giao nhau chạy theo vòng xuyến
+test/P.104/1629_box00.jpg	bien_chinh	29	27	P.104	Cấm mô tô và xe máy
+test/P.127_80/1629_box01.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/P.127_60/1629_box02.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_50/1629_box03.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.103a/1629_box04.jpg	bien_chinh	20	20	P.103a	Cấm ô tô
+test/P.102/0832_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/0832_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.127_40/0885_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/W.224/0885_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.102/1070_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/1070_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.130/1070_box02.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.225/1070_box03.jpg	bien_chinh	27	26	W.225	Trẻ em
+test/P.130/1710_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.104/1701_box00.jpg	bien_chinh	29	27	P.104	Cấm mô tô và xe máy
+test/P.104/1538_box00.jpg	bien_chinh	29	27	P.104	Cấm mô tô và xe máy
+test/P.123a/0866_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/P.106a_Xe tải/1329_box00.jpg	bien_chinh	14	14	P.106a*Xe tải	Cấm xe tải
+test/I.434a/2911_box00.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/W.201b/2911_box01.jpg	bien_chinh	50	47	W.201b	Chỗ ngoặt nguy hiểm vòng bên phải
+test/P.127_50/2911_box02.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.127_50/2911_box03.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.127_60/2911_box04.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.130/1772_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.131a/2690_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.102/2690_box01.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/2690_box02.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/R.415a/2690_box03.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.127_60/2690_box04.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_60/2690_box05.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_60/2690_box06.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.111/2198_box00.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.124a_/2872_box00.jpg	bien_chinh	17	17	P.124a*	Cấm quay đầu
+test/R.415a/2872_box01.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.102/2872_box02.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/2872_box03.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.130/2593_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.124c/0139_box00.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.124c/0139_box01.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.131a/2889_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/W.201b/2889_box01.jpg	bien_chinh	50	47	W.201b	Chỗ ngoặt nguy hiểm vòng bên phải
+test/P.130/2889_box02.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/2889_box03.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/I.434a/2889_box04.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/W.201b/2889_box05.jpg	bien_chinh	50	47	W.201b	Chỗ ngoặt nguy hiểm vòng bên phải
+test/P.127_60/2889_box06.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_50/2889_box07.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.127_50/2889_box08.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.127_80/2889_box09.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/R.302a/2709_box00.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.102/2709_box01.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.415a/2709_box02.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/W.245a/2233_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.127_60/2233_box01.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_80/2233_box02.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/W.245a/2991_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.127_60/1921_box00.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.130/1921_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.127_80/1921_box02.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/P.127_60/1921_box03.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.130/2580_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.205a/1717_box00.jpg	bien_chinh	4	4	W.205a	Giao nhau với đường đồng cấp
+test/W.224/1717_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.123a/0341_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/P.124b1/3187_box00.jpg	bien_chinh	47	44	P.124b1	Cấm ô tô quay đầu xe (được rẽ trái)
+test/P.130/2261_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.130/1773_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.108a/1823_box00.jpg	bien_chinh	34	31	P.108a	Cấm xe sơ-mi rơ-moóc
+test/P.102/1823_box01.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/1823_box02.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.131a/0723_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.123b/0723_box01.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/P.102/1019_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/1019_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.130/1019_box02.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/1019_box03.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.124a_/1019_box04.jpg	bien_chinh	17	17	P.124a*	Cấm quay đầu
+test/W.224/1019_box05.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/R.302a/2519_box00.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.102/2519_box01.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/I.407a/2519_box02.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/I.434a/2519_box03.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/P.127_40/1943_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.124c/0251_box00.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/W.201b/2815_box00.jpg	bien_chinh	50	47	W.201b	Chỗ ngoặt nguy hiểm vòng bên phải
+test/P.124c/0077_box00.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.124c/0077_box01.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/W.207/0953_box00.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/W.224/0953_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.127_80/2161_box00.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/P.127_60/2161_box01.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/W.201a/0846_box00.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/W.207/0846_box01.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/W.224/0846_box02.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.130/2479_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.127_60/2479_box01.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/R.302a/2479_box02.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.102/2479_box03.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/W.202b/2479_box04.jpg	bien_chinh	33	30	W.202b	Nhiều chỗ ngoặt nguy hiểm liên tiếp, chỗ đầu tiên sang phải
+test/R.415a/2479_box05.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.127_60/2479_box06.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_60/2479_box07.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.102/0541_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/0541_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.131a/0722_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.123b/0722_box01.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/P.127_50/3003_box00.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/W.201a/3003_box01.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/I.409/0223_box00.jpg	bien_chinh	11	11	I.409	Chỗ quay xe
+test/R.301e/0368_box00.jpg	bien_chinh	42	39	R.301e	Các xe chỉ được rẽ trái
+test/W.245a/1669_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.127_40/0630_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.130/0630_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.207/0126_box00.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/P.111/2421_box00.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/I.407a/2421_box01.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/P.123a/0305_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/I.434a/0305_box01.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/W.224/0960_box00.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.131a/2883_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/W.201b/2883_box01.jpg	bien_chinh	50	47	W.201b	Chỗ ngoặt nguy hiểm vòng bên phải
+test/P.130/2883_box02.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/2883_box03.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.127_80/2883_box04.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/P.127_50/2883_box05.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.127_50/2883_box06.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/W.201b/2883_box07.jpg	bien_chinh	50	47	W.201b	Chỗ ngoặt nguy hiểm vòng bên phải
+test/I.434a/2883_box08.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/P.131a/1460_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.130/1460_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.123a/1460_box02.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/W.245a/2965_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.131a/0842_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.123a/1475_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/P.130/1475_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.131a/1475_box02.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.124c/0276_box00.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/I.409/0234_box00.jpg	bien_chinh	11	11	I.409	Chỗ quay xe
+test/P.130/0679_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.123a/0679_box01.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/P.127_40/0883_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/W.224/0883_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.130/0688_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.108a/0688_box01.jpg	bien_chinh	34	31	P.108a	Cấm xe sơ-mi rơ-moóc
+test/W.205c/0500_box00.jpg	bien_chinh	1	1	W.205c	Đường giao nhau (ngã ba bên phải)
+test/W.224/0500_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/W.246a/1212_box00.jpg	bien_chinh	26	25	W.246a	Chướng ngoại vật phía trước
+test/P.130/1736_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.245a/0983_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.246a/0983_box01.jpg	bien_chinh	26	25	W.246a	Chướng ngoại vật phía trước
+test/P.130/0983_box02.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.130/1420_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/1420_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.127_40/1420_box02.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.130/2463_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/I.407a/2463_box01.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/P.130/2486_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/R.302a/2486_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/R.415a/2486_box02.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/W.202b/2486_box03.jpg	bien_chinh	33	30	W.202b	Nhiều chỗ ngoặt nguy hiểm liên tiếp, chỗ đầu tiên sang phải
+test/I.407a/2486_box04.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/I.434a/2486_box05.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/P.102/2486_box06.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/P.127_40/1951_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.123a/1133_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/P.127_40/1276_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.130/1091_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.225/1091_box01.jpg	bien_chinh	27	26	W.225	Trẻ em
+test/P.108a/1855_box00.jpg	bien_chinh	34	31	P.108a	Cấm xe sơ-mi rơ-moóc
+test/P.130/2586_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.127_60/2191_box00.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_80/2191_box01.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/P.102/2191_box02.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/2191_box03.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.102/0509_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/0509_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.111/2288_box00.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.127_60/2610_box00.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_60/2610_box01.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_60/2610_box02.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/R.415a/2610_box03.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.131a/2610_box04.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.127_60/2243_box00.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_80/2243_box01.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/W.245a/2243_box02.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/R.301e/0369_box00.jpg	bien_chinh	42	39	R.301e	Các xe chỉ được rẽ trái
+test/P.102/1027_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/1027_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.130/1027_box02.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/1027_box03.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.124a_/1027_box04.jpg	bien_chinh	17	17	P.124a*	Cấm quay đầu
+test/W.224/1027_box05.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.124d/0604_box00.jpg	bien_chinh	19	19	P.124d	Cấm rẽ phải và quay đầu
+test/W.203c/0462_box00.jpg	bien_chinh	15	15	W.203c	Đường bị thu hẹp về phía phải
+test/W.245a/0462_box01.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.131a/0007_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.130/0798_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/0798_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.117_/0798_box02.jpg	bien_chinh	16	16	P.117*	Giới hạn chiều cao
+test/W.221b/0798_box03.jpg	bien_chinh	22	22	W.221b	Gồ giảm tốc phía trước
+test/P.131a/0798_box04.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.129/0798_box05.jpg	bien_chinh	24	24	P.129	Kiểm tra
+test/P.104/1684_box00.jpg	bien_chinh	29	27	P.104	Cấm mô tô và xe máy
+test/P.127_80/1684_box01.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/P.127_60/1684_box02.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_50/1684_box03.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.103a/1684_box04.jpg	bien_chinh	20	20	P.103a	Cấm ô tô
+test/W.203c/0454_box00.jpg	bien_chinh	15	15	W.203c	Đường bị thu hẹp về phía phải
+test/W.245a/0454_box01.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.130/2364_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.127_60/2364_box01.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_80/2364_box02.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/P.111/2364_box03.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/R.415a/2364_box04.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.130/1964_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/1964_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/W.201b/2801_box00.jpg	bien_chinh	50	47	W.201b	Chỗ ngoặt nguy hiểm vòng bên phải
+test/P.124a_/2874_box00.jpg	bien_chinh	17	17	P.124a*	Cấm quay đầu
+test/R.415a/2874_box01.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.102/2874_box02.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/2874_box03.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.124c/0094_box00.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.124c/0094_box01.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/W.205c/0545_box00.jpg	bien_chinh	1	1	W.205c	Đường giao nhau (ngã ba bên phải)
+test/W.224/0545_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.130/2313_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.107/2313_box01.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.111/2313_box02.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/W.207/1362_box00.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/P.139/1578_box00.jpg	bien_chinh	36	33	P.139	Cấm đi thẳng và rẽ phải
+test/W.245a/1657_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.130/1393_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/1393_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/I.434a/1393_box02.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/P.124d/0670_box00.jpg	bien_chinh	19	19	P.124d	Cấm rẽ phải và quay đầu
+test/P.124a_/0670_box01.jpg	bien_chinh	17	17	P.124a*	Cấm quay đầu
+test/W.233/0670_box02.jpg	bien_chinh	44	41	W.233	Nguy hiểm khác
+test/P.130/0670_box03.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.123a/0670_box04.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/P.102/0538_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/0538_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.139/1594_box00.jpg	bien_chinh	36	33	P.139	Cấm đi thẳng và rẽ phải
+test/W.205b/1594_box02.jpg	bien_chinh	37	34	W.205b	Đường giao nhau (ngã ba bên trái)
+test/P.117_/0574_box00.jpg	bien_chinh	16	16	P.117*	Giới hạn chiều cao
+test/P.127_40/0574_box01.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.107/0574_box02.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.130/0574_box03.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.107/0574_box04.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.130/0574_box05.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.239b_/0574_box06.jpg	bien_chinh	43	40	W.239b*	Chiều cao tĩnh không thực tế
+test/P.123a/0870_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/P.130/2445_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/I.407a/2445_box01.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/W.246a/2445_box02.jpg	bien_chinh	26	25	W.246a	Chướng ngoại vật phía trước
+test/I.434a/2901_box00.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/W.201b/2901_box01.jpg	bien_chinh	50	47	W.201b	Chỗ ngoặt nguy hiểm vòng bên phải
+test/P.127_50/2901_box02.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.127_50/2901_box03.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.127_60/2901_box04.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/W.210/3097_box00.jpg	bien_chinh	48	45	W.210	Giao nhau với đường sắt có rào chắn
+test/W.203b/0737_box00.jpg	bien_chinh	21	21	W.203b	Đường bị thu hẹp về phía trái
+test/W.245a/0737_box01.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.221b/0764_box00.jpg	bien_chinh	22	22	W.221b	Gồ giảm tốc phía trước
+test/P.127_40/0764_box01.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.127_60/0764_box02.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.130/0764_box03.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/0764_box04.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.107/0764_box05.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.117_/0764_box06.jpg	bien_chinh	16	16	P.117*	Giới hạn chiều cao
+test/W.221b/0764_box07.jpg	bien_chinh	22	22	W.221b	Gồ giảm tốc phía trước
+test/P.131a/0764_box08.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.129/0764_box09.jpg	bien_chinh	24	24	P.129	Kiểm tra
+test/Camera/0764_box10.jpg	bien_chinh	31	28	Camera	Đường có camera giám sát
+test/W.221b/0764_box11.jpg	bien_chinh	22	22	W.221b	Gồ giảm tốc phía trước
+test/P.131a/0045_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.130/2449_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/I.407a/2449_box01.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/W.246a/2449_box02.jpg	bien_chinh	26	25	W.246a	Chướng ngoại vật phía trước
+test/P.123a/0108_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/W.205a/0108_box01.jpg	bien_chinh	4	4	W.205a	Giao nhau với đường đồng cấp
+test/P.123b/2554_box00.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/I.407a/2554_box01.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/P.130/3049_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.127_50/3049_box01.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.127_50/3049_box02.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.111/3049_box03.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/W.201a/3049_box04.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/P.131a/3049_box05.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/R.415a/3049_box06.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.102/0947_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/0947_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/W.207/0947_box02.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/W.224/0947_box03.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.111/2106_box00.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/W.207/2106_box01.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/W.201a/3021_box00.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/P.127_50/3021_box01.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.127_50/3021_box02.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.130/3021_box03.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/3021_box04.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/W.201a/3021_box05.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/P.130/1269_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/1269_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.131a/0844_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/W.245a/0995_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.246a/0995_box01.jpg	bien_chinh	26	25	W.246a	Chướng ngoại vật phía trước
+test/P.102/0995_box02.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/0995_box03.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/I.409/0226_box00.jpg	bien_chinh	11	11	I.409	Chỗ quay xe
+test/P.130/2382_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.127_60/2382_box01.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_80/2382_box02.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/P.111/2382_box03.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/W.245a/2930_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.224/2930_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.102/0523_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/0523_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.127_40/0523_box02.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/W.201b/0523_box03.jpg	bien_chinh	50	47	W.201b	Chỗ ngoặt nguy hiểm vòng bên phải
+test/W.207/0858_box00.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/W.224/0858_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.124c/0410_box00.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.124c/0410_box01.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.124c/0193_box00.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.124c/0193_box01.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.111/2104_box00.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.130/2104_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.207/2104_box02.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/P.139/1617_box00.jpg	bien_chinh	36	33	P.139	Cấm đi thẳng và rẽ phải
+test/W.205b/1617_box02.jpg	bien_chinh	37	34	W.205b	Đường giao nhau (ngã ba bên trái)
+test/W.210/3123_box00.jpg	bien_chinh	48	45	W.210	Giao nhau với đường sắt có rào chắn
+test/I.407a/3123_box01.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/I.434a/0148_box00.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/P.127_40/0880_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/W.224/0880_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.130/0795_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/0795_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/W.221b/0795_box02.jpg	bien_chinh	22	22	W.221b	Gồ giảm tốc phía trước
+test/P.131a/0795_box03.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.129/0795_box04.jpg	bien_chinh	24	24	P.129	Kiểm tra
+test/W.210/3095_box00.jpg	bien_chinh	48	45	W.210	Giao nhau với đường sắt có rào chắn
+test/P.130/0676_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.123a/0676_box01.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/P.124c/0082_box00.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.124c/0082_box01.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.130/1896_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/2108_box00.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/W.207/2108_box01.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/I.434a/2791_box00.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/I.409/0221_box00.jpg	bien_chinh	11	11	I.409	Chỗ quay xe
+test/P.102/2653_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/2653_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/R.415a/2653_box02.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.131a/2653_box03.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.137/2653_box04.jpg	bien_chinh	35	32	P.137	Cấm rẽ trái và phải
+test/R.415a/2255_box00.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.123b/1192_box00.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/W.224/1192_box02.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/W.207/1192_box03.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/P.123a/0862_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/R.302a/2721_box00.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.130/2272_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.130/1968_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/1968_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.131a/0024_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/W.207/1364_box00.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/P.130/1769_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.127_40/1296_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.131a/0748_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.123b/0748_box01.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/W.245a/1647_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.131a/0721_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.123b/0721_box01.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/P.123b/3176_box00.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/P.124b1/3176_box01.jpg	bien_chinh	47	44	P.124b1	Cấm ô tô quay đầu xe (được rẽ trái)
+test/P.111/0816_box00.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.130/1040_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/1040_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.124a_/1040_box02.jpg	bien_chinh	17	17	P.124a*	Cấm quay đầu
+test/W.224/1040_box03.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.102/0505_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/0505_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.130/1961_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/R.415a/1231_box00.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.130/1231_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/1231_box02.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/W.245a/2776_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/I.434a/2776_box01.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/P.137/2834_box00.jpg	bien_chinh	35	32	P.137	Cấm rẽ trái và phải
+test/P.102/2834_box01.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/2834_box02.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.124a_/2834_box03.jpg	bien_chinh	17	17	P.124a*	Cấm quay đầu
+test/P.130/2454_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/I.407a/2454_box01.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/W.246a/2454_box02.jpg	bien_chinh	26	25	W.246a	Chướng ngoại vật phía trước
+test/P.127_40/0633_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.130/0633_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.245a/2926_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/R.415a/2880_box00.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.102/2880_box01.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/2880_box02.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.127_60/2124_box00.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/W.207/2124_box01.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/P.102/2648_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/2648_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/R.415a/2648_box02.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.137/2648_box03.jpg	bien_chinh	35	32	P.137	Cấm rẽ trái và phải
+test/W.224/0489_box00.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.127_40/0616_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.130/0616_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.124d/0616_box02.jpg	bien_chinh	19	19	P.124d	Cấm rẽ phải và quay đầu
+test/P.123b/3167_box00.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/P.139/1554_box00.jpg	bien_chinh	36	33	P.139	Cấm đi thẳng và rẽ phải
+test/W.205b/1554_box01.jpg	bien_chinh	37	34	W.205b	Đường giao nhau (ngã ba bên trái)
+test/P.102/1038_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/1038_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.130/1038_box02.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/1038_box03.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.124a_/1038_box04.jpg	bien_chinh	17	17	P.124a*	Cấm quay đầu
+test/W.224/1038_box05.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/W.207/2007_box00.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/W.224/2007_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.130/2087_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/2087_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.124c/0075_box00.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.124c/0075_box01.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/W.245a/2972_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.201a/2972_box01.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/I.434a/0156_box00.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/R.415a/1344_box00.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.123a/0303_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/I.434a/0303_box01.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/W.245a/2962_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.245a/1648_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.130/0657_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.103a/0657_box01.jpg	bien_chinh	20	20	P.103a	Cấm ô tô
+test/P.130/2581_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.246a/1215_box00.jpg	bien_chinh	26	25	W.246a	Chướng ngoại vật phía trước
+test/R.415a/1215_box01.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.127_40/1215_box02.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.127_60/1215_box03.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.130/0802_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/0802_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.107/0802_box02.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.117_/0802_box03.jpg	bien_chinh	16	16	P.117*	Giới hạn chiều cao
+test/W.221b/0802_box04.jpg	bien_chinh	22	22	W.221b	Gồ giảm tốc phía trước
+test/P.131a/0802_box05.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.129/0802_box06.jpg	bien_chinh	24	24	P.129	Kiểm tra
+test/I.434a/2630_box00.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/P.137/2630_box01.jpg	bien_chinh	35	32	P.137	Cấm rẽ trái và phải
+test/R.415a/2630_box02.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.130/1956_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/1956_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/I.434a/2910_box00.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/W.201b/2910_box01.jpg	bien_chinh	50	47	W.201b	Chỗ ngoặt nguy hiểm vòng bên phải
+test/P.127_50/2910_box02.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.127_50/2910_box03.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.127_60/2910_box04.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.130/2341_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/2341_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/R.415a/2341_box02.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.130/2274_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.102/2638_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/2638_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/R.415a/2638_box02.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.137/2638_box03.jpg	bien_chinh	35	32	P.137	Cấm rẽ trái và phải
+test/I.407a/2472_box00.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/P.127_40/1274_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.124c/0190_box00.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.124c/0190_box01.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.127_40/0782_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.127_60/0782_box01.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.130/0782_box02.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/0782_box03.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.107/0782_box04.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.131a/0782_box05.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.129/0782_box06.jpg	bien_chinh	24	24	P.129	Kiểm tra
+test/W.245a/2993_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.127_60/2174_box00.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_80/2174_box01.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/P.102/2174_box02.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/2174_box03.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.117_/0593_box00.jpg	bien_chinh	16	16	P.117*	Giới hạn chiều cao
+test/P.127_40/0593_box01.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.107/0593_box02.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.130/0593_box03.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.130/2396_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/2396_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.123a/0329_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/I.434a/0329_box01.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/P.124c/0243_box00.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.124c/0243_box01.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.130/1970_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/1970_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.102/1525_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/1525_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.127_40/1525_box02.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.127_40/1942_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.130/1711_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.123b/1500_box00.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/P.131a/1500_box01.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/I.409/0239_box00.jpg	bien_chinh	11	11	I.409	Chỗ quay xe
+test/P.123b/2057_box00.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/P.130/1478_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.123a/1478_box01.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/P.131a/1478_box02.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/W.207/2140_box00.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/P.127_60/2140_box01.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_80/2140_box02.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/P.131a/0017_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.123a/1465_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/P.130/1465_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.131a/1465_box02.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.131a/0709_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.123b/0709_box01.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/P.130/2432_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/I.407a/2432_box01.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/W.245a/2773_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/I.434a/2773_box01.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/P.111/3020_box00.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.130/3020_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.127_50/3020_box02.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.127_50/3020_box03.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/W.201a/3020_box04.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/W.201a/3020_box05.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/P.123a/0914_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/W.245a/0392_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.127_40/0879_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/W.245a/0395_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/R.415a/1228_box00.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.130/1228_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/1228_box02.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.127_60/1228_box03.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.139/1574_box00.jpg	bien_chinh	36	33	P.139	Cấm đi thẳng và rẽ phải
+test/P.127_60/2200_box00.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_80/2200_box01.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/P.102/2200_box02.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/2200_box03.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/W.245a/2200_box04.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.124c/0246_box00.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.124c/0246_box01.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/W.201b/2804_box00.jpg	bien_chinh	50	47	W.201b	Chỗ ngoặt nguy hiểm vòng bên phải
+test/P.130/1871_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.123a/1803_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/P.123b/2028_box00.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/P.131a/3160_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.106a_Xe tải/3160_box01.jpg	bien_chinh	14	14	P.106a*Xe tải	Cấm xe tải
+test/W.203c/0451_box00.jpg	bien_chinh	15	15	W.203c	Đường bị thu hẹp về phía phải
+test/W.245a/0451_box01.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.245a/1650_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.102/2651_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/2651_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/R.415a/2651_box02.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.131a/2651_box03.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.137/2651_box04.jpg	bien_chinh	35	32	P.137	Cấm rẽ trái và phải
+test/W.201b/2814_box00.jpg	bien_chinh	50	47	W.201b	Chỗ ngoặt nguy hiểm vòng bên phải
+test/W.245a/0989_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.246a/0989_box01.jpg	bien_chinh	26	25	W.246a	Chướng ngoại vật phía trước
+test/P.130/0989_box02.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.131a/0032_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/W.201a/3025_box00.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/P.127_50/3025_box01.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.127_50/3025_box02.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.130/3025_box03.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/3025_box04.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/W.201a/3025_box05.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/P.124c/0099_box00.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.124c/0099_box01.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.130/1086_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.225/1086_box01.jpg	bien_chinh	27	26	W.225	Trẻ em
+test/W.245a/2249_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.130/1124_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.130/2349_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/2349_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.127_60/2349_box02.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_80/2349_box03.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/R.415a/2349_box04.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/W.203c/0452_box00.jpg	bien_chinh	15	15	W.203c	Đường bị thu hẹp về phía phải
+test/W.245a/0452_box01.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.245a/2969_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.102/1022_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/1022_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.130/1022_box02.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/1022_box03.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.124a_/1022_box04.jpg	bien_chinh	17	17	P.124a*	Cấm quay đầu
+test/W.224/1022_box05.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/R.415a/1340_box00.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/W.245a/1634_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.245a/2785_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/I.434a/2785_box01.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/W.245a/0991_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.246a/0991_box01.jpg	bien_chinh	26	25	W.246a	Chướng ngoại vật phía trước
+test/P.124b1/3185_box00.jpg	bien_chinh	47	44	P.124b1	Cấm ô tô quay đầu xe (được rẽ trái)
+test/P.124c/0347_box00.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.123b/2545_box00.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/I.407a/2545_box01.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/P.108a/1841_box00.jpg	bien_chinh	34	31	P.108a	Cấm xe sơ-mi rơ-moóc
+test/P.131a/3159_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.106a_Xe tải/3159_box01.jpg	bien_chinh	14	14	P.106a*Xe tải	Cấm xe tải
+test/W.245a/2985_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.245a/1149_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.130/1149_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.123b/1149_box02.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/P.123a/0322_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/I.434a/0322_box01.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/R.415a/1238_box00.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.130/1238_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/1238_box02.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/R.302a/2507_box00.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.102/2507_box01.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/I.407a/2507_box02.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/I.434a/2507_box03.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/P.130/1768_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.207/0290_box00.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/W.201a/0290_box01.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/P.123a/0290_box02.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/I.434a/0290_box03.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/P.130/2316_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.107/2316_box01.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.111/2316_box02.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.123a/1812_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/W.245a/2987_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.245a/2950_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.201b/2798_box00.jpg	bien_chinh	50	47	W.201b	Chỗ ngoặt nguy hiểm vòng bên phải
+test/W.207/0131_box00.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/W.201b/2799_box00.jpg	bien_chinh	50	47	W.201b	Chỗ ngoặt nguy hiểm vòng bên phải
+test/W.207/0958_box00.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/W.224/0958_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/W.224/1201_box00.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/W.207/1201_box01.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/P.127_80/1918_box00.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/P.130/1918_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.127_60/1918_box02.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_60/1918_box03.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_40/0760_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.127_60/0760_box01.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.130/0760_box02.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/0760_box03.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/W.221b/0760_box04.jpg	bien_chinh	22	22	W.221b	Gồ giảm tốc phía trước
+test/P.131a/0760_box05.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.129/0760_box06.jpg	bien_chinh	24	24	P.129	Kiểm tra
+test/Camera/0760_box07.jpg	bien_chinh	31	28	Camera	Đường có camera giám sát
+test/W.221b/0760_box08.jpg	bien_chinh	22	22	W.221b	Gồ giảm tốc phía trước
+test/W.221b/0760_box09.jpg	bien_chinh	22	22	W.221b	Gồ giảm tốc phía trước
+test/W.207/2131_box00.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/P.117_/0583_box00.jpg	bien_chinh	16	16	P.117*	Giới hạn chiều cao
+test/P.127_40/0583_box01.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.107/0583_box02.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.130/0583_box03.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.107/0583_box04.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.130/0583_box05.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.239b_/0583_box06.jpg	bien_chinh	43	40	W.239b*	Chiều cao tĩnh không thực tế
+test/R.302a/3198_box00.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.102/3198_box01.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/W.245a/1154_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.130/1154_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.123b/1154_box02.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/P.130/0698_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.108a/0698_box01.jpg	bien_chinh	34	31	P.108a	Cấm xe sơ-mi rơ-moóc
+test/I.407a/0698_box02.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/P.130/1965_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/1965_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.106a_Xe tải/1965_box02.jpg	bien_chinh	14	14	P.106a*Xe tải	Cấm xe tải
+test/P.127_60/2228_box00.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/W.245a/2228_box01.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.127_80/2228_box02.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/P.130/1732_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.130/2306_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.107/2306_box01.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.111/2306_box02.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.123a/0335_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/I.434a/0335_box01.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/W.207/1758_box00.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/P.130/2098_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/2098_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.123a/0344_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/P.131a/0724_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.123b/0724_box01.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/I.434a/0150_box00.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/P.123a/1819_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/P.106a_Xe tải/3153_box00.jpg	bien_chinh	14	14	P.106a*Xe tải	Cấm xe tải
+test/P.131a/3153_box01.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.106a_Xe tải/3153_box02.jpg	bien_chinh	14	14	P.106a*Xe tải	Cấm xe tải
+test/W.245a/1656_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.130/1469_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.131a/1469_box01.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.123a/1469_box02.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/W.245a/2779_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/I.434a/2779_box01.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/P.131a/0015_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.102/1528_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/1528_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.127_40/1528_box02.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.127_60/2611_box00.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_60/2611_box01.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_60/2611_box02.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/R.415a/2611_box03.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.131a/2611_box04.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.130/2425_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/I.407a/2425_box01.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/W.207/0956_box00.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/W.224/0956_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.130/2459_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/I.407a/2459_box01.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/W.210/3092_box00.jpg	bien_chinh	48	45	W.210	Giao nhau với đường sắt có rào chắn
+test/I.409/0240_box00.jpg	bien_chinh	11	11	I.409	Chỗ quay xe
+test/P.131a/0728_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.123b/0728_box01.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/W.207/1200_box00.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/W.224/1200_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/I.434a/2913_box00.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/W.201b/2913_box01.jpg	bien_chinh	50	47	W.201b	Chỗ ngoặt nguy hiểm vòng bên phải
+test/P.127_50/2913_box02.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.127_50/2913_box03.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.127_60/2913_box04.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.131a/3138_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.106a_Xe tải/3138_box01.jpg	bien_chinh	14	14	P.106a*Xe tải	Cấm xe tải
+test/P.106a_Xe tải/3138_box02.jpg	bien_chinh	14	14	P.106a*Xe tải	Cấm xe tải
+test/P.106a_Xe tải/3138_box03.jpg	bien_chinh	14	14	P.106a*Xe tải	Cấm xe tải
+test/P.130/2483_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.127_60/2483_box01.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_60/2483_box02.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_60/2483_box03.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/R.415a/2483_box04.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/W.202b/2483_box05.jpg	bien_chinh	33	30	W.202b	Nhiều chỗ ngoặt nguy hiểm liên tiếp, chỗ đầu tiên sang phải
+test/P.102/2483_box06.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/2483_box07.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/I.407a/2483_box08.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/I.434a/2483_box09.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/W.207/0850_box00.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/W.224/0850_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/W.203b/0739_box00.jpg	bien_chinh	21	21	W.203b	Đường bị thu hẹp về phía trái
+test/W.245a/0739_box01.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/R.415a/2257_box00.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.123a/0919_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/P.130/2490_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.202b/2490_box01.jpg	bien_chinh	33	30	W.202b	Nhiều chỗ ngoặt nguy hiểm liên tiếp, chỗ đầu tiên sang phải
+test/R.415a/2490_box02.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/I.434a/2490_box03.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/I.407a/2490_box04.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/P.102/2490_box05.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/2490_box06.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.123b/2054_box00.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/W.210/3121_box00.jpg	bien_chinh	48	45	W.210	Giao nhau với đường sắt có rào chắn
+test/I.407a/3121_box01.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/P.130/0809_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/0809_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.107/0809_box02.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.117_/0809_box03.jpg	bien_chinh	16	16	P.117*	Giới hạn chiều cao
+test/W.221b/0809_box04.jpg	bien_chinh	22	22	W.221b	Gồ giảm tốc phía trước
+test/P.131a/0809_box05.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.129/0809_box06.jpg	bien_chinh	24	24	P.129	Kiểm tra
+test/W.245a/1671_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.139/1560_box00.jpg	bien_chinh	36	33	P.139	Cấm đi thẳng và rẽ phải
+test/W.205b/1560_box01.jpg	bien_chinh	37	34	W.205b	Đường giao nhau (ngã ba bên trái)
+test/W.205a/1445_box00.jpg	bien_chinh	4	4	W.205a	Giao nhau với đường đồng cấp
+test/W.224/1445_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.130/2541_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/I.407a/2541_box01.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/P.123b/2541_box02.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/P.127_40/0605_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.124d/0605_box01.jpg	bien_chinh	19	19	P.124d	Cấm rẽ phải và quay đầu
+test/P.124a_/0605_box02.jpg	bien_chinh	17	17	P.124a*	Cấm quay đầu
+test/P.130/0605_box03.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.102/0543_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/0543_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.102/1053_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/1053_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.130/1053_box02.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/1053_box03.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.124a_/1053_box04.jpg	bien_chinh	17	17	P.124a*	Cấm quay đầu
+test/W.224/1053_box05.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.130/0680_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.123a/0680_box01.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/P.130/2388_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/2388_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.131a/0009_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.130/0660_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.103a/0660_box01.jpg	bien_chinh	20	20	P.103a	Cấm ô tô
+test/W.205a/1438_box00.jpg	bien_chinh	4	4	W.205a	Giao nhau với đường đồng cấp
+test/W.224/1438_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/R.415a/1225_box00.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.127_40/1225_box01.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.127_60/1225_box02.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/W.201a/2039_box00.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/P.127_40/2039_box01.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.127_40/1946_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.130/1079_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.225/1079_box01.jpg	bien_chinh	27	26	W.225	Trẻ em
+test/W.205a/1719_box00.jpg	bien_chinh	4	4	W.205a	Giao nhau với đường đồng cấp
+test/W.224/1719_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.130/2385_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/2385_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.127_60/2385_box02.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_80/2385_box03.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/W.203c/0460_box00.jpg	bien_chinh	15	15	W.203c	Đường bị thu hẹp về phía phải
+test/W.245a/0460_box01.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.108a/1835_box00.jpg	bien_chinh	34	31	P.108a	Cấm xe sơ-mi rơ-moóc
+test/Camera/1323_box00.jpg	bien_chinh	31	28	Camera	Đường có camera giám sát
+test/P.102/1060_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/1060_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.124a_/1060_box02.jpg	bien_chinh	17	17	P.124a*	Cấm quay đầu
+test/W.224/1060_box03.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.130/1060_box04.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/Camera/1326_box00.jpg	bien_chinh	31	28	Camera	Đường có camera giám sát
+test/P.123b/1480_box00.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/P.131a/1480_box01.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.123b/2019_box00.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/P.127_40/0622_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.130/0622_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.130/1712_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.130/1865_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.205a/1444_box00.jpg	bien_chinh	4	4	W.205a	Giao nhau với đường đồng cấp
+test/W.224/1444_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.127_40/2048_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.127_60/2386_box00.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.130/2386_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.127_80/2386_box02.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/P.111/2386_box03.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.117_/0584_box00.jpg	bien_chinh	16	16	P.117*	Giới hạn chiều cao
+test/P.127_40/0584_box01.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.107/0584_box02.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.130/0584_box03.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.107/0584_box04.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.130/0584_box05.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.239b_/0584_box06.jpg	bien_chinh	43	40	W.239b*	Chiều cao tĩnh không thực tế
+test/P.123a/1135_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/P.124c/0098_box00.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.124c/0098_box01.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.130/0686_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.123a/0686_box01.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/W.221b/0775_box00.jpg	bien_chinh	22	22	W.221b	Gồ giảm tốc phía trước
+test/P.127_40/0775_box01.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.127_60/0775_box02.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.130/0775_box03.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/0775_box04.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.107/0775_box05.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.117_/0775_box06.jpg	bien_chinh	16	16	P.117*	Giới hạn chiều cao
+test/W.221b/0775_box07.jpg	bien_chinh	22	22	W.221b	Gồ giảm tốc phía trước
+test/P.131a/0775_box08.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.129/0775_box09.jpg	bien_chinh	24	24	P.129	Kiểm tra
+test/P.111/1406_box00.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.130/1406_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.127_40/0547_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/W.224/0547_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/I.434a/2626_box00.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/P.137/2626_box01.jpg	bien_chinh	35	32	P.137	Cấm rẽ trái và phải
+test/R.415a/2626_box02.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.127_60/1952_box00.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.130/1952_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.130/1912_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.127_60/1912_box01.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_80/1912_box02.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/W.245a/0996_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.246a/0996_box01.jpg	bien_chinh	26	25	W.246a	Chướng ngoại vật phía trước
+test/P.102/0996_box02.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/0996_box03.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/W.201b/2805_box00.jpg	bien_chinh	50	47	W.201b	Chỗ ngoặt nguy hiểm vòng bên phải
+test/P.130/1266_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/1266_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/W.221b/1266_box02.jpg	bien_chinh	22	22	W.221b	Gồ giảm tốc phía trước
+test/W.245a/1266_box03.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.123a/1110_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/P.123a/1783_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/P.130/0416_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.108a/0416_box01.jpg	bien_chinh	34	31	P.108a	Cấm xe sơ-mi rơ-moóc
+test/W.221b/1184_box00.jpg	bien_chinh	22	22	W.221b	Gồ giảm tốc phía trước
+test/P.123b/1184_box01.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/W.224/1184_box03.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/W.207/1184_box04.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/P.127_40/0485_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/W.224/0485_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.124c/0378_box00.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.124c/0378_box01.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.123a/1791_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/P.111/1985_box00.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.127_60/2196_box00.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_80/2196_box01.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/P.102/2196_box02.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/2196_box03.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.127_40/2047_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.102/0175_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/0175_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/W.224/0175_box02.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/R.303/0175_box03.jpg	bien_chinh	9	9	R.303	Nơi giao nhau chạy theo vòng xuyến
+test/W.207/0175_box04.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/P.102/1011_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/1011_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.130/1011_box02.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.130/2442_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/I.407a/2442_box01.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/W.246a/2442_box02.jpg	bien_chinh	26	25	W.246a	Chướng ngoại vật phía trước
+test/W.205a/1716_box00.jpg	bien_chinh	4	4	W.205a	Giao nhau với đường đồng cấp
+test/W.224/1716_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.131a/0023_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/W.203c/0450_box00.jpg	bien_chinh	15	15	W.203c	Đường bị thu hẹp về phía phải
+test/W.245a/0450_box01.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.130/1879_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.221b/1147_box00.jpg	bien_chinh	22	22	W.221b	Gồ giảm tốc phía trước
+test/W.245a/1147_box01.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.130/1147_box02.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.123b/1147_box03.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/P.130/0426_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.108a/0426_box01.jpg	bien_chinh	34	31	P.108a	Cấm xe sơ-mi rơ-moóc
+test/P.131a/1461_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.130/1461_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.123a/1461_box02.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/P.127_40/0758_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.127_60/0758_box01.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.130/0758_box02.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/0758_box03.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/W.221b/0758_box04.jpg	bien_chinh	22	22	W.221b	Gồ giảm tốc phía trước
+test/P.131a/0758_box05.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.129/0758_box06.jpg	bien_chinh	24	24	P.129	Kiểm tra
+test/Camera/0758_box07.jpg	bien_chinh	31	28	Camera	Đường có camera giám sát
+test/W.221b/0758_box08.jpg	bien_chinh	22	22	W.221b	Gồ giảm tốc phía trước
+test/P.106a_Xe tải/0758_box09.jpg	bien_chinh	14	14	P.106a*Xe tải	Cấm xe tải
+test/W.221b/0758_box10.jpg	bien_chinh	22	22	W.221b	Gồ giảm tốc phía trước
+test/P.123a/1136_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/W.245a/0926_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.207/0926_box01.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/W.224/0926_box02.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.130/0205_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.123b/2559_box00.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/P.131a/0741_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.123b/0741_box01.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/W.246a/1213_box00.jpg	bien_chinh	26	25	W.246a	Chướng ngoại vật phía trước
+test/I.434a/0155_box00.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/P.124c/0273_box00.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.117_/0577_box00.jpg	bien_chinh	16	16	P.117*	Giới hạn chiều cao
+test/P.127_40/0577_box01.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.107/0577_box02.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.130/0577_box03.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.107/0577_box04.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.130/0577_box05.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.239b_/0577_box06.jpg	bien_chinh	43	40	W.239b*	Chiều cao tĩnh không thực tế
+test/W.245a/2992_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.130/1870_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.124b1/3189_box00.jpg	bien_chinh	47	44	P.124b1	Cấm ô tô quay đầu xe (được rẽ trái)
+test/P.102/1520_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/1520_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.127_40/1520_box02.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/W.201a/2759_box00.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/W.207/1375_box00.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/P.123b/1375_box01.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/P.102/0935_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/0935_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/W.207/0935_box02.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/W.224/0935_box03.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.124a_/2859_box00.jpg	bien_chinh	17	17	P.124a*	Cấm quay đầu
+test/P.137/2859_box01.jpg	bien_chinh	35	32	P.137	Cấm rẽ trái và phải
+test/R.302a/2859_box03.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.102/2859_box04.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/W.203b/0738_box00.jpg	bien_chinh	21	21	W.203b	Đường bị thu hẹp về phía trái
+test/W.245a/0738_box01.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.130/2344_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/2344_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.127_60/2344_box02.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_80/2344_box03.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/R.415a/2344_box04.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.124c/0090_box00.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.124c/0090_box01.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.117_/0571_box00.jpg	bien_chinh	16	16	P.117*	Giới hạn chiều cao
+test/P.127_40/0571_box01.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.107/0571_box02.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.130/0571_box03.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.107/0571_box04.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.130/0571_box05.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.239b_/0571_box06.jpg	bien_chinh	43	40	W.239b*	Chiều cao tĩnh không thực tế
+test/P.117_/0578_box00.jpg	bien_chinh	16	16	P.117*	Giới hạn chiều cao
+test/P.127_40/0578_box01.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.107/0578_box02.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.130/0578_box03.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.107/0578_box04.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.130/0578_box05.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.239b_/0578_box06.jpg	bien_chinh	43	40	W.239b*	Chiều cao tĩnh không thực tế
+test/P.139/1559_box00.jpg	bien_chinh	36	33	P.139	Cấm đi thẳng và rẽ phải
+test/W.205b/1559_box01.jpg	bien_chinh	37	34	W.205b	Đường giao nhau (ngã ba bên trái)
+test/P.131a/0059_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.123b/2025_box00.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/W.207/1750_box00.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/W.245a/1750_box01.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.245a/0961_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.246a/0961_box01.jpg	bien_chinh	26	25	W.246a	Chướng ngoại vật phía trước
+test/P.130/0961_box02.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.127_40/1283_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/W.201b/2810_box00.jpg	bien_chinh	50	47	W.201b	Chỗ ngoặt nguy hiểm vòng bên phải
+test/P.130/0677_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.123a/0677_box01.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/W.207/0283_box00.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/W.201a/0283_box01.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/P.123a/0283_box02.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/P.131a/3140_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.106a_Xe tải/3140_box01.jpg	bien_chinh	14	14	P.106a*Xe tải	Cấm xe tải
+test/P.106a_Xe tải/3140_box02.jpg	bien_chinh	14	14	P.106a*Xe tải	Cấm xe tải
+test/P.131a/3140_box03.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.106a_Xe tải/3140_box04.jpg	bien_chinh	14	14	P.106a*Xe tải	Cấm xe tải
+test/I.434a/2906_box00.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/W.201b/2906_box01.jpg	bien_chinh	50	47	W.201b	Chỗ ngoặt nguy hiểm vòng bên phải
+test/P.127_50/2906_box02.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.127_50/2906_box03.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.127_60/2906_box04.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/R.302a/3215_box00.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.102/3215_box01.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/Camera/1322_box00.jpg	bien_chinh	31	28	Camera	Đường có camera giám sát
+test/P.102/1015_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/1015_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.130/1015_box02.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/1015_box03.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.102/1054_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/1054_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.130/1054_box02.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/1054_box03.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.124a_/1054_box04.jpg	bien_chinh	17	17	P.124a*	Cấm quay đầu
+test/W.224/1054_box05.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/R.302a/2717_box00.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.102/2717_box01.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/P.130/2093_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/2093_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.102/2647_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/2647_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/R.415a/2647_box02.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.137/2647_box03.jpg	bien_chinh	35	32	P.137	Cấm rẽ trái và phải
+test/P.127_40/0638_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.130/0638_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.207/2063_box00.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/W.224/2063_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.123a/0301_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/I.434a/0301_box01.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/W.203c/0458_box00.jpg	bien_chinh	15	15	W.203c	Đường bị thu hẹp về phía phải
+test/W.245a/0458_box01.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.130/0789_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/0789_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.107/0789_box02.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/W.221b/0789_box03.jpg	bien_chinh	22	22	W.221b	Gồ giảm tốc phía trước
+test/P.131a/0789_box04.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.129/0789_box05.jpg	bien_chinh	24	24	P.129	Kiểm tra
+test/P.127_60/2192_box00.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_80/2192_box01.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/P.102/2192_box02.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/2192_box03.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.124c/0379_box00.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.124c/0379_box01.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.131a/2700_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/R.415a/2700_box01.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.102/2700_box02.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/2700_box03.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.130/1387_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/1387_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.127_80/2150_box00.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/P.127_60/2150_box01.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/Camera/1121_box00.jpg	bien_chinh	31	28	Camera	Đường có camera giám sát
+test/P.123a/1785_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/P.131a/2727_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/W.201a/2727_box01.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/P.123b/1483_box00.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/P.131a/1483_box01.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.123b/1166_box00.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/P.130/1166_box02.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.123b/2561_box00.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/P.102/0946_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/0946_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/W.207/0946_box02.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/W.224/0946_box03.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.102/0533_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/0533_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.127_40/0533_box02.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/W.246c/0533_box03.jpg	bien_chinh	51	48	W.246c	Chú ý chướng ngại vật – vòng tránh sang bên phải
+test/W.245a/0533_box04.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.201b/0533_box05.jpg	bien_chinh	50	47	W.201b	Chỗ ngoặt nguy hiểm vòng bên phải
+test/P.102/1068_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/1068_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.130/1068_box02.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.225/1068_box03.jpg	bien_chinh	27	26	W.225	Trẻ em
+test/P.130/3061_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.131a/3061_box01.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.111/3061_box02.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/W.201a/3061_box03.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/I.407a/3061_box04.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/P.127_40/0621_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.130/0621_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.205c/0518_box00.jpg	bien_chinh	1	1	W.205c	Đường giao nhau (ngã ba bên phải)
+test/W.224/0518_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.130/2303_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.107/2303_box01.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.102/1104_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/1104_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.130/1104_box02.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.108a/1830_box00.jpg	bien_chinh	34	31	P.108a	Cấm xe sơ-mi rơ-moóc
+test/W.205a/1446_box00.jpg	bien_chinh	4	4	W.205a	Giao nhau với đường đồng cấp
+test/W.224/1446_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.123b/2024_box00.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/P.123b/1376_box00.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/W.207/1376_box01.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/P.130/2430_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/I.407a/2430_box01.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/P.130/1899_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/1398_box00.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.130/1398_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/I.434a/1398_box02.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/P.123a/1789_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/W.205a/1726_box00.jpg	bien_chinh	4	4	W.205a	Giao nhau với đường đồng cấp
+test/W.224/1726_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/W.245a/0401_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.139/1584_box00.jpg	bien_chinh	36	33	P.139	Cấm đi thẳng và rẽ phải
+test/P.130/2535_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.123b/2535_box01.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/P.102/2654_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/2654_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/R.415a/2654_box02.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.131a/2654_box03.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.137/2654_box04.jpg	bien_chinh	35	32	P.137	Cấm rẽ trái và phải
+test/P.102/1065_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/1065_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.130/1065_box02.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.225/1065_box03.jpg	bien_chinh	27	26	W.225	Trẻ em
+test/W.207/1191_box00.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/W.224/1191_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.123b/1191_box03.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/P.111/3028_box00.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.130/3028_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.127_50/3028_box02.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.127_50/3028_box03.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/W.201a/3028_box04.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/W.201a/3028_box05.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/P.130/0654_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.103a/0654_box01.jpg	bien_chinh	20	20	P.103a	Cấm ô tô
+test/P.124d/0673_box00.jpg	bien_chinh	19	19	P.124d	Cấm rẽ phải và quay đầu
+test/P.130/0673_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.123a/0673_box02.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/P.124a_/0673_box03.jpg	bien_chinh	17	17	P.124a*	Cấm quay đầu
+test/W.203c/0457_box00.jpg	bien_chinh	15	15	W.203c	Đường bị thu hẹp về phía phải
+test/W.245a/0457_box01.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.131a/2729_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/W.201a/2729_box01.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/W.245a/2952_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.131a/0727_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.123b/0727_box01.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/R.415a/1224_box00.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.127_40/1224_box01.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.127_60/1224_box02.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/W.207/1377_box00.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/P.123b/1377_box01.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/W.207/0930_box00.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/W.224/0930_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/W.245a/2934_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.224/2934_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/R.301e/0364_box00.jpg	bien_chinh	42	39	R.301e	Các xe chỉ được rẽ trái
+test/P.130/1954_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/1954_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.130/0683_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.123a/0683_box01.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/P.124a_/2840_box00.jpg	bien_chinh	17	17	P.124a*	Cấm quay đầu
+test/P.137/2840_box01.jpg	bien_chinh	35	32	P.137	Cấm rẽ trái và phải
+test/P.102/2840_box02.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/2840_box03.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.104/1542_box00.jpg	bien_chinh	29	27	P.104	Cấm mô tô và xe máy
+test/P.127_80/1542_box01.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/P.127_60/1542_box02.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_50/1542_box03.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.103a/1542_box04.jpg	bien_chinh	20	20	P.103a	Cấm ô tô
+test/W.245a/2970_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.111/2133_box00.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/R.303/1302_box00.jpg	bien_chinh	9	9	R.303	Nơi giao nhau chạy theo vòng xuyến
+test/P.130/3050_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.127_50/3050_box01.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.111/3050_box02.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/W.201a/3050_box03.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/P.131a/3050_box04.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.127_50/3050_box05.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/R.415a/3050_box06.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.137/2668_box00.jpg	bien_chinh	35	32	P.137	Cấm rẽ trái và phải
+test/P.102/2668_box01.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/2668_box02.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/R.415a/2668_box03.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.127_60/2668_box04.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_60/2668_box05.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_60/2668_box06.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.131a/2668_box07.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.102/1534_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/1534_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.127_40/1534_box02.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/R.302a/2678_box00.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.102/2678_box01.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.415a/2678_box02.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.127_60/2678_box03.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_60/2678_box04.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_60/2678_box05.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.131a/2678_box06.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.123a/1470_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/P.130/1470_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.131a/1470_box02.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/W.224/0898_box00.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.127_80/2223_box00.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/P.127_60/2223_box01.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/W.245a/2223_box02.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.130/2481_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.102/2481_box01.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/2481_box02.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/W.202b/2481_box03.jpg	bien_chinh	33	30	W.202b	Nhiều chỗ ngoặt nguy hiểm liên tiếp, chỗ đầu tiên sang phải
+test/P.127_60/2481_box04.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_60/2481_box05.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_60/2481_box06.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/R.415a/2481_box07.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/I.434a/2481_box08.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/W.245a/1003_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.246a/1003_box01.jpg	bien_chinh	26	25	W.246a	Chướng ngoại vật phía trước
+test/P.102/1003_box02.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/1003_box03.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.130/1003_box04.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.131a/0016_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.106a_Xe tải/3154_box00.jpg	bien_chinh	14	14	P.106a*Xe tải	Cấm xe tải
+test/P.106a_Xe tải/3154_box01.jpg	bien_chinh	14	14	P.106a*Xe tải	Cấm xe tải
+test/P.131a/0845_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/W.245a/2967_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.245a/1678_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.201b/1678_box01.jpg	bien_chinh	50	47	W.201b	Chỗ ngoặt nguy hiểm vòng bên phải
+test/W.201a/0300_box00.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/P.123a/0300_box01.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/I.434a/0300_box02.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/P.123a/0312_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/I.434a/0312_box01.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/W.210/3106_box00.jpg	bien_chinh	48	45	W.210	Giao nhau với đường sắt có rào chắn
+test/P.130/2330_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.107/2330_box01.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.111/2330_box02.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.127_40/0469_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/W.224/0469_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/W.203c/0459_box00.jpg	bien_chinh	15	15	W.203c	Đường bị thu hẹp về phía phải
+test/W.245a/0459_box01.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.102/0937_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/0937_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/W.207/0937_box02.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/W.224/0937_box03.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.102/0167_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/0167_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/W.224/0167_box02.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/R.303/0167_box03.jpg	bien_chinh	9	9	R.303	Nơi giao nhau chạy theo vòng xuyến
+test/W.207/0167_box04.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/W.245a/1159_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.130/1159_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.123b/1159_box02.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/W.201b/2829_box00.jpg	bien_chinh	50	47	W.201b	Chỗ ngoặt nguy hiểm vòng bên phải
+test/W.246a/1220_box00.jpg	bien_chinh	26	25	W.246a	Chướng ngoại vật phía trước
+test/P.111/2419_box00.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/I.407a/2419_box01.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/P.127_60/2193_box00.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_80/2193_box01.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/P.102/2193_box02.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/2193_box03.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.124d/0599_box00.jpg	bien_chinh	19	19	P.124d	Cấm rẽ phải và quay đầu
+test/P.117_/0599_box01.jpg	bien_chinh	16	16	P.117*	Giới hạn chiều cao
+test/R.301e/0370_box00.jpg	bien_chinh	42	39	R.301e	Các xe chỉ được rẽ trái
+test/P.130/2280_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.107/2280_box01.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.123a/0321_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/I.434a/0321_box01.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/I.409/0235_box00.jpg	bien_chinh	11	11	I.409	Chỗ quay xe
+test/W.201b/2822_box00.jpg	bien_chinh	50	47	W.201b	Chỗ ngoặt nguy hiểm vòng bên phải
+test/P.130/0690_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.108a/0690_box01.jpg	bien_chinh	34	31	P.108a	Cấm xe sơ-mi rơ-moóc
+test/I.407a/0690_box02.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/P.130/1359_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.123a/1359_box01.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/P.131a/1359_box02.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/W.201b/2827_box00.jpg	bien_chinh	50	47	W.201b	Chỗ ngoặt nguy hiểm vòng bên phải
+test/W.245a/2974_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.201a/2974_box01.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/P.127_40/1945_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.102/1529_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/1529_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.127_40/1529_box02.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/I.407a/2475_box00.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/P.130/0424_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.108a/0424_box01.jpg	bien_chinh	34	31	P.108a	Cấm xe sơ-mi rơ-moóc
+test/P.131a/0843_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.123b/2052_box00.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/I.407a/2423_box00.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/P.123b/2022_box00.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/W.245a/1649_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.130/1969_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/1969_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.131a/2894_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/W.201b/2894_box01.jpg	bien_chinh	50	47	W.201b	Chỗ ngoặt nguy hiểm vòng bên phải
+test/P.130/2894_box02.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/2894_box03.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/I.434a/2894_box04.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/W.201b/2894_box05.jpg	bien_chinh	50	47	W.201b	Chỗ ngoặt nguy hiểm vòng bên phải
+test/P.127_50/2894_box06.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.127_50/2894_box07.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.127_60/2894_box08.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_80/2894_box09.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/P.127_40/0884_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.127_40/0884_box01.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.130/1737_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.245a/1635_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.245a/2997_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/R.302a/2714_box00.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.102/2714_box01.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/I.434a/2900_box00.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/W.201b/2900_box01.jpg	bien_chinh	50	47	W.201b	Chỗ ngoặt nguy hiểm vòng bên phải
+test/P.127_50/2900_box02.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.127_50/2900_box03.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.127_60/2900_box04.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.102/1099_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/1099_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.130/1099_box02.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.225/1099_box03.jpg	bien_chinh	27	26	W.225	Trẻ em
+test/P.102/1096_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/1096_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.130/1096_box02.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.225/1096_box03.jpg	bien_chinh	27	26	W.225	Trẻ em
+test/P.130/2377_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.127_60/2377_box01.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.111/2377_box02.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.127_80/2377_box03.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/R.415a/2377_box04.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.108a/1847_box00.jpg	bien_chinh	34	31	P.108a	Cấm xe sơ-mi rơ-moóc
+test/P.130/2326_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.107/2326_box01.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.111/2326_box02.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.130/2576_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.123b/1164_box01.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/P.130/1164_box02.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.245a/1164_box03.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/I.434a/2924_box00.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/W.201b/2924_box01.jpg	bien_chinh	50	47	W.201b	Chỗ ngoặt nguy hiểm vòng bên phải
+test/W.245a/2924_box02.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.201a/0296_box00.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/P.123a/0296_box01.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/I.434a/0296_box02.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/P.123a/0112_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/W.205a/0112_box01.jpg	bien_chinh	4	4	W.205a	Giao nhau với đường đồng cấp
+test/I.434a/2923_box00.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/W.201b/2923_box01.jpg	bien_chinh	50	47	W.201b	Chỗ ngoặt nguy hiểm vòng bên phải
+test/W.245a/2923_box02.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.207/1379_box00.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/P.123b/1379_box01.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/P.130/3067_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/3067_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.131a/3067_box02.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/W.201a/3067_box03.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/I.407a/3067_box04.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/P.130/3065_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/3065_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.131a/3065_box02.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/W.201a/3065_box03.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/I.407a/3065_box04.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/P.131a/0708_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.123b/0708_box01.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/P.130/0806_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/0806_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.107/0806_box02.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.117_/0806_box03.jpg	bien_chinh	16	16	P.117*	Giới hạn chiều cao
+test/W.221b/0806_box04.jpg	bien_chinh	22	22	W.221b	Gồ giảm tốc phía trước
+test/P.131a/0806_box05.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.129/0806_box06.jpg	bien_chinh	24	24	P.129	Kiểm tra
+test/R.415a/0257_box00.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/W.207/0257_box01.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/W.203c/0438_box00.jpg	bien_chinh	15	15	W.203c	Đường bị thu hẹp về phía phải
+test/W.245a/0438_box01.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/R.415a/1335_box00.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/W.207/0291_box00.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/W.201a/0291_box01.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/P.123a/0291_box02.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/I.434a/0291_box03.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/P.106a_Xe tải/3151_box00.jpg	bien_chinh	14	14	P.106a*Xe tải	Cấm xe tải
+test/P.131a/3151_box01.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.106a_Xe tải/3151_box02.jpg	bien_chinh	14	14	P.106a*Xe tải	Cấm xe tải
+test/P.127_60/2602_box00.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_60/2602_box01.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_60/2602_box02.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/R.415a/2602_box03.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.131a/2602_box04.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.124c/0214_box00.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.124c/0214_box01.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.123b/2546_box00.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/I.407a/2546_box01.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/W.245a/0970_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.246a/0970_box01.jpg	bien_chinh	26	25	W.246a	Chướng ngoại vật phía trước
+test/P.130/0970_box02.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.102/3194_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/3194_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/R.303/1301_box00.jpg	bien_chinh	9	9	R.303	Nơi giao nhau chạy theo vòng xuyến
+test/P.130/0712_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.108a/0712_box01.jpg	bien_chinh	34	31	P.108a	Cấm xe sơ-mi rơ-moóc
+test/W.203c/0436_box00.jpg	bien_chinh	15	15	W.203c	Đường bị thu hẹp về phía phải
+test/W.245a/0436_box01.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/R.302a/2705_box00.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.102/2705_box01.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.415a/2705_box02.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.131a/2705_box03.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.127_60/2206_box00.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_80/2206_box01.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/P.102/2206_box02.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/2206_box03.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/W.245a/2206_box04.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.130/2470_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/I.407a/2470_box01.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/I.407a/2470_box02.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/P.111/1390_box00.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.130/1390_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.201a/2033_box00.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/P.127_40/2033_box01.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/W.201a/3033_box00.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/W.201a/3033_box01.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/P.127_50/3033_box02.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.127_50/3033_box03.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.130/3033_box04.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/3033_box05.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/W.224/2936_box00.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.102/0536_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/0536_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.127_40/0536_box02.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/R.415a/1339_box00.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/W.245a/3013_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.124a_/2857_box00.jpg	bien_chinh	17	17	P.124a*	Cấm quay đầu
+test/P.137/2857_box01.jpg	bien_chinh	35	32	P.137	Cấm rẽ trái và phải
+test/R.302a/2857_box03.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.102/2857_box04.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/P.124c/0081_box00.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.124c/0081_box01.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.130/2591_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.130/0803_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/0803_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.107/0803_box02.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.117_/0803_box03.jpg	bien_chinh	16	16	P.117*	Giới hạn chiều cao
+test/W.221b/0803_box04.jpg	bien_chinh	22	22	W.221b	Gồ giảm tốc phía trước
+test/P.131a/0803_box05.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.129/0803_box06.jpg	bien_chinh	24	24	P.129	Kiểm tra
+test/W.245a/0980_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.246a/0980_box01.jpg	bien_chinh	26	25	W.246a	Chướng ngoại vật phía trước
+test/P.130/0980_box02.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.131a/2677_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.102/2677_box01.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/2677_box02.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/R.415a/2677_box03.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.127_60/2677_box04.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_60/2677_box05.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_60/2677_box06.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/W.201a/2750_box00.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/P.127_60/2213_box00.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_80/2213_box01.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/R.302a/2213_box02.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/W.245a/2213_box03.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.131a/0002_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.108a/1853_box00.jpg	bien_chinh	34	31	P.108a	Cấm xe sơ-mi rơ-moóc
+test/P.130/2351_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/2351_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.127_60/2351_box02.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_80/2351_box03.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/R.415a/2351_box04.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/P.124c/0212_box00.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.124c/0212_box01.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.130/0799_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/0799_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.117_/0799_box02.jpg	bien_chinh	16	16	P.117*	Giới hạn chiều cao
+test/W.221b/0799_box03.jpg	bien_chinh	22	22	W.221b	Gồ giảm tốc phía trước
+test/P.131a/0799_box04.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.129/0799_box05.jpg	bien_chinh	24	24	P.129	Kiểm tra
+test/W.221b/0769_box00.jpg	bien_chinh	22	22	W.221b	Gồ giảm tốc phía trước
+test/P.127_40/0769_box01.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.127_60/0769_box02.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.130/0769_box03.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/0769_box04.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.107/0769_box05.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.117_/0769_box06.jpg	bien_chinh	16	16	P.117*	Giới hạn chiều cao
+test/W.221b/0769_box07.jpg	bien_chinh	22	22	W.221b	Gồ giảm tốc phía trước
+test/P.131a/0769_box08.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/Camera/0769_box09.jpg	bien_chinh	31	28	Camera	Đường có camera giám sát
+test/W.221b/0769_box10.jpg	bien_chinh	22	22	W.221b	Gồ giảm tốc phía trước
+test/W.201a/2757_box00.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/P.124a_/2853_box00.jpg	bien_chinh	17	17	P.124a*	Cấm quay đầu
+test/P.137/2853_box01.jpg	bien_chinh	35	32	P.137	Cấm rẽ trái và phải
+test/R.302a/2853_box03.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.102/2853_box04.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/P.124c/0191_box00.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.124c/0191_box01.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.124c/0102_box00.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.124c/0102_box01.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.102/0178_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/0178_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/W.224/0178_box02.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/R.303/0178_box03.jpg	bien_chinh	9	9	R.303	Nơi giao nhau chạy theo vòng xuyến
+test/W.207/0178_box04.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/P.130/2079_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.107/2079_box01.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.111/2079_box02.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/R.415a/2256_box00.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/R.303/1311_box00.jpg	bien_chinh	9	9	R.303	Nơi giao nhau chạy theo vòng xuyến
+test/P.123a/0339_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/I.434a/0339_box01.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/P.127_60/2190_box00.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_80/2190_box01.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
+test/P.102/2190_box02.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/2190_box03.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.124c/0356_box00.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/P.124c/0356_box01.jpg	bien_chinh	49	46	P.124c	Cấm rẽ trái và quay đầu xe
+test/W.224/1989_box00.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/W.207/2004_box00.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên
+test/W.224/2004_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/W.245a/0977_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.246a/0977_box01.jpg	bien_chinh	26	25	W.246a	Chướng ngoại vật phía trước
+test/P.130/0977_box02.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.130/1511_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.130/0714_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.108a/0714_box01.jpg	bien_chinh	34	31	P.108a	Cấm xe sơ-mi rơ-moóc
+test/P.131a/3077_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/W.201a/3077_box01.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/I.407a/3077_box02.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/P.117_/0585_box00.jpg	bien_chinh	16	16	P.117*	Giới hạn chiều cao
+test/P.127_40/0585_box01.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.107/0585_box02.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.130/0585_box03.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.107/0585_box04.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.130/0585_box05.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.239b_/0585_box06.jpg	bien_chinh	43	40	W.239b*	Chiều cao tĩnh không thực tế
+test/P.117_/0565_box00.jpg	bien_chinh	16	16	P.117*	Giới hạn chiều cao
+test/P.127_40/0565_box01.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.107/0565_box02.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.130/0565_box03.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.107/0565_box04.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.130/0565_box05.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/3038_box00.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.130/3038_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.201a/3038_box02.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/W.201a/3038_box03.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
+test/P.127_50/3038_box04.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.127_50/3038_box05.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
+test/P.131a/0003_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.127_40/0625_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.130/0625_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.130/2450_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/I.407a/2450_box01.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/W.246a/2450_box02.jpg	bien_chinh	26	25	W.246a	Chướng ngoại vật phía trước
+test/P.131a/0067_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
+test/P.123a/1141_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/W.245a/2951_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/W.245a/2951_box01.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.123b/3181_box00.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/P.124b1/3181_box01.jpg	bien_chinh	47	44	P.124b1	Cấm ô tô quay đầu xe (được rẽ trái)
+test/R.415a/1350_box00.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/I.409/0207_box00.jpg	bien_chinh	11	11	I.409	Chỗ quay xe
+test/P.130/2410_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.102/2410_box01.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/P.102/2410_box02.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/P.111/2410_box03.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.111/2187_box00.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/W.245a/2948_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
+test/P.111/1417_box00.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.130/1417_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.123a/1116_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/P.123a/0868_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
+test/P.130/1860_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.127_40/1282_box01.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.130/1977_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/1977_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.127_40/0606_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/P.124d/0606_box01.jpg	bien_chinh	19	19	P.124d	Cấm rẽ phải và quay đầu
+test/P.124a_/0606_box02.jpg	bien_chinh	17	17	P.124a*	Cấm quay đầu
+test/P.130/0606_box03.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/W.205c/0501_box00.jpg	bien_chinh	1	1	W.205c	Đường giao nhau (ngã ba bên phải)
+test/W.224/0501_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.102/1035_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/P.130/1035_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.111/1035_box02.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
+test/P.124a_/1035_box03.jpg	bien_chinh	17	17	P.124a*	Cấm quay đầu
+test/W.224/1035_box04.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.123b/2552_box00.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+test/I.407a/2552_box01.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/I.434a/2632_box00.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/P.137/2632_box01.jpg	bien_chinh	35	32	P.137	Cấm rẽ trái và phải
+test/P.102/2632_box02.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/2632_box03.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/R.415a/2632_box04.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+test/W.205c/0507_box00.jpg	bien_chinh	1	1	W.205c	Đường giao nhau (ngã ba bên phải)
+test/W.224/0507_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/W.224/0908_box00.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
+test/P.130/1929_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.127_60/1929_box01.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.127_60/1929_box02.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
+test/P.130/2427_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/I.407a/2427_box01.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+test/R.303/1310_box00.jpg	bien_chinh	9	9	R.303	Nơi giao nhau chạy theo vòng xuyến
+test/P.127_40/1940_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/I.434a/0153_box00.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
+test/P.130/2304_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+test/P.107/2304_box01.jpg	bien_chinh	18	18	P.107	Cấm ô tô khách và ô tô tải
+test/P.102/0514_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
+test/R.302a/0514_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
+test/P.127_40/0514_box02.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+test/W.201b/0514_box03.jpg	bien_chinh	50	47	W.201b	Chỗ ngoặt nguy hiểm vòng bên phải

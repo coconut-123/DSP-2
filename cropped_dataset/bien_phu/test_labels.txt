@@ -1,0 +1,30 @@
+test/S.505a_Xe tải và công/2911_box05.jpg	bien_phu	28	1	S.505a*Xe tải và công	Xe tải và xe công*
+test/S.505a_Xe tải và công/2889_box10.jpg	bien_phu	28	1	S.505a*Xe tải và công	Xe tải và xe công*
+test/S.505a_Xe máy/1420_box03.jpg	bien_phu	25	0	S.505a*Xe máy	Chỉ dành cho xe máy*
+test/S.505a_Xe tải/1578_box01.jpg	bien_phu	30	2	S.505a*Xe tải	Chỉ dành cho xe tải*
+test/S.505a_Xe tải/1594_box01.jpg	bien_phu	30	2	S.505a*Xe tải	Chỉ dành cho xe tải*
+test/S.505a_Xe tải và công/2901_box05.jpg	bien_phu	28	1	S.505a*Xe tải và công	Xe tải và xe công*
+test/S.505a_Xe tải/1617_box01.jpg	bien_phu	30	2	S.505a*Xe tải	Chỉ dành cho xe tải*
+test/S.505a_Xe tải/1192_box01.jpg	bien_phu	30	2	S.505a*Xe tải	Chỉ dành cho xe tải*
+test/S.505a_Xe máy/1296_box01.jpg	bien_phu	25	0	S.505a*Xe máy	Chỉ dành cho xe máy*
+test/S.505a_Xe tải/1554_box02.jpg	bien_phu	30	2	S.505a*Xe tải	Chỉ dành cho xe tải*
+test/S.505a_Xe tải và công/2910_box05.jpg	bien_phu	28	1	S.505a*Xe tải và công	Xe tải và xe công*
+test/S.505a_Xe tải/1574_box01.jpg	bien_phu	30	2	S.505a*Xe tải	Chỉ dành cho xe tải*
+test/S.505a_Xe tải/1154_box03.jpg	bien_phu	30	2	S.505a*Xe tải	Chỉ dành cho xe tải*
+test/S.505a_Xe tải và công/2913_box05.jpg	bien_phu	28	1	S.505a*Xe tải và công	Xe tải và xe công*
+test/S.505a_Xe tải/1560_box02.jpg	bien_phu	30	2	S.505a*Xe tải	Chỉ dành cho xe tải*
+test/S.505a_Xe tải/1184_box02.jpg	bien_phu	30	2	S.505a*Xe tải	Chỉ dành cho xe tải*
+test/S.505a_Xe tải/2859_box02.jpg	bien_phu	30	2	S.505a*Xe tải	Chỉ dành cho xe tải*
+test/S.505a_Xe tải/1559_box02.jpg	bien_phu	30	2	S.505a*Xe tải	Chỉ dành cho xe tải*
+test/S.505a_Xe máy/1283_box01.jpg	bien_phu	25	0	S.505a*Xe máy	Chỉ dành cho xe máy*
+test/S.505a_Xe tải và công/2906_box05.jpg	bien_phu	28	1	S.505a*Xe tải và công	Xe tải và xe công*
+test/S.505a_Xe tải/1166_box01.jpg	bien_phu	30	2	S.505a*Xe tải	Chỉ dành cho xe tải*
+test/S.505a_Xe tải/1584_box01.jpg	bien_phu	30	2	S.505a*Xe tải	Chỉ dành cho xe tải*
+test/S.505a_Xe tải/1191_box02.jpg	bien_phu	30	2	S.505a*Xe tải	Chỉ dành cho xe tải*
+test/S.505a_Xe tải/1159_box03.jpg	bien_phu	30	2	S.505a*Xe tải	Chỉ dành cho xe tải*
+test/S.505a_Xe tải và công/2894_box10.jpg	bien_phu	28	1	S.505a*Xe tải và công	Xe tải và xe công*
+test/S.505a_Xe tải và công/2900_box05.jpg	bien_phu	28	1	S.505a*Xe tải và công	Xe tải và xe công*
+test/S.505a_Xe tải/1164_box00.jpg	bien_phu	30	2	S.505a*Xe tải	Chỉ dành cho xe tải*
+test/S.505a_Xe tải/2857_box02.jpg	bien_phu	30	2	S.505a*Xe tải	Chỉ dành cho xe tải*
+test/S.505a_Xe tải/2853_box02.jpg	bien_phu	30	2	S.505a*Xe tải	Chỉ dành cho xe tải*
+test/S.505a_Xe máy/1282_box00.jpg	bien_phu	25	0	S.505a*Xe máy	Chỉ dành cho xe máy*

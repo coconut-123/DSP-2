@@ -1,0 +1,19 @@
+{
+  "train_total_samples": 930,
+  "test_total_samples": 312,
+  "train_by_category": {
+    "single_sign": 155,
+    "main_and_aux": 155,
+    "sign_relationship": 155,
+    "regulation_explanation": 155,
+    "yes_no_compliance": 310
+  },
+  "test_by_category": {
+    "single_sign": 52,
+    "main_and_aux": 52,
+    "sign_relationship": 52,
+    "regulation_explanation": 52,
+    "yes_no_compliance": 104
+  },
+  "fewshot_exemplars_count": 5
+}

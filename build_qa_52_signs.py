@@ -1,0 +1,731 @@
+r"""
+build_qa_52_signs.py
+--------------------
+Tạo bộ dữ liệu Hỏi - Đáp (QA) cho 52 mã biển báo (52 scenes x 6 câu hỏi = 312 mẫu QA)
+theo đúng cấu trúc mẫu:
+  - q1: "Biển chính trong ảnh là biển gì?"
+  - q2: "Biển phụ có nội dung gì?"
+  - q3: "Biển phụ bổ sung ý nghĩa gì cho biển chính?"
+  - q4: "Hãy giải thích ý nghĩa tổng thể của cụm biển."
+  - q5: Câu hỏi Yes/No (Có/Không) kiểm tra hành vi/phương tiện bị cấm (Đáp án: Không).
+  - q6: Câu hỏi Yes/No (Có/Không) kiểm tra ngoại lệ/phương tiện được phép đi (Đáp án: Có).
+
+Xuất ra:
+  1. `C:\ki8\DSP\datadsp\archive\qa_52_signs.json` (đúng chuẩn 4 trường: id, image_id, question, answer)
+  2. `C:\ki8\DSP\datadsp\archive\qa_52_signs_detailed.json` (kèm question_type, short_answer, mã biển và điều luật QCVN 41)
+"""
+
+import json
+import sys
+from pathlib import Path
+
+sys.stdout.reconfigure(encoding="utf-8")
+
+ARCHIVE_DIR = Path(__file__).resolve().parent
+BASE_DIR = ARCHIVE_DIR.parent
+CROPPED_DIR = ARCHIVE_DIR / "cropped_dataset"
+LAW_DB_PATH = ARCHIVE_DIR / "law_database.json"
+
+QA_SPECS_52 = [
+    # 0: W.224
+    {
+        "label": "W.224",
+        "q1": "Biển báo nguy hiểm đường người đi bộ cắt ngang (mã biển W.224).",
+        "q2": "Biển phụ thể hiện khoảng cách từ vị trí đặt biển đến phần đường dành cho người đi bộ sang ngang phía trước (biển phụ S.502).",
+        "q3": "Biển phụ bổ sung thông tin về khoảng cách thực tế đến vạch người đi bộ cắt ngang để người lái xe chủ động giảm tốc độ.",
+        "q4": "Cụm biển cảnh báo phía trước (theo khoảng cách ghi trên biển phụ) có phần đường dành cho người đi bộ qua đường; các phương tiện phải giảm tốc độ và nhường đường cho người đi bộ.",
+        "q5_q": "Khi gặp biển cảnh báo đường người đi bộ cắt ngang (W.224), xe ô tô và xe máy có được phép giữ nguyên tốc độ cao và bấm còi giành đường với người đi bộ đang sang đường không?",
+        "q5_a": "Không. Khi gặp biển W.224, các phương tiện bắt buộc phải giảm tốc độ và nhường quyền ưu tiên cho người đi bộ đang sang qua đường.",
+        "q6_q": "Khi gặp biển cảnh báo đường người đi bộ cắt ngang (W.224), người điều khiển phương tiện có bắt buộc phải giảm tốc độ và chỉ chạy xe khi không gây nguy hiểm cho người đi bộ không?",
+        "q6_a": "Có. Theo mục C.24 Phụ lục C QCVN 41:2024/BGTVT, các xe phải giảm tốc độ, nhường ưu tiên cho người đi bộ và chỉ được chạy xe khi đảm bảo an toàn.",
+    },
+    # 1: W.205c
+    {
+        "label": "W.205c",
+        "q1": "Biển báo nguy hiểm đường giao nhau cùng mức của các đường đồng cấp ngã ba bên phải (mã biển W.205c).",
+        "q2": "Biển phụ thể hiện khoảng cách hoặc phạm vi đến nút giao ngã ba phía trước.",
+        "q3": "Biển phụ bổ sung thông tin định lượng về khoảng cách từ chỗ đặt biển đến vị trí giao nhau cùng mức bên phải.",
+        "q4": "Cụm biển cảnh báo sắp đến nơi giao nhau cùng mức dạng ngã ba có nhánh đường đồng cấp bên phải theo khoảng cách chỉ dẫn trên biển phụ, yêu cầu xe giảm tốc độ và nhường đường theo quy tắc chung.",
+        "q5_q": "Khi gặp biển giao nhau của các đường đồng cấp (W.205c), xe đang đi thẳng có được quyền ưu tiên tuyệt đối trước các xe đi đến từ nhánh đường bên phải không?",
+        "q5_a": "Không. Tại nơi đường giao nhau cùng mức của các đường đồng cấp (không có đường nào ưu tiên), người lái xe phải nhường đường cho phương tiện đi đến từ bên phải.",
+        "q6_q": "Khi gặp biển W.205c, người điều khiển xe ô tô và xe máy có phải giảm tốc độ và nhường đường cho xe đi đến từ hướng đường bên phải không?",
+        "q6_a": "Có. Vì đây là nơi giao nhau của các đường đồng cấp nên phương tiện phải giảm tốc độ và nhường đường cho xe đến từ bên phải theo quy tắc giao thông.",
+    },
+    # 2: P.102
+    {
+        "label": "P.102",
+        "q1": "Biển báo cấm đi ngược chiều (mã biển P.102).",
+        "q2": "Biển phụ thể hiện loại phương tiện hoặc khung thời gian chịu hiệu lực cấm đi ngược chiều.",
+        "q3": "Biển phụ bổ sung điều kiện áp dụng (về đối tượng phương tiện hoặc thời gian cấm) cho biển cấm đi ngược chiều P.102.",
+        "q4": "Cụm biển quy định cấm các loại xe (cơ giới và thô sơ, trừ xe ưu tiên theo luật định) đi vào theo chiều đặt biển theo đúng phạm vi hoặc điều kiện chỉ dẫn trên biển phụ.",
+        "q5_q": "Khi gặp biển cấm đi ngược chiều (P.102), xe ô tô và xe máy có được phép đi vào theo chiều đặt biển không?",
+        "q5_a": "Không. Biển P.102 cấm tất cả các loại xe cơ giới và thô sơ (bao gồm cả ô tô, xe máy và xe đạp) đi vào theo chiều đặt biển, trừ các xe được ưu tiên theo quy định.",
+        "q6_q": "Tại đoạn đường đặt biển cấm đi ngược chiều (P.102), người đi bộ có được phép đi trên vỉa hè hoặc lề đường không?",
+        "q6_a": "Có. Theo mục B.2 Phụ lục B QCVN 41:2024/BGTVT, biển P.102 chỉ cấm các loại xe đi vào theo chiều đặt biển, người đi bộ vẫn được phép đi trên vỉa hè hoặc lề đường.",
+    },
+    # 3: R.302a
+    {
+        "label": "R.302a",
+        "q1": "Biển hiệu lệnh hướng phải đi vòng chướng ngại vật sang bên phải (mã biển R.302a).",
+        "q2": "Biển phụ thể hiện làn đường hoặc đối tượng phương tiện bắt buộc phải đi vòng sang bên phải.",
+        "q3": "Biển phụ bổ sung thông tin xác định rõ phạm vi làn đường hoặc phương tiện chịu sự điều chỉnh của biển hiệu lệnh R.302a.",
+        "q4": "Cụm biển bắt buộc các loại xe (theo đối tượng/phạm vi trên biển phụ) phải đi vòng sang phía bên phải để vượt qua chướng ngại vật hoặc dải phân cách trước mặt.",
+        "q5_q": "Khi gặp biển hiệu lệnh R.302a đặt ở đầu dải phân cách, người điều khiển xe ô tô và xe máy có được phép cho xe đi vòng sang phía bên trái dải phân cách không?",
+        "q5_a": "Không. Biển R.302a bắt buộc tất cả các loại xe phải đi vòng sang phía bên phải chướng ngại vật hoặc dải phân cách, đi sang bên trái là đi ngược chiều.",
+        "q6_q": "Khi gặp biển R.302a, tất cả các loại xe cơ giới và xe thô sơ có bắt buộc phải đi vòng sang bên phải chướng ngại vật không?",
+        "q6_a": "Có. Theo mục D.2 Phụ lục D QCVN 41:2024/BGTVT, biển hiệu lệnh R.302a bắt buộc các loại xe cơ giới và thô sơ phải đi vòng sang phía bên phải chướng ngại vật.",
+    },
+    # 4: W.205a
+    {
+        "label": "W.205a",
+        "q1": "Biển báo nguy hiểm giao nhau với đường đồng cấp dạng ngã tư (mã biển W.205a).",
+        "q2": "Biển phụ thể hiện khoảng cách từ vị trí đặt biển đến nút giao ngã tư đồng cấp phía trước.",
+        "q3": "Biển phụ bổ sung thông tin về khoảng cách báo trước để người điều khiển phương tiện nhận biết vị trí nút giao đồng cấp.",
+        "q4": "Cụm biển cảnh báo phía trước (theo khoảng cách trên biển phụ) là nơi giao nhau cùng mức của các tuyến đường đồng cấp, yêu cầu người lái xe chú ý quan sát, giảm tốc độ và nhường đường đúng quy định.",
+        "q5_q": "Biển W.205a có phải là biển cấm xe ô tô hoặc cấm xe máy đi qua ngã tư phía trước không?",
+        "q5_a": "Không. Biển W.205a là biển báo nguy hiểm cảnh báo nơi giao nhau của các đường đồng cấp, không cấm bất kỳ loại phương tiện nào đi qua.",
+        "q6_q": "Khi đi qua nút giao có đặt biển W.205a, các phương tiện có phải nhường đường cho xe đi đến từ phía bên phải không?",
+        "q6_a": "Có. Tại nơi giao nhau cùng mức của các tuyến đường đồng cấp, người điều khiển phương tiện có nghĩa vụ nhường đường cho xe đi đến từ bên phải.",
+    },
+    # 5: W.207
+    {
+        "label": "W.207",
+        "q1": "Biển báo nguy hiểm giao nhau với đường không ưu tiên (mã biển W.207).",
+        "q2": "Biển phụ thể hiện sơ đồ hướng đường ưu tiên (S.506a) hoặc khoảng cách đến nút giao.",
+        "q3": "Biển phụ bổ sung thông tin chỉ dẫn rõ hướng của nhánh đường ưu tiên hoặc khoảng cách tới nơi giao nhau với đường nhánh.",
+        "q4": "Cụm biển báo trước cho xe đang đi trên đường ưu tiên biết sắp đến nơi giao nhau với đường không ưu tiên theo hướng/khoảng cách trên biển phụ; xe trên đường chính được quyền ưu tiên đi trước nhưng vẫn phải chú ý an toàn.",
+        "q5_q": "Khi đang lưu thông trên tuyến đường có đặt biển W.207, xe của bạn có bắt buộc phải nhường đường cho xe từ đường nhánh (đường không ưu tiên) đi ra không?",
+        "q5_a": "Không. Biển W.207 được đặt trên đường ưu tiên, do đó các phương tiện đang chạy trên đường có đặt biển này được quyền ưu tiên đi trước các xe từ đường nhánh đi vào.",
+        "q6_q": "Các phương tiện đi từ đường nhánh ra nơi giao nhau với đường có đặt biển W.207 có bắt buộc phải nhường đường cho xe đi trên đường ưu tiên không?",
+        "q6_a": "Có. Theo mục C.7 Phụ lục C QCVN 41:2024/BGTVT, các xe đi trên đường có đặt biển W.207 được quyền ưu tiên qua nơi giao nhau, các xe từ đường không ưu tiên phải nhường đường.",
+    },
+    # 6: W.201a
+    {
+        "label": "W.201a",
+        "q1": "Biển báo nguy hiểm chỗ ngoặt nguy hiểm vòng bên trái (mã biển W.201a).",
+        "q2": "Biển phụ thể hiện phạm vi chiều dài đoạn đường cong nguy hiểm (S.501) hoặc khoảng cách đến chỗ ngoặt (S.502).",
+        "q3": "Biển phụ bổ sung thông tin về khoảng cách bắt đầu hoặc chiều dài thực tế của đoạn đường ngoặt nguy hiểm vòng sang trái.",
+        "q4": "Cụm biển cảnh báo sắp tới khúc cua ngoặt nguy hiểm vòng về phía bên trái theo phạm vi/khoảng cách ghi trên biển phụ, yêu cầu người lái xe giảm tốc độ, đi đúng phần đường và không vượt xe.",
+        "q5_q": "Khi đi vào đoạn đường cong cua có đặt biển chỗ ngoặt nguy hiểm vòng bên trái (W.201a) bị che khuất tầm nhìn, xe ô tô có được phép vượt xe khác không?",
+        "q5_a": "Không. Tại các đoạn đường vòng cua nguy hiểm có tầm nhìn hạn chế, người điều khiển phương tiện phải giảm tốc độ và không được phép vượt xe khác.",
+        "q6_q": "Khi gặp biển W.201a, người điều khiển xe ô tô và xe máy có cần giảm tốc độ và đi sát về phần đường bên phải của mình không?",
+        "q6_a": "Có. Biển W.201a báo trước sắp đến chỗ ngoặt nguy hiểm vòng bên trái, người lái xe phải giảm tốc độ và giữ đúng làn đường để phòng ngừa tai nạn.",
+    },
+    # 7: P.123a
+    {
+        "label": "P.123a",
+        "q1": "Biển báo cấm rẽ trái (mã biển P.123a).",
+        "q2": "Biển phụ thể hiện loại phương tiện hoặc khung giờ áp dụng lệnh cấm rẽ trái.",
+        "q3": "Biển phụ bổ sung điều kiện cụ thể về loại xe (ví dụ: xe tải, xe khách) hoặc thời gian bị cấm rẽ trái tại nút giao.",
+        "q4": "Cụm biển quy định cấm các phương tiện (thuộc đối tượng hoặc trong khung giờ ghi trên biển phụ) rẽ sang phía trái tại nơi đường giao nhau, nhưng không có giá trị cấm quay đầu xe.",
+        "q5_q": "Khi gặp biển cấm rẽ trái (P.123a), người điều khiển xe ô tô và xe máy có được phép rẽ sang phía bên trái tại nút giao không?",
+        "q5_a": "Không. Biển P.123a cấm các loại xe cơ giới và thô sơ (trừ xe ưu tiên theo quy định) rẽ sang phía bên trái tại vị trí đường giao nhau.",
+        "q6_q": "Theo QCVN 41:2024/BGTVT, khi gặp biển cấm rẽ trái (P.123a), phương tiện có được phép quay đầu xe không (nếu không có biển cấm quay đầu)?",
+        "q6_a": "Có. Theo mục B.21 Phụ lục B QCVN 41:2024/BGTVT, biển P.123a chỉ cấm rẽ trái và không có giá trị cấm quay đầu xe.",
+    },
+    # 8: I.434a
+    {
+        "label": "I.434a",
+        "q1": "Biển chỉ dẫn bến xe buýt (mã biển I.434a).",
+        "q2": "Biển phụ thể hiện phạm vi chiều dài điểm dừng đỗ xe buýt hoặc thông tin tuyến xe buýt hoạt động.",
+        "q3": "Biển phụ bổ sung thông tin chi tiết về phạm vi mặt đường hoặc các tuyến xe buýt được phép dừng đón trả khách tại điểm đặt biển chính.",
+        "q4": "Cụm biển chỉ dẫn vị trí bến dừng xe buýt cùng phạm vi và thông tin tuyến trên biển phụ; các phương tiện khác không được đỗ xe làm cản trở hoạt động đón trả khách của xe buýt.",
+        "q5_q": "Tại khu vực đặt biển chỉ dẫn bến xe buýt (I.434a), xe ô tô cá nhân có được phép đỗ xe chiếm phần đường dừng đón trả khách của xe buýt không?",
+        "q5_a": "Không. Các phương tiện cá nhân không được đỗ xe tại khu vực điểm dừng xe buýt làm cản trở xe buýt ra vào đón trả hành khách.",
+        "q6_q": "Biển I.434a có phải là biển chỉ dẫn vị trí dừng đón, trả khách dành cho xe buýt công cộng không?",
+        "q6_a": "Có. Theo mục E.34 Phụ lục E QCVN 41:2024/BGTVT, biển số I.434a dùng để chỉ dẫn chỗ dừng đón, trả khách của các tuyến xe buýt.",
+    },
+    # 9: R.303
+    {
+        "label": "R.303",
+        "q1": "Biển hiệu lệnh nơi giao nhau chạy theo vòng xuyến (mã biển R.303).",
+        "q2": "Biển phụ thể hiện khoảng cách hoặc phạm vi phân làn trước khi tiến vào đảo tròn vòng xuyến.",
+        "q3": "Biển phụ bổ sung thông tin hướng dẫn khoảng cách và điều kiện di chuyển cho phương tiện khi tiếp cận nút giao vòng xuyến.",
+        "q4": "Cụm biển bắt buộc các loại xe khi đến nút giao phải cho xe chạy vòng theo đảo an toàn ở giữa nút giao theo chiều mũi tên của biển chính và tuân thủ chỉ dẫn bổ sung trên biển phụ.",
+        "q5_q": "Khi gặp biển hiệu lệnh nơi giao nhau chạy theo vòng xuyến (R.303), người lái xe có được phép rẽ trái cắt ngang trực tiếp trước đảo tròn mà không đi theo chiều mũi tên vòng xuyến không?",
+        "q5_a": "Không. Khi gặp biển R.303, tất cả các loại xe bắt buộc phải chạy vòng theo đảo an toàn ở nơi đường giao nhau theo đúng chiều mũi tên.",
+        "q6_q": "Khi di chuyển vào nút giao có đặt biển vòng xuyến (R.303), người điều khiển phương tiện có phải nhường đường cho xe đi đến từ phía bên trái (xe đang lưu thông trong vòng xuyến) không?",
+        "q6_a": "Có. Tại nơi giao nhau có báo hiệu đi theo vòng xuyến R.303, phương tiện phải nhường đường cho xe đi đến từ bên trái.",
+    },
+    # 10: P.130
+    {
+        "label": "P.130",
+        "q1": "Biển báo cấm dừng và đỗ xe (mã biển P.130).",
+        "q2": "Biển phụ thể hiện phạm vi tác dụng, hướng hiệu lực (S.503), khung giờ (S.508) hoặc loại phương tiện áp dụng (S.505a).",
+        "q3": "Biển phụ bổ sung thông tin về phạm vi không gian, khung thời gian hoặc loại phương tiện chịu hiệu lực của biển cấm dừng và đỗ xe.",
+        "q4": "Cụm biển quy định việc cấm các loại xe cơ giới dừng và đỗ xe ở phía đường có đặt biển theo đúng phạm vi, khung giờ hoặc đối tượng phương tiện được chỉ dẫn trên biển phụ.",
+        "q5_q": "Trên đoạn đường có đặt biển cấm dừng và đỗ xe (P.130), xe ô tô có được phép dừng lại tạm thời vài phút để đón trả khách hoặc xếp dỡ hàng hóa không?",
+        "q5_a": "Không. Biển P.130 cấm các loại xe cơ giới cả dừng xe lẫn đỗ xe ở phía đường có đặt biển (trừ các xe ưu tiên theo quy định và xe buýt tại điểm dừng xe buýt).",
+        "q6_q": "Trên đoạn đường có đặt biển cấm dừng và đỗ xe (P.130), các phương tiện xe ô tô và xe máy vẫn được phép lưu thông đi qua bình thường đúng không?",
+        "q6_a": "Có. Biển P.130 chỉ cấm hành vi dừng xe và đỗ xe ở phía đường đặt biển, các phương tiện vẫn được phép di chuyển qua lại bình thường.",
+    },
+    # 11: I.409
+    {
+        "label": "I.409",
+        "q1": "Biển chỉ dẫn chỗ quay xe (mã biển I.409).",
+        "q2": "Biển phụ thể hiện khoảng cách đến điểm mở dải phân cách cho phép quay đầu xe hoặc loại xe được phép quay đầu.",
+        "q3": "Biển phụ bổ sung thông tin về vị trí khoảng cách hoặc đối tượng phương tiện được phép sử dụng điểm quay đầu của biển chính I.409.",
+        "q4": "Cụm biển chỉ dẫn vị trí được phép quay đầu xe (nhưng không cho phép rẽ trái trừ khi có biển báo khác) theo phạm vi hoặc điều kiện phương tiện nêu trên biển phụ.",
+        "q5_q": "Biển chỉ dẫn chỗ quay xe (I.409) có bắt buộc tất cả các xe đi tới đó đều phải quay đầu lại không?",
+        "q5_a": "Không. Biển I.409 thuộc nhóm biển chỉ dẫn để thông báo vị trí được phép quay đầu xe, các xe không có nhu cầu quay đầu vẫn được đi thẳng bình thường.",
+        "q6_q": "Khi gặp biển chỉ dẫn chỗ quay xe (I.409), xe ô tô và xe máy có được phép thực hiện thao tác quay đầu xe đi theo chiều ngược lại không?",
+        "q6_a": "Có. Biển I.409 chỉ dẫn khu vực hoặc điểm mở dải phân cách cho phép các phương tiện quay đầu xe an toàn.",
+    },
+    # 12: R.415a
+    {
+        "label": "R.415a",
+        "q1": "Biển hiệu lệnh gộp làn đường theo phương tiện (mã biển R.415a).",
+        "q2": "Biển phụ thể hiện phạm vi đoạn đường áp dụng phân làn hoặc thời gian hiệu lực của phương án tổ chức làn đường.",
+        "q3": "Biển phụ bổ sung thông tin về chiều dài đoạn đường hoặc điều kiện thời gian áp dụng quy định gộp làn đường theo phương tiện.",
+        "q4": "Cụm biển quy định bắt buộc các loại phương tiện phải đi đúng làn đường đã được phân chia cho từng nhóm xe trên biển chính R.415a trong suốt phạm vi được chỉ dẫn trên biển phụ.",
+        "q5_q": "Khi gặp biển gộp làn đường theo phương tiện (R.415a), xe máy có được phép đi vào làn đường chỉ vẽ biểu tượng dành riêng cho xe ô tô con và ô tô khách không?",
+        "q5_a": "Không. Biển R.415a là biển hiệu lệnh phân làn, các phương tiện bắt buộc phải đi đúng làn đường có biểu tượng loại xe của mình (trừ khi chuyển làn tại nơi cho phép để rẽ).",
+        "q6_q": "Trên làn đường của biển R.415a có vẽ đồng thời biểu tượng xe ô tô tải và xe mô tô, cả hai loại phương tiện này có được phép cùng lưu thông trên làn đó không?",
+        "q6_a": "Có. Biển R.415a quy định gộp làn đường theo phương tiện, các loại xe có hình biểu tượng trên cùng một làn được phép sử dụng chung làn đường đó.",
+    },
+    # 13: W.245a
+    {
+        "label": "W.245a",
+        "q1": "Biển báo nguy hiểm nhắc nhở đi chậm (mã biển W.245a).",
+        "q2": "Biển phụ thể hiện phạm vi chiều dài đoạn đường cần đi chậm (S.501) hoặc nguyên nhân/đối tượng cần giảm tốc độ.",
+        "q3": "Biển phụ bổ sung thông tin về phạm vi chiều dài hoặc điều kiện cụ thể mà người lái xe phải duy trì tốc độ chậm theo biển W.245a.",
+        "q4": "Cụm biển cảnh báo người điều khiển phương tiện phải giảm tốc độ và cho xe chạy chậm một cách an toàn trong suốt phạm vi hoặc điều kiện được thuyết minh trên biển phụ.",
+        "q5_q": "Biển báo đi chậm (W.245a) có cấm xe ô tô hoặc xe máy đi vào đoạn đường phía trước không?",
+        "q5_a": "Không. Biển W.245a là biển báo nguy hiểm và cảnh báo nhắc nhở người lái xe giảm tốc độ đi chậm, không cấm phương tiện lưu thông.",
+        "q6_q": "Khi gặp biển W.245a, người điều khiển xe ô tô và xe máy có trách nhiệm phải giảm tốc độ để đảm bảo an toàn giao thông không?",
+        "q6_a": "Có. Theo mục C.45 Phụ lục C QCVN 41:2024/BGTVT, khi gặp biển W.245a người lái xe phải giảm tốc độ đi chậm.",
+    },
+    # 14: P.106a*Xe tải
+    {
+        "label": "P.106a*Xe tải",
+        "q1": "Biển báo cấm xe ô tô tải (mã biển P.106a).",
+        "q2": "Biển phụ thể hiện giới hạn tải trọng, khung giờ cấm hoặc phạm vi áp dụng đối với phương tiện xe tải.",
+        "q3": "Biển phụ bổ sung thông tin chi tiết về đối tượng xe tải, tải trọng chuyên chở hoặc khung thời gian áp dụng lệnh cấm của biển chính P.106a.",
+        "q4": "Cụm biển quy định cấm các loại xe ô tô tải (kể cả máy kéo và xe máy chuyên dùng, trừ xe ưu tiên) đi vào đoạn đường đặt biển theo điều kiện tải trọng hoặc phạm vi ghi trên biển phụ.",
+        "q5_q": "Khi gặp biển cấm xe ô tô tải (P.106a), xe ô tô tải và máy kéo có được phép đi vào đoạn đường này không?",
+        "q5_a": "Không. Theo mục B.6 Phụ lục B QCVN 41:2024/BGTVT, biển P.106a có hiệu lực cấm tất cả các loại xe ô tô tải, máy kéo và xe máy chuyên dùng đi vào (trừ xe ưu tiên).",
+        "q6_q": "Khi gặp biển cấm xe ô tô tải (P.106a), xe ô tô con, xe ô tô khách và xe máy có được phép đi vào không?",
+        "q6_a": "Có. Biển P.106a chỉ cấm xe ô tô tải, máy kéo và xe máy chuyên dùng; xe ô tô con, xe khách và xe máy vẫn được phép đi vào bình thường.",
+    },
+    # 15: W.203c
+    {
+        "label": "W.203c",
+        "q1": "Biển báo nguy hiểm đường bị thu hẹp về phía phải (mã biển W.203c).",
+        "q2": "Biển phụ thể hiện khoảng cách từ vị trí đặt biển đến đoạn đường bị thu hẹp bên phải (S.502) hoặc chiều dài đoạn đường hẹp (S.501).",
+        "q3": "Biển phụ bổ sung thông tin về khoảng cách hoặc phạm vi đoạn đường có bề rộng phần xe chạy bị thu hẹp phía bên phải.",
+        "q4": "Cụm biển cảnh báo phía trước (theo khoảng cách/phạm vi trên biển phụ) phần đường xe chạy bị thu hẹp về phía bên phải; người lái xe phải giảm tốc độ, chú ý chướng ngại vật và nhường đường khi qua đoạn hẹp.",
+        "q5_q": "Khi đi đến đoạn đường bị thu hẹp về phía phải (biển W.203c), các xe đang ở làn bên phải có được tự ý tạt gấp sang làn bên trái mà không quan sát nhường đường không?",
+        "q5_a": "Không. Khi phần đường bên phải bị thu hẹp, người lái xe phải giảm tốc độ, chú ý quan sát, bật tín hiệu và nhường đường cho xe đang đi thẳng trên làn bên trái.",
+        "q6_q": "Biển W.203c có tác dụng báo trước cho người lái xe biết phần đường xe chạy phía trước bị thu hẹp ở phía bên phải đúng không?",
+        "q6_a": "Có. Theo mục C.3 Phụ lục C QCVN 41:2024/BGTVT, biển W.203c báo trước sắp đến đoạn đường bị thu hẹp về phía bên phải.",
+    },
+    # 16: P.117*
+    {
+        "label": "P.117*",
+        "q1": "Biển báo cấm hạn chế chiều cao của xe (mã biển P.117).",
+        "q2": "Biển phụ thuyết minh chiều cao an toàn tĩnh không (S.509a) hoặc khoảng cách đến công trình giới hạn chiều cao (cầu vượt, cổng chào, hầm).",
+        "q3": "Biển phụ bổ sung thông tin làm rõ khoảng cách hoặc giới hạn chiều cao an toàn thực tế bên dưới công trình cho biển chính P.117.",
+        "q4": "Cụm biển quy định cấm tất cả các loại xe (cơ giới và thô sơ, kể cả xe ưu tiên) có tổng chiều cao tính từ mặt đường lên điểm cao nhất của xe và hàng hóa vượt quá trị số ghi trên biển đi qua khu vực công trình được chỉ dẫn.",
+        "q5_q": "Khi gặp biển hạn chế chiều cao P.117 ghi số 2,2m (hoặc 3,5m), xe ô tô tải hoặc xe ưu tiên có chiều cao thực tế vượt quá con số ghi trên biển có được phép đi qua không?",
+        "q5_a": "Không. Theo mục B.17 Phụ lục B QCVN 41:2024/BGTVT, biển P.117 có hiệu lực cấm tất cả các loại xe (kể cả xe được ưu tiên) có chiều cao (tính cả hàng hóa xếp trên xe) vượt quá trị số ghi trên biển đi qua.",
+        "q6_q": "Nếu xe ô tô con hoặc xe máy có tổng chiều cao thấp hơn trị số ghi trên biển P.117 thì có được phép đi qua đoạn đường này không?",
+        "q6_a": "Có. Các phương tiện có tổng chiều cao từ mặt đường đến điểm cao nhất của xe và hàng hóa không vượt quá trị số ghi trên biển P.117 được phép đi qua bình thường.",
+    },
+    # 17: P.124a*
+    {
+        "label": "P.124a*",
+        "q1": "Biển báo cấm quay đầu xe (mã biển P.124a).",
+        "q2": "Biển phụ thể hiện khung giờ cấm quay đầu hoặc loại phương tiện áp dụng lệnh cấm quay đầu xe.",
+        "q3": "Biển phụ bổ sung thông tin về thời gian hiệu lực hoặc phạm vi đối tượng phương tiện bị cấm quay đầu xe theo biển P.124a.",
+        "q4": "Cụm biển quy định cấm các loại xe thực hiện hành vi quay đầu (theo kiểu chữ U) tại vị trí đặt biển theo phạm vi/thời gian trên biển phụ, nhưng không có giá trị cấm rẽ trái để vào đường nhánh.",
+        "q5_q": "Khi gặp biển cấm quay đầu xe (P.124a), xe máy và xe ô tô có được phép quay đầu xe (theo kiểu chữ U) tại nút giao đó không?",
+        "q5_a": "Không. Biển P.124a cấm tất cả các loại xe cơ giới và thô sơ (trừ các xe được ưu tiên theo quy định) thực hiện hành vi quay đầu xe.",
+        "q6_q": "Khi gặp biển cấm quay đầu xe (P.124a), người điều khiển phương tiện có được phép rẽ trái để đi vào đường giao nhau không?",
+        "q6_a": "Có. Theo mục B.22 Phụ lục B QCVN 41:2024/BGTVT, biển P.124a chỉ cấm quay đầu xe và không có giá trị cấm rẽ trái.",
+    },
+    # 18: P.107
+    {
+        "label": "P.107",
+        "q1": "Biển báo cấm xe ô tô khách và xe ô tô tải (mã biển P.107).",
+        "q2": "Biển phụ thể hiện khung giờ áp dụng hoặc phạm vi tuyến đường cấm đối với xe ô tô khách và xe ô tô tải.",
+        "q3": "Biển phụ bổ sung thông tin về điều kiện thời gian hoặc phạm vi không gian chịu hiệu lực của biển cấm xe khách và xe tải P.107.",
+        "q4": "Cụm biển quy định cấm cả xe ô tô chở khách và các loại xe ô tô tải (kể cả máy kéo và xe máy chuyên dùng, trừ xe ưu tiên) đi vào đoạn đường theo đúng phạm vi và điều kiện chỉ dẫn trên biển phụ.",
+        "q5_q": "Khi gặp biển P.107, xe ô tô chở khách và xe ô tô tải có được phép đi vào đoạn đường này không?",
+        "q5_a": "Không. Biển P.107 cấm đồng thời cả xe ô tô chở khách và các loại xe ô tô tải (kể cả máy kéo và xe máy chuyên dùng, trừ xe ưu tiên) đi qua.",
+        "q6_q": "Khi gặp biển cấm xe ô tô khách và xe ô tô tải (P.107), xe ô tô con cá nhân và xe máy hai bánh có được phép đi vào không?",
+        "q6_a": "Có. Biển P.107 chỉ cấm xe ô tô khách và xe ô tô tải, do đó xe ô tô con và xe mô tô hai bánh vẫn được phép lưu thông bình thường.",
+    },
+    # 19: P.124d
+    {
+        "label": "P.124d",
+        "q1": "Biển báo cấm rẽ phải và quay đầu xe (mã biển P.124d).",
+        "q2": "Biển phụ thể hiện loại phương tiện hoặc khung thời gian áp dụng lệnh cấm rẽ phải và quay đầu xe.",
+        "q3": "Biển phụ bổ sung thông tin về đối tượng phương tiện hoặc khung giờ chịu sự điều chỉnh của biển cấm P.124d.",
+        "q4": "Cụm biển quy định cấm các loại phương tiện đồng thời không được rẽ phải và không được quay đầu xe tại nút giao theo phạm vi và điều kiện được chỉ dẫn trên biển phụ.",
+        "q5_q": "Khi gặp biển P.124d tại nút giao, người điều khiển phương tiện có được phép rẽ phải hoặc quay đầu xe không?",
+        "q5_a": "Không. Biển P.124d cấm các loại xe (trừ xe ưu tiên) vừa không được rẽ phải vừa không được quay đầu xe tại nơi đường giao nhau.",
+        "q6_q": "Khi gặp biển cấm rẽ phải và quay đầu xe (P.124d), phương tiện có được phép đi thẳng hoặc rẽ trái (nếu không có biển cấm khác) không?",
+        "q6_a": "Có. Biển P.124d chỉ cấm rẽ phải và quay đầu xe, nên các phương tiện vẫn được phép đi thẳng hoặc rẽ trái.",
+    },
+    # 20: P.103a
+    {
+        "label": "P.103a",
+        "q1": "Biển báo cấm xe ô tô (mã biển P.103a).",
+        "q2": "Biển phụ thể hiện hướng tác dụng (S.503), khoảng cách (S.502) hoặc khung giờ cấm xe ô tô (S.508).",
+        "q3": "Biển phụ bổ sung thông tin về hướng đường, phạm vi hoặc thời gian áp dụng lệnh cấm đối với các loại xe cơ giới của biển P.103a.",
+        "q4": "Cụm biển quy định cấm tất cả các loại xe cơ giới (kể cả xe máy 3 bánh có thùng, trừ xe mô tô 2 bánh, xe gắn máy và xe ưu tiên) đi vào theo điều kiện phạm vi hoặc thời gian chỉ dẫn trên biển phụ.",
+        "q5_q": "Khi gặp biển cấm xe ô tô (P.103a), xe ô tô con, xe ô tô tải và xe ô tô khách có được phép đi vào không?",
+        "q5_a": "Không. Theo mục B.3 Phụ lục B QCVN 41:2024/BGTVT, biển P.103a cấm tất cả các loại xe cơ giới (bao gồm ô tô con, ô tô tải, ô tô khách và xe máy 3 bánh có thùng) đi vào, trừ xe ưu tiên.",
+        "q6_q": "Khi gặp biển cấm xe ô tô (P.103a), người điều khiển xe mô tô hai bánh (xe máy) và xe gắn máy có được phép đi vào đoạn đường đó không?",
+        "q6_a": "Có. Theo quy định tại mục B.3 Phụ lục B QCVN 41:2024/BGTVT, biển P.103a không cấm xe máy hai bánh, xe gắn máy và xe thô sơ.",
+    },
+    # 21: W.203b
+    {
+        "label": "W.203b",
+        "q1": "Biển báo nguy hiểm đường bị thu hẹp về phía trái (mã biển W.203b).",
+        "q2": "Biển phụ thể hiện khoảng cách đến vị trí thu hẹp (S.502) hoặc chiều dài đoạn đường bị thu hẹp bên trái (S.501).",
+        "q3": "Biển phụ bổ sung thông tin về khoảng cách báo trước hoặc phạm vi chiều dài đoạn đường bị thu hẹp phía bên trái.",
+        "q4": "Cụm biển cảnh báo người lái xe biết phía trước (theo khoảng cách/phạm vi trên biển phụ) phần đường xe chạy bị thu hẹp về phía bên trái, cần giảm tốc độ và đi sát về phần đường an toàn.",
+        "q5_q": "Biển W.203b có cấm các phương tiện đi qua đoạn đường bị thu hẹp phía trước không?",
+        "q5_a": "Không. Biển W.203b chỉ là biển báo nguy hiểm cảnh báo phần đường bị thu hẹp về phía bên trái, không cấm phương tiện lưu thông.",
+        "q6_q": "Khi gặp biển đường bị thu hẹp về phía trái (W.203b), người lái xe có cần giảm tốc độ và chú ý nhường đường khi chuyển làn qua đoạn hẹp không?",
+        "q6_a": "Có. Khi gặp biển cảnh báo đường hẹp W.203b, người điều khiển phương tiện phải giảm tốc độ và chú ý quan sát để đảm bảo an toàn.",
+    },
+    # 22: W.221b
+    {
+        "label": "W.221b",
+        "q1": "Biển báo nguy hiểm đường có sóng mấp mô nhân tạo / gồ giảm tốc phía trước (mã biển W.221b).",
+        "q2": "Biển phụ thể hiện khoảng cách từ vị trí đặt biển đến gồ giảm tốc phía trước (S.502).",
+        "q3": "Biển phụ bổ sung thông tin về khoảng cách chính xác tới vị trí có gồ giảm tốc trên mặt đường cho biển cảnh báo W.221b.",
+        "q4": "Cụm biển cảnh báo phía trước (theo khoảng cách ghi trên biển phụ) có thiết kế gồ giảm tốc nhân tạo trên mặt đường, yêu cầu các phương tiện chủ động giảm tốc độ để đi qua an toàn.",
+        "q5_q": "Khi gặp biển cảnh báo gồ giảm tốc phía trước (W.221b), người lái xe có nên tăng tốc độ để vượt nhanh qua gồ giảm tốc không?",
+        "q5_a": "Không. Tăng tốc qua gồ giảm tốc dễ gây mất lái, xóc nảy mạnh và nguy hiểm cho phương tiện; người lái xe bắt buộc phải giảm tốc độ.",
+        "q6_q": "Khi gặp biển W.221b, người điều khiển xe ô tô và xe máy có phải chủ động giảm tốc độ đến mức an toàn trước khi đi qua gồ giảm tốc không?",
+        "q6_a": "Có. Theo mục C.21 Phụ lục C QCVN 41:2024/BGTVT, biển W.221b báo trước đường có gồ giảm tốc, các xe phải giảm tốc độ đi chậm qua vạch gồ.",
+    },
+    # 23: P.111
+    {
+        "label": "P.111",
+        "q1": "Biển báo cấm xe gắn máy / xe hai và ba bánh (mã biển P.111).",
+        "q2": "Biển phụ thể hiện làn đường áp dụng (S.504) hoặc phạm vi đoạn đường cấm xe gắn máy, xe hai và ba bánh.",
+        "q3": "Biển phụ bổ sung thông tin xác định rõ làn đường hoặc phạm vi áp dụng lệnh cấm của biển chính P.111.",
+        "q4": "Cụm biển quy định cấm các loại xe gắn máy, xe hai và ba bánh đi vào đoạn đường hoặc làn đường được chỉ dẫn trên biển phụ.",
+        "q5_q": "Khi gặp biển P.111 đặt trên làn đường hoặc đoạn đường, người điều khiển xe gắn máy / xe hai và ba bánh có được phép đi vào không?",
+        "q5_a": "Không. Biển P.111 cấm xe gắn máy (và xe hai, ba bánh theo ký hiệu biển) đi vào đoạn đường hoặc làn đường có đặt biển.",
+        "q6_q": "Trên làn đường có đặt biển P.111 (cấm xe gắn máy / xe hai và ba bánh), xe ô tô con và xe ô tô tải có được phép lưu thông không?",
+        "q6_a": "Có. Biển P.111 không có hiệu lực cấm đối với xe ô tô con, xe ô tô khách và xe ô tô tải.",
+    },
+    # 24: P.129
+    {
+        "label": "P.129",
+        "q1": "Biển báo cấm đi qua không dừng lại tại trạm kiểm tra (mã biển P.129).",
+        "q2": "Biển phụ thể hiện khoảng cách đến trạm kiểm soát hoặc loại phương tiện phải dừng lại làm thủ tục kiểm tra.",
+        "q3": "Biển phụ bổ sung thông tin về vị trí trạm hoặc đối tượng phương tiện bắt buộc phải dừng kiểm tra theo biển P.129.",
+        "q4": "Cụm biển báo hiệu nơi đặt trạm kiểm tra (hải quan, kiểm dịch, trạm kiểm soát tải trọng...); các phương tiện thuộc đối tượng trên biển phụ khi đến biển phải dừng lại để làm thủ tục kiểm tra và không được tự ý vượt qua.",
+        "q5_q": "Khi gặp biển kiểm tra (P.129) tại trạm kiểm soát, phương tiện thuộc diện kiểm tra có được phép tự ý chạy thẳng qua mà không dừng lại làm thủ tục không?",
+        "q5_a": "Không. Theo mục B.27 Phụ lục B QCVN 41:2024/BGTVT, biển P.129 quy định các loại xe phải dừng lại để làm thủ tục kiểm tra theo quy định, không được tự ý đi qua.",
+        "q6_q": "Sau khi đã dừng lại và hoàn tất thủ tục kiểm tra theo yêu cầu tại nơi đặt biển P.129, phương tiện có được phép tiếp tục lưu thông qua trạm không?",
+        "q6_a": "Có. Sau khi dừng xe và chấp hành xong thủ tục kiểm tra tại trạm, phương tiện được phép tiếp tục hành trình.",
+    },
+    # 25: S.505a*Xe máy
+    {
+        "label": "S.505a*Xe máy",
+        "q1": "Biển chính phía trên là biển báo cấm tốc độ tối đa cho phép (ví dụ P.127 giới hạn 40 km/h) hoặc biển báo cấm/hiệu lệnh đi kèm.",
+        "q2": "Biển phụ là biển số S.505a có hình biểu tượng xe mô tô (xe máy), chỉ định loại phương tiện chịu hiệu lực của biển chính là xe máy.",
+        "q3": "Biển phụ S.505a (Xe máy) bổ sung ý nghĩa giới hạn đối tượng áp dụng của biển chính: quy định trên biển chính chỉ có hiệu lực đối với xe mô tô, xe gắn máy.",
+        "q4": "Cụm biển kết hợp giữa biển chính và biển phụ S.505a (Xe máy) quy định hiệu lực của biển chính (như giới hạn tốc độ tối đa 40 km/h) chỉ áp dụng riêng đối với người điều khiển xe máy.",
+        "q5_q": "Khi dưới biển cấm hoặc biển hạn chế tốc độ có đặt biển phụ S.505a hình xe máy, xe ô tô con có bị bắt buộc phải chịu hiệu lực của biển chính đó không?",
+        "q5_a": "Không. Vì biển phụ S.505a chỉ vẽ hình xe máy nên hiệu lực của biển chính phía trên chỉ áp dụng riêng cho xe máy, không áp dụng cho xe ô tô.",
+        "q6_q": "Khi gặp cụm biển có biển phụ S.505a hình xe máy đặt ngay dưới biển chính, người điều khiển xe máy có bắt buộc phải chấp hành hiệu lực của biển chính không?",
+        "q6_a": "Có. Biển phụ S.505a (Xe máy) chỉ định chính xác xe máy là đối tượng phương tiện phải tuân thủ quy định của biển chính.",
+    },
+    # 26: W.246a
+    {
+        "label": "W.246a",
+        "q1": "Biển báo nguy hiểm chú ý chướng ngại vật phía trước – vòng tránh sang hai bên (mã biển W.246a).",
+        "q2": "Biển phụ thể hiện khoảng cách đến vị trí chướng ngại vật hoặc phạm vi khu vực phân cách giữa đường.",
+        "q3": "Biển phụ bổ sung thông tin về khoảng cách báo trước để người lái xe chủ động quan sát và chuyển hướng vòng tránh chướng ngại vật.",
+        "q4": "Cụm biển cảnh báo phía trước có chướng ngại vật chắn giữa đường theo khoảng cách trên biển phụ; các phương tiện phải giảm tốc độ và được phép đi vòng tránh sang bên trái hoặc bên phải chướng ngại vật.",
+        "q5_q": "Khi gặp biển chú ý chướng ngại vật W.246a đặt trước vật cản giữa đường, người lái xe có được phép cho xe đâm thẳng qua khu vực vạch chéo của chướng ngại vật không?",
+        "q5_a": "Không. Người lái xe phải giảm tốc độ và điều khiển xe vòng tránh sang bên trái hoặc bên phải của chướng ngại vật.",
+        "q6_q": "Khi gặp biển cảnh báo W.246a, người điều khiển phương tiện có được phép lựa chọn đi vòng tránh sang phía bên trái hoặc phía bên phải chướng ngại vật (tùy theo tổ chức mặt đường) không?",
+        "q6_a": "Có. Theo mục C.46 Phụ lục C QCVN 41:2024/BGTVT, biển W.246a báo trước phía trước có chướng ngại vật và cho phép xe vòng tránh sang hai bên.",
+    },
+    # 27: W.225
+    {
+        "label": "W.225",
+        "q1": "Biển báo nguy hiểm đoạn đường thường có trẻ em đi ngang qua (mã biển W.225).",
+        "q2": "Biển phụ thể hiện phạm vi chiều dài đoạn đường qua khu vực trường học, nhà trẻ, khu vui chơi (biển phụ S.501).",
+        "q3": "Biển phụ bổ sung thông tin về phạm vi chiều dài đoạn đường mà hiệu lực cảnh báo trẻ em qua đường của biển W.225 áp dụng.",
+        "q4": "Cụm biển cảnh báo đoạn đường phía trước (trong phạm vi chiều dài ghi trên biển phụ) đi qua khu vực trường học hoặc nơi có nhiều trẻ em qua lại; người lái xe phải đi chậm, thận trọng và nhường đường cho trẻ em.",
+        "q5_q": "Khi đi qua đoạn đường trường học có đặt biển cảnh báo trẻ em (W.225), người lái xe ô tô và xe máy có được phép phóng nhanh, vượt ẩu không?",
+        "q5_a": "Không. Khi gặp biển W.225, các phương tiện phải giảm tốc độ, chú ý quan sát cẩn thận và nhường đường cho trẻ em qua đường.",
+        "q6_q": "Khi gặp biển cảnh báo trẻ em (W.225), người điều khiển phương tiện có bắt buộc phải giảm tốc độ và nhường đường cho trẻ em sang đường không?",
+        "q6_a": "Có. Theo mục C.25 Phụ lục C QCVN 41:2024/BGTVT, gặp biển W.225 người lái xe phải đi chậm và thận trọng đề phòng trẻ em băng qua đường.",
+    },
+    # 28: S.505a*Xe tải và công
+    {
+        "label": "S.505a*Xe tải và công",
+        "q1": "Biển chính phía trên là biển báo cấm tốc độ tối đa cho phép (ví dụ P.127 giới hạn 60 km/h) hoặc biển báo giao thông chính đi kèm.",
+        "q2": "Biển phụ là biển số S.505a có hình biểu tượng xe ô tô tải và xe sơ-mi rơ-moóc (xe container).",
+        "q3": "Biển phụ S.505a (Xe tải và xe công) bổ sung ý nghĩa xác định đúng nhóm phương tiện phải chấp hành biển chính là xe ô tô tải và xe đầu kéo sơ-mi rơ-moóc.",
+        "q4": "Cụm biển kết hợp giữa biển chính và biển phụ S.505a (Xe tải và công) quy định hiệu lực của biển chính (như giới hạn tốc độ tối đa hoặc quy định làn đường) chỉ áp dụng đối với xe ô tô tải và xe container.",
+        "q5_q": "Khi biển chính đi kèm biển phụ S.505a (Xe tải và công), xe máy và xe ô tô con có thuộc đối tượng điều chỉnh của biển phụ này không?",
+        "q5_a": "Không. Biển phụ S.505a (Xe tải và công) chỉ áp dụng cho xe ô tô tải và xe sơ-mi rơ-moóc (container), không áp dụng cho xe máy và ô tô con.",
+        "q6_q": "Khi gặp cụm biển có gắn biển phụ S.505a (Xe tải và công), người điều khiển xe ô tô tải và xe đầu kéo container có bắt buộc phải tuân thủ hiệu lực của biển chính phía trên không?",
+        "q6_a": "Có. Theo mục F.5 Phụ lục F QCVN 41:2024/BGTVT, biển phụ S.505a chỉ rõ loại xe chịu hiệu lực của biển chính là xe tải và xe sơ-mi rơ-moóc.",
+    },
+    # 29: P.104
+    {
+        "label": "P.104",
+        "q1": "Biển báo cấm xe máy (mã biển P.104).",
+        "q2": "Biển phụ thể hiện làn đường áp dụng (S.504), hướng tác dụng (S.503) hoặc khung giờ cấm xe máy (S.508).",
+        "q3": "Biển phụ bổ sung thông tin về phạm vi làn đường, hướng đường hoặc thời gian có hiệu lực của biển cấm xe máy P.104.",
+        "q4": "Cụm biển quy định cấm các loại xe mô tô (xe máy, trừ xe ưu tiên theo quy định) đi vào phần đường hoặc làn đường trong phạm vi/khung giờ chỉ dẫn trên biển phụ (biển không cấm người dắt xe máy).",
+        "q5_q": "Khi gặp biển cấm xe máy (P.104), người điều khiển xe mô tô hai bánh có được phép chạy xe đi vào đoạn đường này không?",
+        "q5_a": "Không. Theo mục B.4 Phụ lục B QCVN 41:2024/BGTVT, biển P.104 cấm tất cả các loại xe máy đi vào (trừ các xe được ưu tiên theo quy định).",
+        "q6_q": "Khi gặp biển cấm xe máy (P.104), xe ô tô các loại và người đi bộ dắt xe máy có được phép đi vào đoạn đường này không?",
+        "q6_a": "Có. Biển P.104 chỉ cấm người điều khiển xe máy chạy vào, không cấm xe ô tô và không có giá trị cấm những người dắt xe máy đi bộ.",
+    },
+    # 30: S.505a*Xe tải
+    {
+        "label": "S.505a*Xe tải",
+        "q1": "Biển chính phía trên là biển báo cấm hoặc biển cảnh báo (ví dụ biển cấm rẽ phải P.123b, cấm đi thẳng và rẽ phải P.139).",
+        "q2": "Biển phụ là biển số S.505a có hình biểu tượng xe ô tô tải, chỉ định đối tượng áp dụng là xe tải.",
+        "q3": "Biển phụ S.505a (Xe tải) bổ sung ý nghĩa thu hẹp đối tượng chịu hiệu lực của biển chính: lệnh cấm hoặc hiệu lệnh của biển chính chỉ áp dụng đối với xe ô tô tải.",
+        "q4": "Cụm biển kết hợp giữa biển chính và biển phụ S.505a (Xe tải) quy định lệnh cấm/cảnh báo trên biển chính chỉ có hiệu lực đối với phương tiện xe ô tô tải, các phương tiện khác như ô tô con và xe máy vẫn lưu thông bình thường.",
+        "q5_q": "Nếu phía dưới biển cấm rẽ phải (P.123b) có gắn biển phụ S.505a (Xe tải), xe ô tô tải có được phép rẽ phải tại nút giao đó không?",
+        "q5_a": "Không. Vì biển phụ S.505a chỉ định đối tượng chịu hiệu lực là xe tải nên xe ô tô tải bị cấm rẽ phải tại nút giao này.",
+        "q6_q": "Nếu phía dưới biển cấm rẽ phải (P.123b) có gắn biển phụ S.505a (Xe tải), xe ô tô con và xe máy có được phép rẽ phải bình thường không?",
+        "q6_a": "Có. Do biển phụ S.505a giới hạn lệnh cấm chỉ áp dụng đối với xe tải nên xe ô tô con và xe máy vẫn được phép rẽ phải.",
+    },
+    # 31: Camera
+    {
+        "label": "Camera",
+        "q1": "Biển chỉ dẫn đoạn đường có lắp đặt hệ thống camera giám sát giao thông (mã biển Camera).",
+        "q2": "Biển phụ (hoặc phần thuyết minh đi kèm) thể hiện phạm vi tuyến đường có camera giám sát tốc độ và làn đường.",
+        "q3": "Biển phụ bổ sung thông tin về phạm vi hoạt động của hệ thống giám sát tự động và xử phạt vi phạm hành chính trên tuyến đường.",
+        "q4": "Cụm biển thông báo cho người tham gia giao thông biết khu vực hoặc tuyến đường phía trước có hệ thống camera giám sát giao thông hoạt động để chủ động chấp hành nghiêm tốc độ, làn đường và tín hiệu đèn.",
+        "q5_q": "Biển báo đường có camera giám sát có phải là biển cấm các phương tiện lưu thông qua tuyến đường đó không?",
+        "q5_a": "Không. Đây là biển chỉ dẫn thông báo tuyến đường có lắp đặt camera giám sát giao thông, mọi phương tiện được phép lưu thông đúng quy định.",
+        "q6_q": "Khi đi trên đoạn đường có đặt biển Camera giám sát, các hành vi vi phạm tốc độ, làn đường hoặc vượt đèn đỏ của xe ô tô và xe máy có bị ghi hình xử phạt (phạt nguội) không?",
+        "q6_a": "Có. Hệ thống camera giám sát giao thông trên tuyến đường sẽ tự động ghi nhận hình ảnh phương tiện vi phạm để xử lý theo quy định pháp luật.",
+    },
+    # 32: P.123b
+    {
+        "label": "P.123b",
+        "q1": "Biển báo cấm rẽ phải (mã biển P.123b).",
+        "q2": "Biển phụ thể hiện loại phương tiện chịu lệnh cấm (như biển phụ S.505a chỉ xe tải) hoặc khung giờ cấm rẽ phải.",
+        "q3": "Biển phụ bổ sung thông tin giới hạn đối tượng phương tiện hoặc khoảng thời gian áp dụng lệnh cấm rẽ phải của biển chính P.123b.",
+        "q4": "Cụm biển quy định cấm các phương tiện (thuộc loại xe hoặc trong khung giờ được chỉ dẫn trên biển phụ) rẽ sang phía bên phải tại nút giao thông phía trước.",
+        "q5_q": "Khi gặp biển cấm rẽ phải (P.123b) đặt độc lập tại ngã tư, xe ô tô và xe máy có được phép rẽ sang bên phải không?",
+        "q5_a": "Không. Biển P.123b cấm tất cả các loại xe cơ giới và thô sơ (trừ xe ưu tiên theo quy định) rẽ sang phía bên phải tại nút giao.",
+        "q6_q": "Khi gặp biển cấm rẽ phải (P.123b), người điều khiển phương tiện có được phép đi thẳng, rẽ trái hoặc quay đầu xe không (nếu không có biển cấm khác)?",
+        "q6_a": "Có. Theo mục B.21 Phụ lục B QCVN 41:2024/BGTVT, biển P.123b chỉ cấm rẽ phải, phương tiện vẫn được đi thẳng, rẽ trái hoặc quay đầu xe.",
+    },
+    # 33: W.202b
+    {
+        "label": "W.202b",
+        "q1": "Biển báo nguy hiểm nhiều chỗ ngoặt nguy hiểm liên tiếp, trong đó chỗ ngoặt đầu tiên vòng sang bên phải (mã biển W.202b).",
+        "q2": "Biển phụ thể hiện phạm vi chiều dài toàn bộ đoạn đường có nhiều khúc cua liên tiếp (biển phụ S.501).",
+        "q3": "Biển phụ bổ sung thông tin về tổng chiều dài đoạn đường đèo dốc hoặc quanh co liên tiếp mà biển cảnh báo W.202b có hiệu lực.",
+        "q4": "Cụm biển cảnh báo sắp đến đoạn đường có từ hai chỗ ngoặt nguy hiểm liên tiếp trở lên (khúc cua đầu tiên vòng sang phải) kéo dài theo phạm vi trên biển phụ; các xe phải giảm tốc độ và giữ khoảng cách an toàn.",
+        "q5_q": "Khi đi qua đoạn đường có đặt biển nhiều chỗ ngoặt nguy hiểm liên tiếp (W.202b), người lái xe có được phép lấn sang làn đường ngược chiều để ôm cua tốc độ cao không?",
+        "q5_a": "Không. Tại đoạn đường có nhiều khúc cua nguy hiểm liên tiếp, người lái xe bắt buộc phải giảm tốc độ, đi đúng phần đường và không lấn làn vượt ẩu.",
+        "q6_q": "Biển W.202b có cảnh báo rằng khúc cua nguy hiểm đầu tiên sẽ ngoặt về phía bên phải đúng không?",
+        "q6_a": "Có. Theo mục C.2 Phụ lục C QCVN 41:2024/BGTVT, biển W.202b báo trước từ hai chỗ ngoặt nguy hiểm liên tiếp trở lên, trong đó chỗ ngoặt đầu tiên vòng sang bên phải.",
+    },
+    # 34: P.108a
+    {
+        "label": "P.108a",
+        "q1": "Biển báo cấm xe sơ-mi rơ-moóc và các xe kéo rơ-moóc (mã biển P.108a).",
+        "q2": "Biển phụ thể hiện khung giờ cấm lưu thông hoặc hướng đường/phạm vi áp dụng lệnh cấm xe sơ-mi rơ-moóc.",
+        "q3": "Biển phụ bổ sung thông tin về thời gian hiệu lực hoặc hướng tác dụng cụ thể cho biển cấm xe sơ-mi rơ-moóc P.108a.",
+        "q4": "Cụm biển quy định cấm các loại xe ô tô sơ-mi rơ-moóc và các loại xe kéo rơ-moóc (trừ xe ưu tiên theo quy định) đi vào đoạn đường theo đúng phạm vi hoặc khung giờ chỉ dẫn trên biển phụ.",
+        "q5_q": "Khi gặp biển P.108a, xe đầu kéo kéo sơ-mi rơ-moóc (xe container) và xe kéo rơ-moóc có được phép đi vào không?",
+        "q5_a": "Không. Theo mục B.8a Phụ lục B QCVN 41:2024/BGTVT, biển P.108a cấm tất cả các loại xe sơ-mi rơ-moóc và các xe kéo rơ-moóc đi vào (trừ xe ưu tiên).",
+        "q6_q": "Khi gặp biển cấm xe sơ-mi rơ-moóc (P.108a), xe ô tô con, xe máy và xe tải thông thường (không kéo rơ-moóc) có được phép đi vào không?",
+        "q6_a": "Có. Biển P.108a chỉ cấm xe sơ-mi rơ-moóc và xe kéo rơ-moóc; các loại xe ô tô con, xe khách, xe tải đơn và xe máy vẫn được phép lưu thông bình thường.",
+    },
+    # 35: P.137
+    {
+        "label": "P.137",
+        "q1": "Biển báo cấm rẽ trái và cấm rẽ phải (mã biển P.137).",
+        "q2": "Biển phụ thể hiện loại phương tiện chịu hiệu lực cấm (như biển S.505a xe tải) hoặc khung thời gian áp dụng.",
+        "q3": "Biển phụ bổ sung thông tin về đối tượng phương tiện hoặc khung giờ áp dụng lệnh cấm rẽ cả hai hướng trái và phải của biển P.137.",
+        "q4": "Cụm biển quy định các phương tiện (thuộc đối tượng hoặc khung giờ ghi trên biển phụ) khi qua nút giao bị cấm đồng thời cả hành vi rẽ trái lẫn rẽ phải, chỉ được phép đi thẳng.",
+        "q5_q": "Khi gặp biển P.137 tại nơi đường giao nhau, người điều khiển xe ô tô và xe máy có được phép rẽ trái hoặc rẽ phải không?",
+        "q5_a": "Không. Theo mục B.35 Phụ lục B QCVN 41:2024/BGTVT, biển P.137 cấm tất cả các loại xe rẽ trái và rẽ phải ở các ngả đường phía trước.",
+        "q6_q": "Khi gặp biển cấm rẽ trái, rẽ phải (P.137), phương tiện có được phép tiếp tục đi thẳng qua nút giao không?",
+        "q6_a": "Có. Biển P.137 chỉ cấm rẽ trái và rẽ phải, các phương tiện vẫn được phép đi thẳng qua nơi đường giao nhau.",
+    },
+    # 36: P.139
+    {
+        "label": "P.139",
+        "q1": "Biển báo cấm đi thẳng và cấm rẽ phải (mã biển P.139).",
+        "q2": "Biển phụ thể hiện đối tượng phương tiện (ví dụ biển phụ S.505a xe tải) hoặc thời gian áp dụng tại nút giao.",
+        "q3": "Biển phụ bổ sung thông tin xác định loại phương tiện hoặc khung giờ không được đi thẳng và không được rẽ phải theo biển chính P.139.",
+        "q4": "Cụm biển quy định tại nơi đường giao nhau, các phương tiện thuộc đối tượng chỉ dẫn trên biển phụ bị cấm đi thẳng và cấm rẽ phải, chỉ được phép di chuyển sang hướng bên trái.",
+        "q5_q": "Khi gặp biển P.139 đặt trước ngã tư, phương tiện thuộc diện điều chỉnh của biển có được phép đi thẳng hoặc rẽ phải không?",
+        "q5_a": "Không. Theo mục B.37 Phụ lục B QCVN 41:2024/BGTVT, biển P.139 cấm phương tiện vừa không được đi thẳng vừa không được rẽ phải tại nút giao.",
+        "q6_q": "Khi gặp biển cấm đi thẳng, rẽ phải (P.139), người điều khiển phương tiện có được phép rẽ trái tại nút giao đó không?",
+        "q6_a": "Có. Biển P.139 chỉ cấm đi thẳng và rẽ phải, nên người lái xe được phép rẽ sang hướng bên trái.",
+    },
+    # 37: W.205b
+    {
+        "label": "W.205b",
+        "q1": "Biển báo nguy hiểm đường giao nhau cùng mức của các đường đồng cấp dạng ngã ba bên trái (mã biển W.205b).",
+        "q2": "Biển phụ thể hiện khoảng cách đến nút giao (S.502) hoặc loại phương tiện cần đặc biệt chú ý khi qua nút giao (S.505a).",
+        "q3": "Biển phụ bổ sung thông tin về khoảng cách báo trước hoặc đối tượng phương tiện chịu chi phối tại nút giao ngã ba đồng cấp W.205b.",
+        "q4": "Cụm biển cảnh báo sắp đến ngã ba giao nhau cùng mức với đường đồng cấp từ phía bên trái theo phạm vi/đối tượng chỉ dẫn trên biển phụ, yêu cầu người lái xe giảm tốc độ và chú ý quan sát nhường đường.",
+        "q5_q": "Biển báo đường giao nhau W.205b có cấm các phương tiện rẽ vào nhánh đường giao nhau phía trước không?",
+        "q5_a": "Không. Biển W.205b thuộc nhóm biển báo nguy hiểm và cảnh báo nơi giao nhau đồng cấp, không cấm các xe đi thẳng hay chuyển hướng rẽ.",
+        "q6_q": "Khi gặp biển W.205b, người điều khiển xe ô tô và xe máy có phải giảm tốc độ và chú ý quan sát các phương tiện từ đường nhánh đi ra không?",
+        "q6_a": "Có. Khi gặp biển cảnh báo giao nhau đồng cấp W.205b, người lái xe phải giảm tốc độ, quan sát và nhường đường theo đúng quy định.",
+    },
+    # 38: P.127*50
+    {
+        "label": "P.127*50",
+        "q1": "Biển báo cấm tốc độ tối đa cho phép là 50 km/h (mã biển P.127*50).",
+        "q2": "Biển phụ thể hiện loại phương tiện áp dụng (S.505a), làn đường (S.504) hoặc khung giờ giới hạn tốc độ 50 km/h.",
+        "q3": "Biển phụ bổ sung thông tin về đối tượng phương tiện, làn đường hoặc điều kiện thời gian phải tuân thủ mức tốc độ tối đa 50 km/h của biển P.127.",
+        "q4": "Cụm biển quy định cấm các phương tiện (thuộc đối tượng hoặc làn đường chỉ dẫn trên biển phụ) chạy với tốc độ vượt quá 50 km/h trên đoạn đường tính từ vị trí đặt biển (trừ các xe được ưu tiên theo quy định).",
+        "q5_q": "Trên đoạn đường có đặt biển giới hạn tốc độ P.127 (50 km/h), xe ô tô và xe máy có được phép chạy với tốc độ 60 km/h không?",
+        "q5_a": "Không. Biển P.127 (50) cấm các loại xe cơ giới (trừ xe ưu tiên theo quy định) chạy với tốc độ vượt quá 50 km/h.",
+        "q6_q": "Trên đoạn đường đặt biển P.127 (50 km/h), người điều khiển phương tiện chạy ở tốc độ 45 km/h có đúng quy định không?",
+        "q6_a": "Có. Tốc độ 45 km/h không vượt quá trị số tối đa 50 km/h ghi trên biển P.127 nên hoàn toàn đúng quy định.",
+    },
+    # 39: P.127*60
+    {
+        "label": "P.127*60",
+        "q1": "Biển báo cấm tốc độ tối đa cho phép là 60 km/h (mã biển P.127*60).",
+        "q2": "Biển phụ thể hiện loại phương tiện áp dụng (ví dụ S.505a xe tải và xe container) hoặc phạm vi làn đường giới hạn 60 km/h.",
+        "q3": "Biển phụ bổ sung thông tin xác định rõ nhóm phương tiện hoặc làn đường chịu hiệu lực giới hạn tốc độ tối đa 60 km/h của biển chính P.127.",
+        "q4": "Cụm biển quy định các phương tiện (theo nhóm xe hoặc phạm vi làn đường trên biển phụ) không được phép vận hành với tốc độ lớn hơn 60 km/h kể từ vị trí đặt biển cho đến khi có biển báo hết hạn chế tốc độ.",
+        "q5_q": "Khi gặp biển P.127 (60 km/h), các phương tiện thuộc diện áp dụng của biển có được phép chạy với tốc độ 70 km/h không?",
+        "q5_a": "Không. Theo mục B.25 Phụ lục B QCVN 41:2024/BGTVT, biển P.127 (60) cấm các xe chạy quá tốc độ tối đa 60 km/h.",
+        "q6_q": "Khi gặp biển P.127 (60 km/h), người lái xe điều khiển phương tiện với tốc độ từ 60 km/h trở xuống có được phép không?",
+        "q6_a": "Có. Biển P.127 (60) quy định tốc độ tối đa cho phép là 60 km/h, do đó các xe chạy từ 60 km/h trở xuống là đúng quy chuẩn.",
+    },
+    # 40: P.127*80
+    {
+        "label": "P.127*80",
+        "q1": "Biển báo cấm tốc độ tối đa cho phép là 80 km/h (mã biển P.127*80).",
+        "q2": "Biển phụ thể hiện làn đường áp dụng (S.504) hoặc loại phương tiện cơ giới được phép/bị giới hạn ở mức tốc độ 80 km/h.",
+        "q3": "Biển phụ bổ sung thông tin về phạm vi làn đường hoặc nhóm phương tiện chịu sự điều chỉnh của mức tốc độ tối đa 80 km/h trên biển chính P.127.",
+        "q4": "Cụm biển quy định cấm các loại xe cơ giới (trên làn đường hoặc thuộc nhóm phương tiện chỉ dẫn ở biển phụ, trừ xe ưu tiên) chạy vượt quá tốc độ tối đa 80 km/h trên tuyến đường.",
+        "q5_q": "Tại đoạn đường đặt biển tốc độ tối đa cho phép P.127 (80 km/h), xe ô tô con có được phép chạy với tốc độ 90 km/h không?",
+        "q5_a": "Không. Khi gặp biển P.127 (80), mọi phương tiện cơ giới (trừ xe ưu tiên đang làm nhiệm vụ) không được phép chạy vượt quá 80 km/h.",
+        "q6_q": "Tại đoạn đường đặt biển P.127 (80 km/h), xe ô tô lưu thông với tốc độ 75 km/h trong điều kiện an toàn có hợp lệ không?",
+        "q6_a": "Có. Mức tốc độ 75 km/h nằm dưới giới hạn tốc độ tối đa 80 km/h của biển P.127 nên hoàn toàn hợp lệ.",
+    },
+    # 41: P.127*40
+    {
+        "label": "P.127*40",
+        "q1": "Biển báo cấm tốc độ tối đa cho phép là 40 km/h (mã biển P.127*40).",
+        "q2": "Biển phụ thể hiện loại phương tiện chịu hiệu lực (ví dụ S.505a chỉ xe máy) hoặc phạm vi đoạn đường/nhánh rẽ giới hạn 40 km/h.",
+        "q3": "Biển phụ bổ sung thông tin về đối tượng phương tiện hoặc phạm vi đoạn đường áp dụng mức giới hạn tốc độ 40 km/h của biển P.127.",
+        "q4": "Cụm biển quy định các phương tiện thuộc đối tượng hoặc phạm vi chỉ dẫn trên biển phụ phải giảm tốc độ và không được chạy vượt quá 40 km/h khi đi qua đoạn đường này.",
+        "q5_q": "Khi gặp biển P.127 (40 km/h), phương tiện thuộc diện áp dụng của biển có được phép lưu thông với tốc độ 50 km/h không?",
+        "q5_a": "Không. Biển P.127 (40) quy định tốc độ tối đa cho phép là 40 km/h, chạy 50 km/h là vi phạm quy định về tốc độ.",
+        "q6_q": "Nếu dưới biển P.127 (40 km/h) có đặt kèm biển phụ S.505a hình xe máy, thì giới hạn 40 km/h đó có chỉ áp dụng riêng cho xe máy không?",
+        "q6_a": "Có. Khi biển P.127 (40) kết hợp với biển phụ S.505a hình xe máy thì mức giới hạn tốc độ 40 km/h chỉ áp dụng đối với xe máy.",
+    },
+    # 42: R.301e
+    {
+        "label": "R.301e",
+        "q1": "Biển hiệu lệnh các xe chỉ được rẽ trái, đặt ở sau nơi đường giao nhau (mã biển R.301e).",
+        "q2": "Biển phụ thể hiện đối tượng phương tiện hoặc phạm vi lối rẽ bắt buộc phải theo hướng rẽ trái.",
+        "q3": "Biển phụ bổ sung thông tin làm rõ loại phương tiện hoặc phạm vi áp dụng hiệu lệnh bắt buộc rẽ trái của biển R.301e.",
+        "q4": "Cụm biển đặt sau ngã ba, ngã tư quy định bắt buộc các phương tiện (theo phạm vi/đối tượng trên biển phụ) chỉ được phép rẽ sang bên trái tại khu vực nút giao trước mặt (và được phép quay đầu xe).",
+        "q5_q": "Khi gặp biển hiệu lệnh các xe chỉ được rẽ trái (R.301e), người điều khiển xe ô tô và xe máy có được phép đi thẳng hoặc rẽ phải tại nút giao đó không?",
+        "q5_a": "Không. Biển hiệu lệnh R.301e bắt buộc các phương tiện chỉ được rẽ trái (hoặc quay đầu xe), không được đi thẳng hay rẽ phải.",
+        "q6_q": "Theo QCVN 41:2024/BGTVT, khi gặp biển hiệu lệnh các xe chỉ được rẽ trái (R.301e), phương tiện có được phép quay đầu xe không?",
+        "q6_a": "Có. Theo mục D.1 Phụ lục D QCVN 41:2024/BGTVT, khi đặt biển số R.301e (chỉ được rẽ trái), các loại xe đồng thời được phép quay đầu xe.",
+    },
+    # 43: W.239b*
+    {
+        "label": "W.239b*",
+        "q1": "Biển báo nguy hiểm chiều cao tĩnh không thực tế của công trình phía trên đường (mã biển W.239b).",
+        "q2": "Biển phụ thể hiện khoảng cách từ vị trí đặt biển đến vị trí công trình có giới hạn chiều cao tĩnh không (cầu vượt, đường dây điện, dầm cầu).",
+        "q3": "Biển phụ bổ sung thông tin về khoảng cách báo trước để các xe có chiều cao lớn chủ động kiểm tra và lựa chọn lộ trình phù hợp.",
+        "q4": "Cụm biển cảnh báo phía trước (theo khoảng cách trên biển phụ) có công trình vượt trên đường với chiều cao tĩnh không thực tế ghi trên biển chính W.239b, giúp người lái xe phòng ngừa va chạm phần đỉnh xe vào kết cấu công trình.",
+        "q5_q": "Khi gặp biển cảnh báo chiều cao tĩnh không thực tế (W.239b) ghi 4,5m, xe tải chở hàng có tổng chiều cao 4,6m có được phép đi qua bên dưới công trình đó không?",
+        "q5_a": "Không. Vì chiều cao của xe và hàng (4,6m) lớn hơn chiều cao tĩnh không thực tế của công trình (4,5m) nên xe không thể đi qua và sẽ gây tai nạn va chạm công trình.",
+        "q6_q": "Các phương tiện có chiều cao thấp hơn khoảng tĩnh không an toàn ghi trên biển W.239b có được phép đi qua bình thường không?",
+        "q6_a": "Có. Những phương tiện có chiều cao đảm bảo nhỏ hơn chiều cao giới hạn tĩnh không được phép lưu thông qua dưới công trình bình thường.",
+    },
+    # 44: W.233
+    {
+        "label": "W.233",
+        "q1": "Biển báo nguy hiểm khác (mã biển W.233).",
+        "q2": "Biển phụ bắt buộc đi kèm để thuyết minh cụ thể tính chất nguy hiểm (như S.510a đường trơn băng tuyết, S.510b chú ý đường sắt) hoặc phạm vi đoạn đường nguy hiểm (S.501).",
+        "q3": "Biển phụ bổ sung thông tin giải thích rõ loại nguy hiểm chưa có biển cảnh báo riêng hoặc phạm vi tác dụng cho biển báo nguy hiểm khác W.233.",
+        "q4": "Cụm biển cảnh báo trên đoạn đường phía trước có mối nguy hiểm đặc thù được thuyết minh cụ thể trên biển phụ; người điều khiển phương tiện phải giảm tốc độ và đặc biệt chú ý quan sát để đảm bảo an toàn.",
+        "q5_q": "Biển báo nguy hiểm khác (W.233) có phải là biển cấm xe ô tô hoặc cấm xe máy đi qua đoạn đường phía trước không?",
+        "q5_a": "Không. Biển W.233 là biển báo nguy hiểm dùng để cảnh báo các mối nguy hiểm chưa có biển báo riêng trong quy chuẩn, không cấm phương tiện đi qua.",
+        "q6_q": "Khi gặp biển W.233, người điều khiển phương tiện có phải giảm tốc độ và chú ý quan sát theo nội dung thuyết minh trên biển phụ đi kèm không?",
+        "q6_a": "Có. Theo mục C.33 Phụ lục C QCVN 41:2024/BGTVT, khi gặp biển W.233 người lái xe phải giảm tốc độ và lưu ý tính chất nguy hiểm được chỉ dẫn trên biển phụ.",
+    },
+    # 45: I.407a
+    {
+        "label": "I.407a",
+        "q1": "Biển chỉ dẫn đường một chiều theo hướng đi thẳng (mã biển I.407a).",
+        "q2": "Biển phụ thể hiện loại phương tiện áp dụng hoặc phạm vi phần đường tổ chức lưu thông một chiều.",
+        "q3": "Biển phụ bổ sung thông tin về phạm vi làn đường hoặc đối tượng phương tiện được phép lưu thông trên đoạn đường một chiều của biển I.407a.",
+        "q4": "Cụm biển chỉ dẫn đoạn đường phía trước (đặt sau nơi giao nhau) là đường một chiều theo phạm vi trên biển phụ; các phương tiện chỉ được phép đi theo chiều mũi tên chỉ dẫn và không được quay đầu đi ngược lại.",
+        "q5_q": "Khi đang lưu thông trên đoạn đường đặt biển chỉ dẫn đường một chiều (I.407a), xe ô tô và xe máy có được phép quay đầu xe để đi ngược lại chiều mũi tên không?",
+        "q5_a": "Không. Trên đường một chiều có đặt biển I.407a, các phương tiện chỉ được phép đi theo chiều mũi tên chỉ dẫn và tuyệt đối không được quay đầu đi ngược chiều.",
+        "q6_q": "Trên đoạn đường có đặt biển chỉ dẫn đường một chiều (I.407a), cả xe ô tô và xe máy có được phép lưu thông theo đúng chiều mũi tên của biển không?",
+        "q6_a": "Có. Theo mục E.7 Phụ lục E QCVN 41:2024/BGTVT, biển I.407a chỉ dẫn đoạn đường một chiều, các loại phương tiện được phép đi theo chiều mũi tên (trừ khi có biển cấm riêng).",
+    },
+    # 46: P.131a
+    {
+        "label": "P.131a",
+        "q1": "Biển báo cấm đỗ xe (mã biển P.131a).",
+        "q2": "Biển phụ thể hiện phạm vi hướng tác dụng (S.503), khung thời gian cấm đỗ xe (S.508) hoặc thuyết minh cấm đỗ xe (S.509b).",
+        "q3": "Biển phụ bổ sung thông tin về phạm vi không gian, hướng hiệu lực hoặc khung giờ áp dụng của biển cấm đỗ xe P.131a.",
+        "q4": "Cụm biển quy định cấm các loại xe cơ giới đỗ xe ở phía đường có đặt biển trong phạm vi hoặc khung giờ được chỉ dẫn trên biển phụ, nhưng cho phép xe dừng tạm thời để đón trả khách hoặc xếp dỡ hàng hóa.",
+        "q5_q": "Tại phía đường có đặt biển cấm đỗ xe (P.131a), người lái xe ô tô có được phép tắt máy đỗ xe rời khỏi vị trí lái trong thời gian hiệu lực của biển không?",
+        "q5_a": "Không. Biển P.131a cấm các loại xe cơ giới đỗ xe ở phía đường có đặt biển (trừ các xe được ưu tiên theo quy định).",
+        "q6_q": "Tại phía đường có đặt biển cấm đỗ xe (P.131a), xe ô tô có được phép dừng xe tạm thời để cho hành khách lên xuống hoặc xếp dỡ hàng hóa xong rồi đi ngay không?",
+        "q6_a": "Có. Theo mục B.29 Phụ lục B QCVN 41:2024/BGTVT, biển P.131a chỉ cấm đỗ xe, không cấm các xe dừng tạm thời để đón trả khách hoặc xếp dỡ hàng hóa.",
+    },
+    # 47: P.124b1
+    {
+        "label": "P.124b1",
+        "q1": "Biển báo cấm xe ô tô quay đầu xe (mã biển P.124b / P.124b1).",
+        "q2": "Biển phụ thể hiện khung giờ cấm quay đầu hoặc phạm vi nút giao áp dụng đối với xe ô tô.",
+        "q3": "Biển phụ bổ sung thông tin về thời gian hiệu lực hoặc điều kiện áp dụng cho biển cấm ô tô quay đầu xe P.124b.",
+        "q4": "Cụm biển quy định cấm các loại xe ô tô (và xe máy 3 bánh, trừ xe mô tô 2 bánh, xe gắn máy và xe ưu tiên) quay đầu xe theo kiểu chữ U trong khung giờ/phạm vi trên biển phụ, nhưng vẫn được phép rẽ trái.",
+        "q5_q": "Khi gặp biển cấm ô tô quay đầu xe (P.124b1), xe ô tô con và xe ô tô tải có được phép quay đầu xe tại vị trí đó không?",
+        "q5_a": "Không. Biển P.124b1 cấm các loại xe ô tô (và xe máy 3 bánh) quay đầu xe theo kiểu chữ U, trừ các xe được ưu tiên theo quy định.",
+        "q6_q": "Khi gặp biển cấm ô tô quay đầu xe (P.124b1), người điều khiển xe máy hai bánh có được phép quay đầu xe và xe ô tô có được phép rẽ trái không?",
+        "q6_a": "Có. Theo mục B.22 Phụ lục B QCVN 41:2024/BGTVT, biển P.124b không cấm xe mô tô hai bánh quay đầu và cũng không có giá trị cấm xe ô tô rẽ trái.",
+    },
+    # 48: W.210
+    {
+        "label": "W.210",
+        "q1": "Biển báo nguy hiểm nơi giao nhau với đường sắt có rào chắn (mã biển W.210).",
+        "q2": "Biển phụ thể hiện khoảng cách từ vị trí đặt biển đến điểm giao cắt đường sắt có rào chắn (S.502) hoặc thuyết minh chú ý đường sắt (S.510b).",
+        "q3": "Biển phụ bổ sung thông tin về khoảng cách thực tế tới đường ngang có rào chắn để người lái xe chủ động giảm tốc độ từ xa.",
+        "q4": "Cụm biển cảnh báo phía trước (theo khoảng cách chỉ dẫn trên biển phụ) là nơi đường bộ giao nhau cùng mức với đường sắt có lắp đặt rào chắn và nhân viên gác chắn; các xe phải giảm tốc độ, tuân thủ hiệu lệnh đèn/chuông và rào chắn.",
+        "q5_q": "Tại nơi giao nhau với đường sắt có đặt biển W.210, khi chuông báo hiệu kêu và rào chắn đang dịch chuyển đóng lại, xe máy và ô tô có được phép cố vượt qua đường sắt không?",
+        "q5_a": "Không. Khi đèn tín hiệu đỏ đã bật sáng, có tiếng chuông báo hoặc rào chắn đang dịch chuyển, mọi phương tiện đường bộ phải dừng lại trước vạch dừng và tuyệt đối không được vượt qua.",
+        "q6_q": "Khi gặp biển W.210, người điều khiển xe ô tô và xe máy có bắt buộc phải giảm tốc độ, quan sát và nhường quyền ưu tiên cho phương tiện giao thông đường sắt không?",
+        "q6_a": "Có. Tại nơi đường bộ giao nhau cùng mức với đường sắt, quyền ưu tiên thuộc về phương tiện giao thông đường sắt, các xe đường bộ phải giảm tốc độ và chấp hành hiệu lệnh rào chắn.",
+    },
+    # 49: P.124c
+    {
+        "label": "P.124c",
+        "q1": "Biển báo cấm rẽ trái và cấm quay đầu xe (mã biển P.124c).",
+        "q2": "Biển phụ thể hiện loại phương tiện hoặc khung thời gian áp dụng lệnh cấm rẽ trái và quay đầu xe.",
+        "q3": "Biển phụ bổ sung thông tin về đối tượng phương tiện hoặc khung giờ chịu sự điều chỉnh của biển cấm P.124c.",
+        "q4": "Cụm biển quy định cấm các loại phương tiện đồng thời không được rẽ trái và không được quay đầu xe tại nút giao thông theo đúng phạm vi hoặc khung giờ được chỉ dẫn trên biển phụ.",
+        "q5_q": "Khi gặp biển P.124c tại nơi đường giao nhau, xe ô tô và xe máy có được phép rẽ trái hoặc quay đầu xe không?",
+        "q5_a": "Không. Theo mục B.22 Phụ lục B QCVN 41:2024/BGTVT, biển P.124c cấm tất cả các loại xe vừa không được rẽ trái vừa không được quay đầu xe (trừ xe ưu tiên).",
+        "q6_q": "Khi gặp biển cấm rẽ trái và quay đầu xe (P.124c), các phương tiện có được phép đi thẳng hoặc rẽ phải qua nút giao không?",
+        "q6_a": "Có. Biển P.124c chỉ cấm rẽ trái và quay đầu xe, nên người điều khiển phương tiện vẫn được phép đi thẳng hoặc rẽ phải.",
+    },
+    # 50: W.201b
+    {
+        "label": "W.201b",
+        "q1": "Biển báo nguy hiểm chỗ ngoặt nguy hiểm vòng bên phải (mã biển W.201b).",
+        "q2": "Biển phụ thể hiện khoảng cách đến chỗ ngoặt (S.502) hoặc phạm vi chiều dài đoạn đường cong vòng bên phải (S.501).",
+        "q3": "Biển phụ bổ sung thông tin về khoảng cách báo trước hoặc phạm vi chiều dài thực tế của khúc cua nguy hiểm vòng sang phải.",
+        "q4": "Cụm biển cảnh báo sắp đến chỗ ngoặt nguy hiểm vòng về phía bên phải theo khoảng cách/phạm vi trên biển phụ; người điều khiển phương tiện phải giảm tốc độ, đi đúng làn đường và không vượt xe khác.",
+        "q5_q": "Khi đi vào khúc cua có đặt biển chỗ ngoặt nguy hiểm vòng bên phải (W.201b) bị che khuất tầm nhìn, xe ô tô có được phép vượt xe phía trước không?",
+        "q5_a": "Không. Tại đoạn đường cong cua nguy hiểm có tầm nhìn bị hạn chế, các phương tiện không được phép vượt xe khác để tránh va chạm đối đầu.",
+        "q6_q": "Khi gặp biển W.201b, người điều khiển xe ô tô và xe máy có phải giảm tốc độ và chú ý quan sát khúc cua vòng sang bên phải phía trước không?",
+        "q6_a": "Có. Theo mục C.1 Phụ lục C QCVN 41:2024/BGTVT, biển W.201b báo trước sắp đến chỗ ngoặt nguy hiểm vòng bên phải, người lái xe phải chủ động giảm tốc độ.",
+    },
+    # 51: W.246c
+    {
+        "label": "W.246c",
+        "q1": "Biển báo nguy hiểm chú ý chướng ngại vật phía trước – vòng tránh sang một bên (mã biển W.246c).",
+        "q2": "Biển phụ thể hiện khoảng cách đến chướng ngại vật hoặc phạm vi làn đường cần chuyển hướng để tránh chướng ngại vật.",
+        "q3": "Biển phụ bổ sung thông tin về khoảng cách và phạm vi mặt đường giúp người lái xe chủ động chuyển làn vòng tránh chướng ngại vật an toàn.",
+        "q4": "Cụm biển cảnh báo phía trước có chướng ngại vật trên đường theo khoảng cách chỉ dẫn trên biển phụ, nhắc nhở các phương tiện giảm tốc độ và chủ động đi vòng tránh theo hướng vạch chéo chỉ dẫn trên biển chính.",
+        "q5_q": "Khi gặp biển cảnh báo chướng ngại vật W.246c, người điều khiển phương tiện có được phép đi vào phía phần đường đang bị chướng ngại vật chắn ngang không?",
+        "q5_a": "Không. Người điều khiển phương tiện phải giảm tốc độ và điều khiển xe vòng tránh sang bên phần đường thông thoáng theo hướng chỉ dẫn của biển.",
+        "q6_q": "Khi gặp biển W.246c, các phương tiện có bắt buộc phải giảm tốc độ và đi vòng tránh qua chướng ngại vật theo hướng mũi tên/vạch nghiêng trên biển không?",
+        "q6_a": "Có. Theo mục C.46 Phụ lục C QCVN 41:2024/BGTVT, biển W.246c nhắc nhở người lái xe giảm tốc độ và đi vòng tránh chướng ngại vật theo đúng hướng chỉ dẫn.",
+    },
+]
+
+
+def main():
+    with open(LAW_DB_PATH, "r", encoding="utf-8") as f:
+        law_db = json.load(f)
+
+    sign_classes_map = {c["class_id"]: c for c in law_db["sign_classes_52"]}
+
+    qa_simple_list = []
+    qa_detailed_list = []
+
+    for cls_id, spec in enumerate(QA_SPECS_52):
+        scene_id = f"scene_{cls_id + 1:03d}"
+        cls_info = sign_classes_map.get(cls_id, {})
+        sample_imgs = cls_info.get("cropped_folders", {}).get("sample_train_crops", [])
+        sample_img = sample_imgs[0] if sample_imgs else ""
+
+        qa_items = [
+            ("q1", "descriptive", None, "Biển chính trong ảnh là biển gì?", spec["q1"]),
+            ("q2", "descriptive", None, "Biển phụ có nội dung gì?", spec["q2"]),
+            ("q3", "descriptive", None, "Biển phụ bổ sung ý nghĩa gì cho biển chính?", spec["q3"]),
+            ("q4", "descriptive", None, "Hãy giải thích ý nghĩa tổng thể của cụm biển.", spec["q4"]),
+            ("q5", "yes_no", "Không", spec["q5_q"], spec["q5_a"]),
+            ("q6", "yes_no", "Có", spec["q6_q"], spec["q6_a"]),
+        ]
+
+        for q_key, q_type, short_ans, q_text, ans_text in qa_items:
+            qa_id = f"{scene_id}_{q_key}"
+
+            qa_simple_list.append({
+                "id": qa_id,
+                "image_id": scene_id,
+                "question": q_text,
+                "answer": ans_text,
+            })
+
+            qa_detailed_list.append({
+                "id": qa_id,
+                "image_id": scene_id,
+                "question_type": q_type,
+                "short_answer": short_ans,
+                "class_id": cls_id,
+                "dataset_label": cls_info.get("dataset_label", spec["label"]),
+                "canonical_sign_code": cls_info.get("canonical_sign_code", spec["label"]),
+                "sign_type": cls_info.get("sign_type", "bien_chinh"),
+                "name_vie": cls_info.get("name_vie", ""),
+                "sample_crop_image": sample_img,
+                "primary_article_id": cls_info.get("primary_article_id", ""),
+                "relevant_article_ids": cls_info.get("relevant_article_ids", []),
+                "question": q_text,
+                "answer": ans_text,
+            })
+
+    simple_paths = [
+        ARCHIVE_DIR / "qa_52_signs.json",
+        CROPPED_DIR / "qa_52_signs.json",
+        BASE_DIR / "data" / "qa_52_signs.json",
+    ]
+    for p in simple_paths:
+        p.parent.mkdir(parents=True, exist_ok=True)
+        with open(p, "w", encoding="utf-8") as f:
+            json.dump(qa_simple_list, f, ensure_ascii=False, indent=2)
+        print(f"[✓] Đã lưu bộ QA chuẩn ({len(qa_simple_list)} câu, gồm 104 câu Yes/No) tại: {p}")
+
+    detailed_paths = [
+        ARCHIVE_DIR / "qa_52_signs_detailed.json",
+        CROPPED_DIR / "qa_52_signs_detailed.json",
+        BASE_DIR / "data" / "qa_52_signs_detailed.json",
+    ]
+    for p in detailed_paths:
+        with open(p, "w", encoding="utf-8") as f:
+            json.dump(qa_detailed_list, f, ensure_ascii=False, indent=2)
+        print(f"[✓] Đã lưu bộ QA chi tiết kèm metadata điều luật ({len(qa_detailed_list)} câu) tại: {p}")
+
+
+if __name__ == "__main__":
+    main()

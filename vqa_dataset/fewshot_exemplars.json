@@ -1,0 +1,32 @@
+[
+  {
+    "category": "single_sign (Biển đơn)",
+    "sign_code": "P.102",
+    "question": "Biển chính trong ảnh là biển gì?",
+    "answer": "Biển báo cấm đi ngược chiều (mã biển P.102)."
+  },
+  {
+    "category": "main_and_aux (Biển chính + biển phụ)",
+    "sign_code": "S.505a*Xe tải",
+    "question": "Biển phụ có nội dung gì?",
+    "answer": "Biển phụ là biển số S.505a có hình biểu tượng xe ô tô tải, chỉ định đối tượng áp dụng là xe tải."
+  },
+  {
+    "category": "sign_relationship (Quan hệ giữa các biển)",
+    "sign_code": "P.130",
+    "question": "Biển phụ bổ sung ý nghĩa gì cho biển chính?",
+    "answer": "Biển phụ bổ sung thông tin về phạm vi không gian, khung thời gian hoặc loại phương tiện chịu hiệu lực của biển cấm dừng và đỗ xe."
+  },
+  {
+    "category": "regulation_explanation (Giải thích quy định giao thông)",
+    "sign_code": "P.107",
+    "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
+    "answer": "Cụm biển quy định cấm cả xe ô tô chở khách và các loại xe ô tô tải (kể cả máy kéo và xe máy chuyên dùng, trừ xe ưu tiên) đi vào đoạn đường theo đúng phạm vi và điều kiện chỉ dẫn trên biển phụ."
+  },
+  {
+    "category": "yes_no_compliance (Tuân thủ quy định Có/Không)",
+    "sign_code": "P.103a",
+    "question": "Khi gặp biển cấm xe ô tô (P.103a), người điều khiển xe mô tô hai bánh (xe máy) và xe gắn máy có được phép đi vào đoạn đường đó không?",
+    "answer": "Có. Theo quy định tại mục B.3 Phụ lục B QCVN 41:2024/BGTVT, biển P.103a không cấm xe máy hai bánh, xe gắn máy và xe thô sơ."
+  }
+]

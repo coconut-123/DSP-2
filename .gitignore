@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Raw full-scene street images (757 MB) - already cropped into cropped_dataset/
+images/
+
+# Heavy model checkpoints
+qwen_vlm_freeform_lora_adapter/checkpoint-*/
+*.safetensors
+*.pt
+*.pth
