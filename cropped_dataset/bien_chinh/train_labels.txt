@@ -671,7 +671,7 @@ train/P.117_/0771_box06.jpg	bien_chinh	16	16	P.117*	Giới hạn chiều cao
 train/W.221b/0771_box07.jpg	bien_chinh	22	22	W.221b	Gồ giảm tốc phía trước
 train/P.131a/0771_box08.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
 train/Camera/0771_box09.jpg	bien_chinh	31	28	Camera	Đường có camera giám sát
-train/P.130/3073_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
+train/P.131a/3073_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
 train/W.201a/3073_box01.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
 train/I.407a/3073_box02.jpg	bien_chinh	45	42	I.407a	Đường một chiều
 train/W.201a/3027_box00.jpg	bien_chinh	6	6	W.201a	Chỗ ngoặt nguy hiểm vòng bên trái
@@ -917,7 +917,7 @@ train/P.130/0573_box05.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
 train/W.239b_/0573_box06.jpg	bien_chinh	43	40	W.239b*	Chiều cao tĩnh không thực tế
 train/P.130/2447_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
 train/I.407a/2447_box01.jpg	bien_chinh	45	42	I.407a	Đường một chiều
-train/I.407a/2447_box02.jpg	bien_chinh	45	42	I.407a	Đường một chiều
+train/W.246a/2447_box02.jpg	bien_chinh	26	25	W.246a	Chướng ngoại vật phía trước
 train/W.224/0895_box00.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
 train/P.123a/1808_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
 train/W.201b/2823_box00.jpg	bien_chinh	50	47	W.201b	Chỗ ngoặt nguy hiểm vòng bên phải
@@ -1787,8 +1787,7 @@ train/I.407a/2462_box01.jpg	bien_chinh	45	42	I.407a	Đường một chiều
 train/P.123a/1132_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
 train/I.407a/2529_box00.jpg	bien_chinh	45	42	I.407a	Đường một chiều
 train/I.434a/2529_box01.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
-train/I.407a/3166_box00.jpg	bien_chinh	45	42	I.407a	Đường một chiều
-train/P.123b/3166_box01.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
+train/P.123b/3166_box00.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
 train/P.131a/3136_box00.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
 train/P.106a_Xe tải/3136_box01.jpg	bien_chinh	14	14	P.106a*Xe tải	Cấm xe tải
 train/P.106a_Xe tải/3136_box02.jpg	bien_chinh	14	14	P.106a*Xe tải	Cấm xe tải
@@ -2804,7 +2803,6 @@ train/P.127_40/1424_box01.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ
 train/P.111/1424_box02.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
 train/P.130/2095_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
 train/P.111/2095_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
-train/P.108a/2095_box02.jpg	bien_chinh	34	31	P.108a	Cấm xe sơ-mi rơ-moóc
 train/P.102/2594_box00.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
 train/R.302a/2594_box01.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên phải
 train/P.127_60/2594_box02.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
@@ -3617,7 +3615,7 @@ train/P.102/2855_box04.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
 train/P.127_60/1931_box00.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
 train/P.130/1931_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
 train/P.127_60/1931_box02.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
-train/P.108a/1931_box03.jpg	bien_chinh	34	31	P.108a	Cấm xe sơ-mi rơ-moóc
+train/P.111/1931_box03.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
 train/P.127_60/2181_box00.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
 train/P.127_80/2181_box01.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
 train/P.102/2181_box02.jpg	bien_chinh	2	2	P.102	Cấm đi ngược chiều
@@ -3990,7 +3988,7 @@ train/P.127_80/1924_box00.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ
 train/P.130/1924_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
 train/P.127_60/1924_box02.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
 train/P.127_60/1924_box03.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
-train/P.108a/1924_box04.jpg	bien_chinh	34	31	P.108a	Cấm xe sơ-mi rơ-moóc
+train/P.111/1924_box04.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
 train/P.123b/2549_box00.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
 train/I.407a/2549_box01.jpg	bien_chinh	45	42	I.407a	Đường một chiều
 train/R.415a/1337_box00.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
@@ -4276,7 +4274,7 @@ train/R.302a/2480_box06.jpg	bien_chinh	3	3	R.302a	Phải đi vòng sang bên ph�
 train/W.202b/2480_box07.jpg	bien_chinh	33	30	W.202b	Nhiều chỗ ngoặt nguy hiểm liên tiếp, chỗ đầu tiên sang phải
 train/I.434a/2480_box08.jpg	bien_chinh	8	8	I.434a	Bến xe buýt
 train/P.130/1901_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
-train/P.108a/1901_box01.jpg	bien_chinh	34	31	P.108a	Cấm xe sơ-mi rơ-moóc
+train/P.111/1901_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
 train/P.127_60/2238_box00.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
 train/P.127_80/2238_box01.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
 train/W.245a/2238_box02.jpg	bien_chinh	13	13	W.245a	Đi chậm
@@ -5204,7 +5202,7 @@ train/P.111/1410_box00.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
 train/P.130/1410_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
 train/P.127_40/2050_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
 train/P.130/3046_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
-train/P.127_40/3046_box01.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+train/P.127_50/3046_box01.jpg	bien_chinh	38	35	P.127*50	Giới hạn tốc độ (50km/h)
 train/P.123a/1436_box00.jpg	bien_chinh	7	7	P.123a	Cấm rẽ trái
 train/P.130/1436_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
 train/P.131a/1436_box02.jpg	bien_chinh	46	43	P.131a	Cấm đỗ xe
@@ -6449,7 +6447,7 @@ train/P.103a/0645_box01.jpg	bien_chinh	20	20	P.103a	Cấm ô tô
 train/I.407a/0701_box00.jpg	bien_chinh	45	42	I.407a	Đường một chiều
 train/P.111/2400_box00.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
 train/R.415a/1234_box00.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
-train/R.415a/1234_box01.jpg	bien_chinh	12	12	R.415a	Biển gộp làn đường theo phương tiện
+train/P.130/1234_box01.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
 train/P.111/1234_box02.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
 train/P.123b/2030_box00.jpg	bien_chinh	32	29	P.123b	Cấm rẽ phải
 train/W.207/1744_box00.jpg	bien_chinh	5	5	W.207	Giao nhau với đường không ưu tiên

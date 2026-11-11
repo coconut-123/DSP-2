@@ -40,7 +40,7 @@
     "name_vie": "Đường người đi bộ cắt ngang",
     "image_path": "cropped_dataset/bien_chinh/test/W.224/0858_box01.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện khoảng cách từ vị trí đặt biển đến phần đường dành cho người đi bộ sang ngang phía trước (biển phụ S.502).",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo nguy hiểm đường người đi bộ cắt ngang (mã biển W.224), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện khoảng cách từ vị trí đặt biển đến phần đường dành cho người đi bộ sang ngang phía trước (biển phụ S.502).",
     "primary_article_id": "QCVN41_C.24",
     "relevant_article_ids": [
       "QCVN41_C.24",
@@ -94,7 +94,7 @@
     "name_vie": "Đường người đi bộ cắt ngang",
     "image_path": "cropped_dataset/bien_chinh/test/W.224/0858_box01.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển cảnh báo phía trước (theo khoảng cách ghi trên biển phụ) có phần đường dành cho người đi bộ qua đường; các phương tiện phải giảm tốc độ và nhường đường cho người đi bộ.",
+    "answer": "Biển báo nguy hiểm đường người đi bộ cắt ngang (mã biển W.224): cảnh báo phía trước (theo khoảng cách ghi trên biển phụ) có phần đường dành cho người đi bộ qua đường; các phương tiện phải giảm tốc độ và nhường đường cho người đi bộ.",
     "primary_article_id": "QCVN41_C.24",
     "relevant_article_ids": [
       "QCVN41_C.24",
@@ -173,7 +173,7 @@
     "canonical_sign_code": "W.205c",
     "sign_type": "bien_chinh",
     "name_vie": "Đường giao nhau (ngã ba bên phải)",
-    "image_path": "cropped_dataset/bien_chinh/test/W.205c/0500_box00.jpg",
+    "image_path": "cropped_dataset/bien_chinh/test/W.205c/0545_box00.jpg",
     "question": "Biển chính trong ảnh là biển gì?",
     "answer": "Biển báo nguy hiểm đường giao nhau cùng mức của các đường đồng cấp ngã ba bên phải (mã biển W.205c).",
     "primary_article_id": "QCVN41_C.5",
@@ -200,9 +200,9 @@
     "canonical_sign_code": "W.205c",
     "sign_type": "bien_chinh",
     "name_vie": "Đường giao nhau (ngã ba bên phải)",
-    "image_path": "cropped_dataset/bien_chinh/test/W.205c/0500_box00.jpg",
+    "image_path": "cropped_dataset/bien_chinh/test/W.205c/0545_box00.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện khoảng cách hoặc phạm vi đến nút giao ngã ba phía trước.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo nguy hiểm đường giao nhau cùng mức của các đường đồng cấp ngã ba bên phải (mã biển W.205c), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện khoảng cách hoặc phạm vi đến nút giao ngã ba phía trước.",
     "primary_article_id": "QCVN41_C.5",
     "relevant_article_ids": [
       "QCVN41_C.5",
@@ -227,7 +227,7 @@
     "canonical_sign_code": "W.205c",
     "sign_type": "bien_chinh",
     "name_vie": "Đường giao nhau (ngã ba bên phải)",
-    "image_path": "cropped_dataset/bien_chinh/test/W.205c/0500_box00.jpg",
+    "image_path": "cropped_dataset/bien_chinh/test/W.205c/0545_box00.jpg",
     "question": "Biển phụ bổ sung ý nghĩa gì cho biển chính?",
     "answer": "Biển phụ bổ sung thông tin định lượng về khoảng cách từ chỗ đặt biển đến vị trí giao nhau cùng mức bên phải.",
     "primary_article_id": "QCVN41_C.5",
@@ -254,9 +254,9 @@
     "canonical_sign_code": "W.205c",
     "sign_type": "bien_chinh",
     "name_vie": "Đường giao nhau (ngã ba bên phải)",
-    "image_path": "cropped_dataset/bien_chinh/test/W.205c/0500_box00.jpg",
+    "image_path": "cropped_dataset/bien_chinh/test/W.205c/0545_box00.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển cảnh báo sắp đến nơi giao nhau cùng mức dạng ngã ba có nhánh đường đồng cấp bên phải theo khoảng cách chỉ dẫn trên biển phụ, yêu cầu xe giảm tốc độ và nhường đường theo quy tắc chung.",
+    "answer": "Biển báo nguy hiểm đường giao nhau cùng mức của các đường đồng cấp ngã ba bên phải (mã biển W.205c): cảnh báo sắp đến nơi giao nhau cùng mức dạng ngã ba có nhánh đường đồng cấp bên phải theo khoảng cách chỉ dẫn trên biển phụ, yêu cầu xe giảm tốc độ và nhường đường theo quy tắc chung.",
     "primary_article_id": "QCVN41_C.5",
     "relevant_article_ids": [
       "QCVN41_C.5",
@@ -281,7 +281,7 @@
     "canonical_sign_code": "W.205c",
     "sign_type": "bien_chinh",
     "name_vie": "Đường giao nhau (ngã ba bên phải)",
-    "image_path": "cropped_dataset/bien_chinh/test/W.205c/0500_box00.jpg",
+    "image_path": "cropped_dataset/bien_chinh/test/W.205c/0545_box00.jpg",
     "question": "Khi gặp biển giao nhau của các đường đồng cấp (W.205c), xe đang đi thẳng có được quyền ưu tiên tuyệt đối trước các xe đi đến từ nhánh đường bên phải không?",
     "answer": "Không. Tại nơi đường giao nhau cùng mức của các đường đồng cấp (không có đường nào ưu tiên), người lái xe phải nhường đường cho phương tiện đi đến từ bên phải.",
     "primary_article_id": "QCVN41_C.5",
@@ -308,7 +308,7 @@
     "canonical_sign_code": "W.205c",
     "sign_type": "bien_chinh",
     "name_vie": "Đường giao nhau (ngã ba bên phải)",
-    "image_path": "cropped_dataset/bien_chinh/test/W.205c/0500_box00.jpg",
+    "image_path": "cropped_dataset/bien_chinh/test/W.205c/0545_box00.jpg",
     "question": "Khi gặp biển W.205c, người điều khiển xe ô tô và xe máy có phải giảm tốc độ và nhường đường cho xe đi đến từ hướng đường bên phải không?",
     "answer": "Có. Vì đây là nơi giao nhau của các đường đồng cấp nên phương tiện phải giảm tốc độ và nhường đường cho xe đến từ bên phải theo quy tắc giao thông.",
     "primary_article_id": "QCVN41_C.5",
@@ -364,7 +364,7 @@
     "name_vie": "Cấm đi ngược chiều",
     "image_path": "cropped_dataset/bien_chinh/test/P.102/0832_box00.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện loại phương tiện hoặc khung thời gian chịu hiệu lực cấm đi ngược chiều.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo cấm đi ngược chiều (mã biển P.102), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện loại phương tiện hoặc khung thời gian chịu hiệu lực cấm đi ngược chiều.",
     "primary_article_id": "QCVN41_B.2",
     "relevant_article_ids": [
       "QCVN41_B.2",
@@ -418,7 +418,7 @@
     "name_vie": "Cấm đi ngược chiều",
     "image_path": "cropped_dataset/bien_chinh/test/P.102/0832_box00.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển quy định cấm các loại xe (cơ giới và thô sơ, trừ xe ưu tiên theo luật định) đi vào theo chiều đặt biển theo đúng phạm vi hoặc điều kiện chỉ dẫn trên biển phụ.",
+    "answer": "Biển báo cấm đi ngược chiều (mã biển P.102): quy định cấm các loại xe (cơ giới và thô sơ, trừ xe ưu tiên theo luật định) đi vào theo chiều đặt biển theo đúng phạm vi hoặc điều kiện chỉ dẫn trên biển phụ.",
     "primary_article_id": "QCVN41_B.2",
     "relevant_article_ids": [
       "QCVN41_B.2",
@@ -526,7 +526,7 @@
     "name_vie": "Phải đi vòng sang bên phải",
     "image_path": "cropped_dataset/bien_chinh/test/R.302a/0832_box01.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện làn đường hoặc đối tượng phương tiện bắt buộc phải đi vòng sang bên phải.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển hiệu lệnh hướng phải đi vòng chướng ngại vật sang bên phải (mã biển R.302a), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện làn đường hoặc đối tượng phương tiện bắt buộc phải đi vòng sang bên phải.",
     "primary_article_id": "QCVN41_D.2",
     "relevant_article_ids": [
       "QCVN41_D.2",
@@ -580,7 +580,7 @@
     "name_vie": "Phải đi vòng sang bên phải",
     "image_path": "cropped_dataset/bien_chinh/test/R.302a/0832_box01.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển bắt buộc các loại xe (theo đối tượng/phạm vi trên biển phụ) phải đi vòng sang phía bên phải để vượt qua chướng ngại vật hoặc dải phân cách trước mặt.",
+    "answer": "Biển hiệu lệnh hướng phải đi vòng chướng ngại vật sang bên phải (mã biển R.302a): bắt buộc các loại xe (theo đối tượng/phạm vi trên biển phụ) phải đi vòng sang phía bên phải để vượt qua chướng ngại vật hoặc dải phân cách trước mặt.",
     "primary_article_id": "QCVN41_D.2",
     "relevant_article_ids": [
       "QCVN41_D.2",
@@ -688,7 +688,7 @@
     "name_vie": "Giao nhau với đường đồng cấp",
     "image_path": "cropped_dataset/bien_chinh/test/W.205a/0112_box01.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện khoảng cách từ vị trí đặt biển đến nút giao ngã tư đồng cấp phía trước.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo nguy hiểm giao nhau với đường đồng cấp dạng ngã tư (mã biển W.205a), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện khoảng cách từ vị trí đặt biển đến nút giao ngã tư đồng cấp phía trước.",
     "primary_article_id": "QCVN41_C.5",
     "relevant_article_ids": [
       "QCVN41_C.5",
@@ -742,7 +742,7 @@
     "name_vie": "Giao nhau với đường đồng cấp",
     "image_path": "cropped_dataset/bien_chinh/test/W.205a/0112_box01.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển cảnh báo phía trước (theo khoảng cách trên biển phụ) là nơi giao nhau cùng mức của các tuyến đường đồng cấp, yêu cầu người lái xe chú ý quan sát, giảm tốc độ và nhường đường đúng quy định.",
+    "answer": "Biển báo nguy hiểm giao nhau với đường đồng cấp dạng ngã tư (mã biển W.205a): cảnh báo phía trước (theo khoảng cách trên biển phụ) là nơi giao nhau cùng mức của các tuyến đường đồng cấp, yêu cầu người lái xe chú ý quan sát, giảm tốc độ và nhường đường đúng quy định.",
     "primary_article_id": "QCVN41_C.5",
     "relevant_article_ids": [
       "QCVN41_C.5",
@@ -850,7 +850,7 @@
     "name_vie": "Giao nhau với đường không ưu tiên",
     "image_path": "cropped_dataset/bien_chinh/test/W.207/1379_box00.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện sơ đồ hướng đường ưu tiên (S.506a) hoặc khoảng cách đến nút giao.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo nguy hiểm giao nhau với đường không ưu tiên (mã biển W.207), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện sơ đồ hướng đường ưu tiên (S.506a) hoặc khoảng cách đến nút giao.",
     "primary_article_id": "QCVN41_C.7",
     "relevant_article_ids": [
       "QCVN41_C.7",
@@ -904,7 +904,7 @@
     "name_vie": "Giao nhau với đường không ưu tiên",
     "image_path": "cropped_dataset/bien_chinh/test/W.207/1379_box00.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển báo trước cho xe đang đi trên đường ưu tiên biết sắp đến nơi giao nhau với đường không ưu tiên theo hướng/khoảng cách trên biển phụ; xe trên đường chính được quyền ưu tiên đi trước nhưng vẫn phải chú ý an toàn.",
+    "answer": "Biển báo nguy hiểm giao nhau với đường không ưu tiên (mã biển W.207): báo trước cho xe đang đi trên đường ưu tiên biết sắp đến nơi giao nhau với đường không ưu tiên theo hướng/khoảng cách trên biển phụ; xe trên đường chính được quyền ưu tiên đi trước nhưng vẫn phải chú ý an toàn.",
     "primary_article_id": "QCVN41_C.7",
     "relevant_article_ids": [
       "QCVN41_C.7",
@@ -1012,7 +1012,7 @@
     "name_vie": "Chỗ ngoặt nguy hiểm vòng bên trái",
     "image_path": "cropped_dataset/bien_chinh/test/W.201a/3038_box03.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện phạm vi chiều dài đoạn đường cong nguy hiểm (S.501) hoặc khoảng cách đến chỗ ngoặt (S.502).",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo nguy hiểm chỗ ngoặt nguy hiểm vòng bên trái (mã biển W.201a), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện phạm vi chiều dài đoạn đường cong nguy hiểm (S.501) hoặc khoảng cách đến chỗ ngoặt (S.502).",
     "primary_article_id": "QCVN41_C.1",
     "relevant_article_ids": [
       "QCVN41_C.1",
@@ -1066,7 +1066,7 @@
     "name_vie": "Chỗ ngoặt nguy hiểm vòng bên trái",
     "image_path": "cropped_dataset/bien_chinh/test/W.201a/3038_box03.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển cảnh báo sắp tới khúc cua ngoặt nguy hiểm vòng về phía bên trái theo phạm vi/khoảng cách ghi trên biển phụ, yêu cầu người lái xe giảm tốc độ, đi đúng phần đường và không vượt xe.",
+    "answer": "Biển báo nguy hiểm chỗ ngoặt nguy hiểm vòng bên trái (mã biển W.201a): cảnh báo sắp tới khúc cua ngoặt nguy hiểm vòng về phía bên trái theo phạm vi/khoảng cách ghi trên biển phụ, yêu cầu người lái xe giảm tốc độ, đi đúng phần đường và không vượt xe.",
     "primary_article_id": "QCVN41_C.1",
     "relevant_article_ids": [
       "QCVN41_C.1",
@@ -1145,7 +1145,7 @@
     "canonical_sign_code": "P.123a",
     "sign_type": "bien_chinh",
     "name_vie": "Cấm rẽ trái",
-    "image_path": "cropped_dataset/bien_chinh/test/P.123a/0344_box00.jpg",
+    "image_path": "cropped_dataset/bien_chinh/test/P.123a/0112_box00.jpg",
     "question": "Biển chính trong ảnh là biển gì?",
     "answer": "Biển báo cấm rẽ trái (mã biển P.123a).",
     "primary_article_id": "QCVN41_B.21",
@@ -1172,9 +1172,9 @@
     "canonical_sign_code": "P.123a",
     "sign_type": "bien_chinh",
     "name_vie": "Cấm rẽ trái",
-    "image_path": "cropped_dataset/bien_chinh/test/P.123a/0344_box00.jpg",
+    "image_path": "cropped_dataset/bien_chinh/test/P.123a/0112_box00.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện loại phương tiện hoặc khung giờ áp dụng lệnh cấm rẽ trái.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo cấm rẽ trái (mã biển P.123a), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện loại phương tiện hoặc khung giờ áp dụng lệnh cấm rẽ trái.",
     "primary_article_id": "QCVN41_B.21",
     "relevant_article_ids": [
       "QCVN41_B.21",
@@ -1199,7 +1199,7 @@
     "canonical_sign_code": "P.123a",
     "sign_type": "bien_chinh",
     "name_vie": "Cấm rẽ trái",
-    "image_path": "cropped_dataset/bien_chinh/test/P.123a/0344_box00.jpg",
+    "image_path": "cropped_dataset/bien_chinh/test/P.123a/0112_box00.jpg",
     "question": "Biển phụ bổ sung ý nghĩa gì cho biển chính?",
     "answer": "Biển phụ bổ sung điều kiện cụ thể về loại xe (ví dụ: xe tải, xe khách) hoặc thời gian bị cấm rẽ trái tại nút giao.",
     "primary_article_id": "QCVN41_B.21",
@@ -1226,9 +1226,9 @@
     "canonical_sign_code": "P.123a",
     "sign_type": "bien_chinh",
     "name_vie": "Cấm rẽ trái",
-    "image_path": "cropped_dataset/bien_chinh/test/P.123a/0344_box00.jpg",
+    "image_path": "cropped_dataset/bien_chinh/test/P.123a/0112_box00.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển quy định cấm các phương tiện (thuộc đối tượng hoặc trong khung giờ ghi trên biển phụ) rẽ sang phía trái tại nơi đường giao nhau, nhưng không có giá trị cấm quay đầu xe.",
+    "answer": "Biển báo cấm rẽ trái (mã biển P.123a): quy định cấm các phương tiện (thuộc đối tượng hoặc trong khung giờ ghi trên biển phụ) rẽ sang phía trái tại nơi đường giao nhau, nhưng không có giá trị cấm quay đầu xe.",
     "primary_article_id": "QCVN41_B.21",
     "relevant_article_ids": [
       "QCVN41_B.21",
@@ -1253,7 +1253,7 @@
     "canonical_sign_code": "P.123a",
     "sign_type": "bien_chinh",
     "name_vie": "Cấm rẽ trái",
-    "image_path": "cropped_dataset/bien_chinh/test/P.123a/0344_box00.jpg",
+    "image_path": "cropped_dataset/bien_chinh/test/P.123a/0112_box00.jpg",
     "question": "Khi gặp biển cấm rẽ trái (P.123a), người điều khiển xe ô tô và xe máy có được phép rẽ sang phía bên trái tại nút giao không?",
     "answer": "Không. Biển P.123a cấm các loại xe cơ giới và thô sơ (trừ xe ưu tiên theo quy định) rẽ sang phía bên trái tại vị trí đường giao nhau.",
     "primary_article_id": "QCVN41_B.21",
@@ -1280,7 +1280,7 @@
     "canonical_sign_code": "P.123a",
     "sign_type": "bien_chinh",
     "name_vie": "Cấm rẽ trái",
-    "image_path": "cropped_dataset/bien_chinh/test/P.123a/0344_box00.jpg",
+    "image_path": "cropped_dataset/bien_chinh/test/P.123a/0112_box00.jpg",
     "question": "Theo QCVN 41:2024/BGTVT, khi gặp biển cấm rẽ trái (P.123a), phương tiện có được phép quay đầu xe không (nếu không có biển cấm quay đầu)?",
     "answer": "Có. Theo mục B.21 Phụ lục B QCVN 41:2024/BGTVT, biển P.123a chỉ cấm rẽ trái và không có giá trị cấm quay đầu xe.",
     "primary_article_id": "QCVN41_B.21",
@@ -1336,7 +1336,7 @@
     "name_vie": "Bến xe buýt",
     "image_path": "cropped_dataset/bien_chinh/test/I.434a/2924_box00.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện phạm vi chiều dài điểm dừng đỗ xe buýt hoặc thông tin tuyến xe buýt hoạt động.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển chỉ dẫn bến xe buýt (mã biển I.434a), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện phạm vi chiều dài điểm dừng đỗ xe buýt hoặc thông tin tuyến xe buýt hoạt động.",
     "primary_article_id": "QCVN41_E.34",
     "relevant_article_ids": [
       "QCVN41_E.34",
@@ -1390,7 +1390,7 @@
     "name_vie": "Bến xe buýt",
     "image_path": "cropped_dataset/bien_chinh/test/I.434a/2924_box00.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển chỉ dẫn vị trí bến dừng xe buýt cùng phạm vi và thông tin tuyến trên biển phụ; các phương tiện khác không được đỗ xe làm cản trở hoạt động đón trả khách của xe buýt.",
+    "answer": "Biển chỉ dẫn bến xe buýt (mã biển I.434a): chỉ dẫn vị trí bến dừng xe buýt cùng phạm vi và thông tin tuyến trên biển phụ; các phương tiện khác không được đỗ xe làm cản trở hoạt động đón trả khách của xe buýt.",
     "primary_article_id": "QCVN41_E.34",
     "relevant_article_ids": [
       "QCVN41_E.34",
@@ -1498,7 +1498,7 @@
     "name_vie": "Nơi giao nhau chạy theo vòng xuyến",
     "image_path": "cropped_dataset/bien_chinh/test/R.303/1311_box00.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện khoảng cách hoặc phạm vi phân làn trước khi tiến vào đảo tròn vòng xuyến.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển hiệu lệnh nơi giao nhau chạy theo vòng xuyến (mã biển R.303), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện khoảng cách hoặc phạm vi phân làn trước khi tiến vào đảo tròn vòng xuyến.",
     "primary_article_id": "QCVN41_D.3",
     "relevant_article_ids": [
       "QCVN41_D.3",
@@ -1552,7 +1552,7 @@
     "name_vie": "Nơi giao nhau chạy theo vòng xuyến",
     "image_path": "cropped_dataset/bien_chinh/test/R.303/1311_box00.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển bắt buộc các loại xe khi đến nút giao phải cho xe chạy vòng theo đảo an toàn ở giữa nút giao theo chiều mũi tên của biển chính và tuân thủ chỉ dẫn bổ sung trên biển phụ.",
+    "answer": "Biển hiệu lệnh nơi giao nhau chạy theo vòng xuyến (mã biển R.303): bắt buộc các loại xe khi đến nút giao phải cho xe chạy vòng theo đảo an toàn ở giữa nút giao theo chiều mũi tên của biển chính và tuân thủ chỉ dẫn bổ sung trên biển phụ.",
     "primary_article_id": "QCVN41_D.3",
     "relevant_article_ids": [
       "QCVN41_D.3",
@@ -1660,7 +1660,7 @@
     "name_vie": "Cấm dừng và đỗ xe",
     "image_path": "cropped_dataset/bien_chinh/test/P.130/2541_box00.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện phạm vi tác dụng, hướng hiệu lực (S.503), khung giờ (S.508) hoặc loại phương tiện áp dụng (S.505a).",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo cấm dừng và đỗ xe (mã biển P.130), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện phạm vi tác dụng, hướng hiệu lực (S.503), khung giờ (S.508) hoặc loại phương tiện áp dụng (S.505a).",
     "primary_article_id": "QCVN41_B.28",
     "relevant_article_ids": [
       "QCVN41_B.28",
@@ -1714,7 +1714,7 @@
     "name_vie": "Cấm dừng và đỗ xe",
     "image_path": "cropped_dataset/bien_chinh/test/P.130/2541_box00.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển quy định việc cấm các loại xe cơ giới dừng và đỗ xe ở phía đường có đặt biển theo đúng phạm vi, khung giờ hoặc đối tượng phương tiện được chỉ dẫn trên biển phụ.",
+    "answer": "Biển báo cấm dừng và đỗ xe (mã biển P.130): quy định việc cấm các loại xe cơ giới dừng và đỗ xe ở phía đường có đặt biển theo đúng phạm vi, khung giờ hoặc đối tượng phương tiện được chỉ dẫn trên biển phụ.",
     "primary_article_id": "QCVN41_B.28",
     "relevant_article_ids": [
       "QCVN41_B.28",
@@ -1822,7 +1822,7 @@
     "name_vie": "Chỗ quay xe",
     "image_path": "cropped_dataset/bien_chinh/test/I.409/0240_box00.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện khoảng cách đến điểm mở dải phân cách cho phép quay đầu xe hoặc loại xe được phép quay đầu.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển chỉ dẫn chỗ quay xe (mã biển I.409), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện khoảng cách đến điểm mở dải phân cách cho phép quay đầu xe hoặc loại xe được phép quay đầu.",
     "primary_article_id": "QCVN41_E.9",
     "relevant_article_ids": [
       "QCVN41_E.9",
@@ -1876,7 +1876,7 @@
     "name_vie": "Chỗ quay xe",
     "image_path": "cropped_dataset/bien_chinh/test/I.409/0240_box00.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển chỉ dẫn vị trí được phép quay đầu xe (nhưng không cho phép rẽ trái trừ khi có biển báo khác) theo phạm vi hoặc điều kiện phương tiện nêu trên biển phụ.",
+    "answer": "Biển chỉ dẫn chỗ quay xe (mã biển I.409): chỉ dẫn vị trí được phép quay đầu xe (nhưng không cho phép rẽ trái trừ khi có biển báo khác) theo phạm vi hoặc điều kiện phương tiện nêu trên biển phụ.",
     "primary_article_id": "QCVN41_E.9",
     "relevant_article_ids": [
       "QCVN41_E.9",
@@ -1984,7 +1984,7 @@
     "name_vie": "Biển gộp làn đường theo phương tiện",
     "image_path": "cropped_dataset/bien_chinh/test/R.415a/2611_box03.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện phạm vi đoạn đường áp dụng phân làn hoặc thời gian hiệu lực của phương án tổ chức làn đường.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển hiệu lệnh gộp làn đường theo phương tiện (mã biển R.415a), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện phạm vi đoạn đường áp dụng phân làn hoặc thời gian hiệu lực của phương án tổ chức làn đường.",
     "primary_article_id": "QCVN41_D.17",
     "relevant_article_ids": [
       "QCVN41_D.17",
@@ -2038,7 +2038,7 @@
     "name_vie": "Biển gộp làn đường theo phương tiện",
     "image_path": "cropped_dataset/bien_chinh/test/R.415a/2611_box03.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển quy định bắt buộc các loại phương tiện phải đi đúng làn đường đã được phân chia cho từng nhóm xe trên biển chính R.415a trong suốt phạm vi được chỉ dẫn trên biển phụ.",
+    "answer": "Biển hiệu lệnh gộp làn đường theo phương tiện (mã biển R.415a): quy định bắt buộc các loại phương tiện phải đi đúng làn đường đã được phân chia cho từng nhóm xe trên biển chính R.415a trong suốt phạm vi được chỉ dẫn trên biển phụ.",
     "primary_article_id": "QCVN41_D.17",
     "relevant_article_ids": [
       "QCVN41_D.17",
@@ -2146,7 +2146,7 @@
     "name_vie": "Đi chậm",
     "image_path": "cropped_dataset/bien_chinh/test/W.245a/2951_box00.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện phạm vi chiều dài đoạn đường cần đi chậm (S.501) hoặc nguyên nhân/đối tượng cần giảm tốc độ.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo nguy hiểm nhắc nhở đi chậm (mã biển W.245a), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện phạm vi chiều dài đoạn đường cần đi chậm (S.501) hoặc nguyên nhân/đối tượng cần giảm tốc độ.",
     "primary_article_id": "QCVN41_C.45",
     "relevant_article_ids": [
       "QCVN41_C.45",
@@ -2200,7 +2200,7 @@
     "name_vie": "Đi chậm",
     "image_path": "cropped_dataset/bien_chinh/test/W.245a/2951_box00.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển cảnh báo người điều khiển phương tiện phải giảm tốc độ và cho xe chạy chậm một cách an toàn trong suốt phạm vi hoặc điều kiện được thuyết minh trên biển phụ.",
+    "answer": "Biển báo nguy hiểm nhắc nhở đi chậm (mã biển W.245a): cảnh báo người điều khiển phương tiện phải giảm tốc độ và cho xe chạy chậm một cách an toàn trong suốt phạm vi hoặc điều kiện được thuyết minh trên biển phụ.",
     "primary_article_id": "QCVN41_C.45",
     "relevant_article_ids": [
       "QCVN41_C.45",
@@ -2308,7 +2308,7 @@
     "name_vie": "Cấm xe tải",
     "image_path": "cropped_dataset/bien_chinh/test/P.106a_Xe tải/3160_box01.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện giới hạn tải trọng, khung giờ cấm hoặc phạm vi áp dụng đối với phương tiện xe tải.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo cấm xe ô tô tải (mã biển P.106a), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện giới hạn tải trọng, khung giờ cấm hoặc phạm vi áp dụng đối với phương tiện xe tải.",
     "primary_article_id": "QCVN41_B.6",
     "relevant_article_ids": [
       "QCVN41_B.6",
@@ -2362,7 +2362,7 @@
     "name_vie": "Cấm xe tải",
     "image_path": "cropped_dataset/bien_chinh/test/P.106a_Xe tải/3160_box01.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển quy định cấm các loại xe ô tô tải (kể cả máy kéo và xe máy chuyên dùng, trừ xe ưu tiên) đi vào đoạn đường đặt biển theo điều kiện tải trọng hoặc phạm vi ghi trên biển phụ.",
+    "answer": "Biển báo cấm xe ô tô tải (mã biển P.106a): quy định cấm các loại xe ô tô tải (kể cả máy kéo và xe máy chuyên dùng, trừ xe ưu tiên) đi vào đoạn đường đặt biển theo điều kiện tải trọng hoặc phạm vi ghi trên biển phụ.",
     "primary_article_id": "QCVN41_B.6",
     "relevant_article_ids": [
       "QCVN41_B.6",
@@ -2470,7 +2470,7 @@
     "name_vie": "Đường bị thu hẹp về phía phải",
     "image_path": "cropped_dataset/bien_chinh/test/W.203c/0462_box00.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện khoảng cách từ vị trí đặt biển đến đoạn đường bị thu hẹp bên phải (S.502) hoặc chiều dài đoạn đường hẹp (S.501).",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo nguy hiểm đường bị thu hẹp về phía phải (mã biển W.203c), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện khoảng cách từ vị trí đặt biển đến đoạn đường bị thu hẹp bên phải (S.502) hoặc chiều dài đoạn đường hẹp (S.501).",
     "primary_article_id": "QCVN41_C.3",
     "relevant_article_ids": [
       "QCVN41_C.3",
@@ -2524,7 +2524,7 @@
     "name_vie": "Đường bị thu hẹp về phía phải",
     "image_path": "cropped_dataset/bien_chinh/test/W.203c/0462_box00.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển cảnh báo phía trước (theo khoảng cách/phạm vi trên biển phụ) phần đường xe chạy bị thu hẹp về phía bên phải; người lái xe phải giảm tốc độ, chú ý chướng ngại vật và nhường đường khi qua đoạn hẹp.",
+    "answer": "Biển báo nguy hiểm đường bị thu hẹp về phía phải (mã biển W.203c): cảnh báo phía trước (theo khoảng cách/phạm vi trên biển phụ) phần đường xe chạy bị thu hẹp về phía bên phải; người lái xe phải giảm tốc độ, chú ý chướng ngại vật và nhường đường khi qua đoạn hẹp.",
     "primary_article_id": "QCVN41_C.3",
     "relevant_article_ids": [
       "QCVN41_C.3",
@@ -2632,7 +2632,7 @@
     "name_vie": "Giới hạn chiều cao",
     "image_path": "cropped_dataset/bien_chinh/test/P.117_/0593_box00.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thuyết minh chiều cao an toàn tĩnh không (S.509a) hoặc khoảng cách đến công trình giới hạn chiều cao (cầu vượt, cổng chào, hầm).",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo cấm hạn chế chiều cao của xe (mã biển P.117), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thuyết minh chiều cao an toàn tĩnh không (S.509a) hoặc khoảng cách đến công trình giới hạn chiều cao (cầu vượt, cổng chào, hầm).",
     "primary_article_id": "QCVN41_B.17",
     "relevant_article_ids": [
       "QCVN41_B.17",
@@ -2686,7 +2686,7 @@
     "name_vie": "Giới hạn chiều cao",
     "image_path": "cropped_dataset/bien_chinh/test/P.117_/0593_box00.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển quy định cấm tất cả các loại xe (cơ giới và thô sơ, kể cả xe ưu tiên) có tổng chiều cao tính từ mặt đường lên điểm cao nhất của xe và hàng hóa vượt quá trị số ghi trên biển đi qua khu vực công trình được chỉ dẫn.",
+    "answer": "Biển báo cấm hạn chế chiều cao của xe (mã biển P.117): quy định cấm tất cả các loại xe (cơ giới và thô sơ, kể cả xe ưu tiên) có tổng chiều cao tính từ mặt đường lên điểm cao nhất của xe và hàng hóa vượt quá trị số ghi trên biển đi qua khu vực công trình được chỉ dẫn.",
     "primary_article_id": "QCVN41_B.17",
     "relevant_article_ids": [
       "QCVN41_B.17",
@@ -2794,7 +2794,7 @@
     "name_vie": "Cấm quay đầu",
     "image_path": "cropped_dataset/bien_chinh/test/P.124a_/2874_box00.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện khung giờ cấm quay đầu hoặc loại phương tiện áp dụng lệnh cấm quay đầu xe.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo cấm quay đầu xe (mã biển P.124a), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện khung giờ cấm quay đầu hoặc loại phương tiện áp dụng lệnh cấm quay đầu xe.",
     "primary_article_id": "QCVN41_B.24",
     "relevant_article_ids": [
       "QCVN41_B.24",
@@ -2848,7 +2848,7 @@
     "name_vie": "Cấm quay đầu",
     "image_path": "cropped_dataset/bien_chinh/test/P.124a_/2874_box00.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển quy định cấm các loại xe thực hiện hành vi quay đầu (theo kiểu chữ U) tại vị trí đặt biển theo phạm vi/thời gian trên biển phụ, nhưng không có giá trị cấm rẽ trái để vào đường nhánh.",
+    "answer": "Biển báo cấm quay đầu xe (mã biển P.124a): quy định cấm các loại xe thực hiện hành vi quay đầu (theo kiểu chữ U) tại vị trí đặt biển theo phạm vi/thời gian trên biển phụ, nhưng không có giá trị cấm rẽ trái để vào đường nhánh.",
     "primary_article_id": "QCVN41_B.24",
     "relevant_article_ids": [
       "QCVN41_B.24",
@@ -2956,7 +2956,7 @@
     "name_vie": "Cấm ô tô khách và ô tô tải",
     "image_path": "cropped_dataset/bien_chinh/test/P.107/0593_box02.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện khung giờ áp dụng hoặc phạm vi tuyến đường cấm đối với xe ô tô khách và xe ô tô tải.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo cấm xe ô tô khách và xe ô tô tải (mã biển P.107), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện khung giờ áp dụng hoặc phạm vi tuyến đường cấm đối với xe ô tô khách và xe ô tô tải.",
     "primary_article_id": "QCVN41_B.7",
     "relevant_article_ids": [
       "QCVN41_B.7",
@@ -3010,7 +3010,7 @@
     "name_vie": "Cấm ô tô khách và ô tô tải",
     "image_path": "cropped_dataset/bien_chinh/test/P.107/0593_box02.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển quy định cấm cả xe ô tô chở khách và các loại xe ô tô tải (kể cả máy kéo và xe máy chuyên dùng, trừ xe ưu tiên) đi vào đoạn đường theo đúng phạm vi và điều kiện chỉ dẫn trên biển phụ.",
+    "answer": "Biển báo cấm xe ô tô khách và xe ô tô tải (mã biển P.107): quy định cấm cả xe ô tô chở khách và các loại xe ô tô tải (kể cả máy kéo và xe máy chuyên dùng, trừ xe ưu tiên) đi vào đoạn đường theo đúng phạm vi và điều kiện chỉ dẫn trên biển phụ.",
     "primary_article_id": "QCVN41_B.7",
     "relevant_article_ids": [
       "QCVN41_B.7",
@@ -3118,7 +3118,7 @@
     "name_vie": "Cấm rẽ phải và quay đầu",
     "image_path": "cropped_dataset/bien_chinh/test/P.124d/0616_box02.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện loại phương tiện hoặc khung thời gian áp dụng lệnh cấm rẽ phải và quay đầu xe.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo cấm rẽ phải và quay đầu xe (mã biển P.124d), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện loại phương tiện hoặc khung thời gian áp dụng lệnh cấm rẽ phải và quay đầu xe.",
     "primary_article_id": "QCVN41_B.24",
     "relevant_article_ids": [
       "QCVN41_B.24",
@@ -3172,7 +3172,7 @@
     "name_vie": "Cấm rẽ phải và quay đầu",
     "image_path": "cropped_dataset/bien_chinh/test/P.124d/0616_box02.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển quy định cấm các loại phương tiện đồng thời không được rẽ phải và không được quay đầu xe tại nút giao theo phạm vi và điều kiện được chỉ dẫn trên biển phụ.",
+    "answer": "Biển báo cấm rẽ phải và quay đầu xe (mã biển P.124d): quy định cấm các loại phương tiện đồng thời không được rẽ phải và không được quay đầu xe tại nút giao theo phạm vi và điều kiện được chỉ dẫn trên biển phụ.",
     "primary_article_id": "QCVN41_B.24",
     "relevant_article_ids": [
       "QCVN41_B.24",
@@ -3280,7 +3280,7 @@
     "name_vie": "Cấm ô tô",
     "image_path": "cropped_dataset/bien_chinh/test/P.103a/0660_box01.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện hướng tác dụng (S.503), khoảng cách (S.502) hoặc khung giờ cấm xe ô tô (S.508).",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo cấm xe ô tô (mã biển P.103a), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện hướng tác dụng (S.503), khoảng cách (S.502) hoặc khung giờ cấm xe ô tô (S.508).",
     "primary_article_id": "QCVN41_B.3",
     "relevant_article_ids": [
       "QCVN41_B.3",
@@ -3334,7 +3334,7 @@
     "name_vie": "Cấm ô tô",
     "image_path": "cropped_dataset/bien_chinh/test/P.103a/0660_box01.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển quy định cấm tất cả các loại xe cơ giới (kể cả xe máy 3 bánh có thùng, trừ xe mô tô 2 bánh, xe gắn máy và xe ưu tiên) đi vào theo điều kiện phạm vi hoặc thời gian chỉ dẫn trên biển phụ.",
+    "answer": "Biển báo cấm xe ô tô (mã biển P.103a): quy định cấm tất cả các loại xe cơ giới (kể cả xe máy 3 bánh có thùng, trừ xe mô tô 2 bánh, xe gắn máy và xe ưu tiên) đi vào theo điều kiện phạm vi hoặc thời gian chỉ dẫn trên biển phụ.",
     "primary_article_id": "QCVN41_B.3",
     "relevant_article_ids": [
       "QCVN41_B.3",
@@ -3442,7 +3442,7 @@
     "name_vie": "Đường bị thu hẹp về phía trái",
     "image_path": "cropped_dataset/bien_chinh/test/W.203b/0739_box00.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện khoảng cách đến vị trí thu hẹp (S.502) hoặc chiều dài đoạn đường bị thu hẹp bên trái (S.501).",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo nguy hiểm đường bị thu hẹp về phía trái (mã biển W.203b), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện khoảng cách đến vị trí thu hẹp (S.502) hoặc chiều dài đoạn đường bị thu hẹp bên trái (S.501).",
     "primary_article_id": "QCVN41_C.3",
     "relevant_article_ids": [
       "QCVN41_C.3",
@@ -3496,7 +3496,7 @@
     "name_vie": "Đường bị thu hẹp về phía trái",
     "image_path": "cropped_dataset/bien_chinh/test/W.203b/0739_box00.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển cảnh báo người lái xe biết phía trước (theo khoảng cách/phạm vi trên biển phụ) phần đường xe chạy bị thu hẹp về phía bên trái, cần giảm tốc độ và đi sát về phần đường an toàn.",
+    "answer": "Biển báo nguy hiểm đường bị thu hẹp về phía trái (mã biển W.203b): cảnh báo người lái xe biết phía trước (theo khoảng cách/phạm vi trên biển phụ) phần đường xe chạy bị thu hẹp về phía bên trái, cần giảm tốc độ và đi sát về phần đường an toàn.",
     "primary_article_id": "QCVN41_C.3",
     "relevant_article_ids": [
       "QCVN41_C.3",
@@ -3604,7 +3604,7 @@
     "name_vie": "Gồ giảm tốc phía trước",
     "image_path": "cropped_dataset/bien_chinh/test/W.221b/1184_box00.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện khoảng cách từ vị trí đặt biển đến gồ giảm tốc phía trước (S.502).",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo nguy hiểm đường có sóng mấp mô nhân tạo / gồ giảm tốc phía trước (mã biển W.221b), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện khoảng cách từ vị trí đặt biển đến gồ giảm tốc phía trước (S.502).",
     "primary_article_id": "QCVN41_C.21",
     "relevant_article_ids": [
       "QCVN41_C.21",
@@ -3658,7 +3658,7 @@
     "name_vie": "Gồ giảm tốc phía trước",
     "image_path": "cropped_dataset/bien_chinh/test/W.221b/1184_box00.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển cảnh báo phía trước (theo khoảng cách ghi trên biển phụ) có thiết kế gồ giảm tốc nhân tạo trên mặt đường, yêu cầu các phương tiện chủ động giảm tốc độ để đi qua an toàn.",
+    "answer": "Biển báo nguy hiểm đường có sóng mấp mô nhân tạo / gồ giảm tốc phía trước (mã biển W.221b): cảnh báo phía trước (theo khoảng cách ghi trên biển phụ) có thiết kế gồ giảm tốc nhân tạo trên mặt đường, yêu cầu các phương tiện chủ động giảm tốc độ để đi qua an toàn.",
     "primary_article_id": "QCVN41_C.21",
     "relevant_article_ids": [
       "QCVN41_C.21",
@@ -3766,7 +3766,7 @@
     "name_vie": "Cấm xe hai và ba bánh",
     "image_path": "cropped_dataset/bien_chinh/test/P.111/0816_box00.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện làn đường áp dụng (S.504) hoặc phạm vi đoạn đường cấm xe gắn máy, xe hai và ba bánh.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo cấm xe gắn máy / xe hai và ba bánh (mã biển P.111), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện làn đường áp dụng (S.504) hoặc phạm vi đoạn đường cấm xe gắn máy, xe hai và ba bánh.",
     "primary_article_id": "QCVN41_B.11",
     "relevant_article_ids": [
       "QCVN41_B.11",
@@ -3820,7 +3820,7 @@
     "name_vie": "Cấm xe hai và ba bánh",
     "image_path": "cropped_dataset/bien_chinh/test/P.111/0816_box00.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển quy định cấm các loại xe gắn máy, xe hai và ba bánh đi vào đoạn đường hoặc làn đường được chỉ dẫn trên biển phụ.",
+    "answer": "Biển báo cấm xe gắn máy / xe hai và ba bánh (mã biển P.111): quy định cấm các loại xe gắn máy, xe hai và ba bánh đi vào đoạn đường hoặc làn đường được chỉ dẫn trên biển phụ.",
     "primary_article_id": "QCVN41_B.11",
     "relevant_article_ids": [
       "QCVN41_B.11",
@@ -3928,7 +3928,7 @@
     "name_vie": "Kiểm tra",
     "image_path": "cropped_dataset/bien_chinh/test/P.129/0809_box06.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện khoảng cách đến trạm kiểm soát hoặc loại phương tiện phải dừng lại làm thủ tục kiểm tra.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo cấm đi qua không dừng lại tại trạm kiểm tra (mã biển P.129), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện khoảng cách đến trạm kiểm soát hoặc loại phương tiện phải dừng lại làm thủ tục kiểm tra.",
     "primary_article_id": "QCVN41_B.27",
     "relevant_article_ids": [
       "QCVN41_B.27",
@@ -3982,7 +3982,7 @@
     "name_vie": "Kiểm tra",
     "image_path": "cropped_dataset/bien_chinh/test/P.129/0809_box06.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển báo hiệu nơi đặt trạm kiểm tra (hải quan, kiểm dịch, trạm kiểm soát tải trọng...); các phương tiện thuộc đối tượng trên biển phụ khi đến biển phải dừng lại để làm thủ tục kiểm tra và không được tự ý vượt qua.",
+    "answer": "Biển báo cấm đi qua không dừng lại tại trạm kiểm tra (mã biển P.129): báo hiệu nơi đặt trạm kiểm tra (hải quan, kiểm dịch, trạm kiểm soát tải trọng...); các phương tiện thuộc đối tượng trên biển phụ khi đến biển phải dừng lại để làm thủ tục kiểm tra và không được tự ý vượt qua.",
     "primary_article_id": "QCVN41_B.27",
     "relevant_article_ids": [
       "QCVN41_B.27",
@@ -4063,7 +4063,7 @@
     "name_vie": "Chỉ dành cho xe máy*",
     "image_path": "cropped_dataset/bien_phu/test/S.505a_Xe máy/1296_box01.jpg",
     "question": "Biển chính trong ảnh là biển gì?",
-    "answer": "Biển chính phía trên là biển báo cấm tốc độ tối đa cho phép (ví dụ P.127 giới hạn 40 km/h) hoặc biển báo cấm/hiệu lệnh đi kèm.",
+    "answer": "Trong ảnh là biển phụ chỉ loại xe chịu hiệu lực: Xe máy (mã biển S.505a*Xe máy), được đặt ngay bên dưới biển báo chính.",
     "primary_article_id": "QCVN41_F.5",
     "relevant_article_ids": [
       "QCVN41_F.5",
@@ -4090,7 +4090,7 @@
     "name_vie": "Chỉ dành cho xe máy*",
     "image_path": "cropped_dataset/bien_phu/test/S.505a_Xe máy/1296_box01.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ là biển số S.505a có hình biểu tượng xe mô tô (xe máy), chỉ định loại phương tiện chịu hiệu lực của biển chính là xe máy.",
+    "answer": "Biển phụ là biển số S.505a có hình biểu tượng xe mô tô (xe máy), chỉ định loại phương tiện chịu hiệu lực của biển chính là xe máy (mã biển S.505a*Xe máy).",
     "primary_article_id": "QCVN41_F.5",
     "relevant_article_ids": [
       "QCVN41_F.5",
@@ -4144,7 +4144,7 @@
     "name_vie": "Chỉ dành cho xe máy*",
     "image_path": "cropped_dataset/bien_phu/test/S.505a_Xe máy/1296_box01.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển kết hợp giữa biển chính và biển phụ S.505a (Xe máy) quy định hiệu lực của biển chính (như giới hạn tốc độ tối đa 40 km/h) chỉ áp dụng riêng đối với người điều khiển xe máy.",
+    "answer": "Biển phụ chỉ loại xe Xe máy (mã biển S.505a*Xe máy) khi kết hợp với biển chính phía trên quy định hiệu lực của biển chính chỉ áp dụng riêng đối với người điều khiển xe mô tô, xe gắn máy.",
     "primary_article_id": "QCVN41_F.5",
     "relevant_article_ids": [
       "QCVN41_F.5",
@@ -4252,7 +4252,7 @@
     "name_vie": "Chướng ngoại vật phía trước",
     "image_path": "cropped_dataset/bien_chinh/test/W.246a/1220_box00.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện khoảng cách đến vị trí chướng ngại vật hoặc phạm vi khu vực phân cách giữa đường.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo nguy hiểm chú ý chướng ngại vật phía trước – vòng tránh sang hai bên (mã biển W.246a), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện khoảng cách đến vị trí chướng ngại vật hoặc phạm vi khu vực phân cách giữa đường.",
     "primary_article_id": "QCVN41_C.46",
     "relevant_article_ids": [
       "QCVN41_C.46",
@@ -4306,7 +4306,7 @@
     "name_vie": "Chướng ngoại vật phía trước",
     "image_path": "cropped_dataset/bien_chinh/test/W.246a/1220_box00.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển cảnh báo phía trước có chướng ngại vật chắn giữa đường theo khoảng cách trên biển phụ; các phương tiện phải giảm tốc độ và được phép đi vòng tránh sang bên trái hoặc bên phải chướng ngại vật.",
+    "answer": "Biển báo nguy hiểm chú ý chướng ngại vật phía trước – vòng tránh sang hai bên (mã biển W.246a): cảnh báo phía trước có chướng ngại vật chắn giữa đường theo khoảng cách trên biển phụ; các phương tiện phải giảm tốc độ và được phép đi vòng tránh sang bên trái hoặc bên phải chướng ngại vật.",
     "primary_article_id": "QCVN41_C.46",
     "relevant_article_ids": [
       "QCVN41_C.46",
@@ -4414,7 +4414,7 @@
     "name_vie": "Trẻ em",
     "image_path": "cropped_dataset/bien_chinh/test/W.225/1096_box03.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện phạm vi chiều dài đoạn đường qua khu vực trường học, nhà trẻ, khu vui chơi (biển phụ S.501).",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo nguy hiểm đoạn đường thường có trẻ em đi ngang qua (mã biển W.225), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện phạm vi chiều dài đoạn đường qua khu vực trường học, nhà trẻ, khu vui chơi (biển phụ S.501).",
     "primary_article_id": "QCVN41_C.25",
     "relevant_article_ids": [
       "QCVN41_C.25",
@@ -4468,7 +4468,7 @@
     "name_vie": "Trẻ em",
     "image_path": "cropped_dataset/bien_chinh/test/W.225/1096_box03.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển cảnh báo đoạn đường phía trước (trong phạm vi chiều dài ghi trên biển phụ) đi qua khu vực trường học hoặc nơi có nhiều trẻ em qua lại; người lái xe phải đi chậm, thận trọng và nhường đường cho trẻ em.",
+    "answer": "Biển báo nguy hiểm đoạn đường thường có trẻ em đi ngang qua (mã biển W.225): cảnh báo đoạn đường phía trước (trong phạm vi chiều dài ghi trên biển phụ) đi qua khu vực trường học hoặc nơi có nhiều trẻ em qua lại; người lái xe phải đi chậm, thận trọng và nhường đường cho trẻ em.",
     "primary_article_id": "QCVN41_C.25",
     "relevant_article_ids": [
       "QCVN41_C.25",
@@ -4549,7 +4549,7 @@
     "name_vie": "Xe tải và xe công*",
     "image_path": "cropped_dataset/bien_phu/test/S.505a_Xe tải và công/2913_box05.jpg",
     "question": "Biển chính trong ảnh là biển gì?",
-    "answer": "Biển chính phía trên là biển báo cấm tốc độ tối đa cho phép (ví dụ P.127 giới hạn 60 km/h) hoặc biển báo giao thông chính đi kèm.",
+    "answer": "Trong ảnh là biển phụ chỉ loại xe chịu hiệu lực: Xe ô tô tải và xe sơ-mi rơ-moóc/container (mã biển S.505a*Xe tải và công), đặt bên dưới biển báo chính.",
     "primary_article_id": "QCVN41_F.5",
     "relevant_article_ids": [
       "QCVN41_F.5",
@@ -4576,7 +4576,7 @@
     "name_vie": "Xe tải và xe công*",
     "image_path": "cropped_dataset/bien_phu/test/S.505a_Xe tải và công/2913_box05.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ là biển số S.505a có hình biểu tượng xe ô tô tải và xe sơ-mi rơ-moóc (xe container).",
+    "answer": "Biển phụ là biển số S.505a có hình biểu tượng xe ô tô tải và xe sơ-mi rơ-moóc (xe container) (mã biển S.505a*Xe tải và công).",
     "primary_article_id": "QCVN41_F.5",
     "relevant_article_ids": [
       "QCVN41_F.5",
@@ -4630,7 +4630,7 @@
     "name_vie": "Xe tải và xe công*",
     "image_path": "cropped_dataset/bien_phu/test/S.505a_Xe tải và công/2913_box05.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển kết hợp giữa biển chính và biển phụ S.505a (Xe tải và công) quy định hiệu lực của biển chính (như giới hạn tốc độ tối đa hoặc quy định làn đường) chỉ áp dụng đối với xe ô tô tải và xe container.",
+    "answer": "Biển phụ chỉ loại xe Xe tải và công (mã biển S.505a*Xe tải và công) khi đặt dưới biển chính quy định hiệu lực của biển chính chỉ áp dụng đối với xe ô tô tải và xe sơ-mi rơ-moóc (container).",
     "primary_article_id": "QCVN41_F.5",
     "relevant_article_ids": [
       "QCVN41_F.5",
@@ -4738,7 +4738,7 @@
     "name_vie": "Cấm mô tô và xe máy",
     "image_path": "cropped_dataset/bien_chinh/test/P.104/1701_box00.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện làn đường áp dụng (S.504), hướng tác dụng (S.503) hoặc khung giờ cấm xe máy (S.508).",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo cấm xe máy (mã biển P.104), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện làn đường áp dụng (S.504), hướng tác dụng (S.503) hoặc khung giờ cấm xe máy (S.508).",
     "primary_article_id": "QCVN41_B.4",
     "relevant_article_ids": [
       "QCVN41_B.4",
@@ -4792,7 +4792,7 @@
     "name_vie": "Cấm mô tô và xe máy",
     "image_path": "cropped_dataset/bien_chinh/test/P.104/1701_box00.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển quy định cấm các loại xe mô tô (xe máy, trừ xe ưu tiên theo quy định) đi vào phần đường hoặc làn đường trong phạm vi/khung giờ chỉ dẫn trên biển phụ (biển không cấm người dắt xe máy).",
+    "answer": "Biển báo cấm xe máy (mã biển P.104): quy định cấm các loại xe mô tô (xe máy, trừ xe ưu tiên theo quy định) đi vào phần đường hoặc làn đường trong phạm vi/khung giờ chỉ dẫn trên biển phụ (biển không cấm người dắt xe máy).",
     "primary_article_id": "QCVN41_B.4",
     "relevant_article_ids": [
       "QCVN41_B.4",
@@ -4873,7 +4873,7 @@
     "name_vie": "Chỉ dành cho xe tải*",
     "image_path": "cropped_dataset/bien_phu/test/S.505a_Xe tải/2859_box02.jpg",
     "question": "Biển chính trong ảnh là biển gì?",
-    "answer": "Biển chính phía trên là biển báo cấm hoặc biển cảnh báo (ví dụ biển cấm rẽ phải P.123b, cấm đi thẳng và rẽ phải P.139).",
+    "answer": "Trong ảnh là biển phụ chỉ loại xe chịu hiệu lực: Xe ô tô tải (mã biển S.505a*Xe tải), đặt bên dưới biển báo chính.",
     "primary_article_id": "QCVN41_F.5",
     "relevant_article_ids": [
       "QCVN41_F.5",
@@ -4900,7 +4900,7 @@
     "name_vie": "Chỉ dành cho xe tải*",
     "image_path": "cropped_dataset/bien_phu/test/S.505a_Xe tải/2859_box02.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ là biển số S.505a có hình biểu tượng xe ô tô tải, chỉ định đối tượng áp dụng là xe tải.",
+    "answer": "Biển phụ là biển số S.505a có hình biểu tượng xe ô tô tải, chỉ định đối tượng áp dụng là xe tải (mã biển S.505a*Xe tải).",
     "primary_article_id": "QCVN41_F.5",
     "relevant_article_ids": [
       "QCVN41_F.5",
@@ -4954,7 +4954,7 @@
     "name_vie": "Chỉ dành cho xe tải*",
     "image_path": "cropped_dataset/bien_phu/test/S.505a_Xe tải/2859_box02.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển kết hợp giữa biển chính và biển phụ S.505a (Xe tải) quy định lệnh cấm/cảnh báo trên biển chính chỉ có hiệu lực đối với phương tiện xe ô tô tải, các phương tiện khác như ô tô con và xe máy vẫn lưu thông bình thường.",
+    "answer": "Biển phụ chỉ loại xe Xe tải (mã biển S.505a*Xe tải) khi kết hợp với biển chính quy định lệnh cấm hoặc hiệu lệnh trên biển chính chỉ có hiệu lực đối với phương tiện xe ô tô tải, các phương tiện khác như ô tô con và xe máy vẫn lưu thông bình thường.",
     "primary_article_id": "QCVN41_F.5",
     "relevant_article_ids": [
       "QCVN41_F.5",
@@ -5062,7 +5062,7 @@
     "name_vie": "Đường có camera giám sát",
     "image_path": "cropped_dataset/bien_chinh/test/Camera/1121_box00.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ (hoặc phần thuyết minh đi kèm) thể hiện phạm vi tuyến đường có camera giám sát tốc độ và làn đường.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển chỉ dẫn đoạn đường có lắp đặt hệ thống camera giám sát giao thông (mã biển Camera), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ (hoặc phần thuyết minh đi kèm) thể hiện phạm vi tuyến đường có camera giám sát tốc độ và làn đường.",
     "primary_article_id": "QCVN41_CAMERA",
     "relevant_article_ids": [
       "QCVN41_CAMERA",
@@ -5116,7 +5116,7 @@
     "name_vie": "Đường có camera giám sát",
     "image_path": "cropped_dataset/bien_chinh/test/Camera/1121_box00.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển thông báo cho người tham gia giao thông biết khu vực hoặc tuyến đường phía trước có hệ thống camera giám sát giao thông hoạt động để chủ động chấp hành nghiêm tốc độ, làn đường và tín hiệu đèn.",
+    "answer": "Biển chỉ dẫn đoạn đường có lắp đặt hệ thống camera giám sát giao thông (mã biển Camera): thông báo cho người tham gia giao thông biết khu vực hoặc tuyến đường phía trước có hệ thống camera giám sát giao thông hoạt động để chủ động chấp hành nghiêm tốc độ, làn đường và tín hiệu đèn.",
     "primary_article_id": "QCVN41_CAMERA",
     "relevant_article_ids": [
       "QCVN41_CAMERA",
@@ -5224,7 +5224,7 @@
     "name_vie": "Cấm rẽ phải",
     "image_path": "cropped_dataset/bien_chinh/test/P.123b/3181_box00.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện loại phương tiện chịu lệnh cấm (như biển phụ S.505a chỉ xe tải) hoặc khung giờ cấm rẽ phải.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo cấm rẽ phải (mã biển P.123b), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện loại phương tiện chịu lệnh cấm (như biển phụ S.505a chỉ xe tải) hoặc khung giờ cấm rẽ phải.",
     "primary_article_id": "QCVN41_B.21",
     "relevant_article_ids": [
       "QCVN41_B.21",
@@ -5278,7 +5278,7 @@
     "name_vie": "Cấm rẽ phải",
     "image_path": "cropped_dataset/bien_chinh/test/P.123b/3181_box00.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển quy định cấm các phương tiện (thuộc loại xe hoặc trong khung giờ được chỉ dẫn trên biển phụ) rẽ sang phía bên phải tại nút giao thông phía trước.",
+    "answer": "Biển báo cấm rẽ phải (mã biển P.123b): quy định cấm các phương tiện (thuộc loại xe hoặc trong khung giờ được chỉ dẫn trên biển phụ) rẽ sang phía bên phải tại nút giao thông phía trước.",
     "primary_article_id": "QCVN41_B.21",
     "relevant_article_ids": [
       "QCVN41_B.21",
@@ -5386,7 +5386,7 @@
     "name_vie": "Nhiều chỗ ngoặt nguy hiểm liên tiếp, chỗ đầu tiên sang phải",
     "image_path": "cropped_dataset/bien_chinh/test/W.202b/2490_box01.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện phạm vi chiều dài toàn bộ đoạn đường có nhiều khúc cua liên tiếp (biển phụ S.501).",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo nguy hiểm nhiều chỗ ngoặt nguy hiểm liên tiếp, trong đó chỗ ngoặt đầu tiên vòng sang bên phải (mã biển W.202b), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện phạm vi chiều dài toàn bộ đoạn đường có nhiều khúc cua liên tiếp (biển phụ S.501).",
     "primary_article_id": "QCVN41_C.2",
     "relevant_article_ids": [
       "QCVN41_C.2",
@@ -5440,7 +5440,7 @@
     "name_vie": "Nhiều chỗ ngoặt nguy hiểm liên tiếp, chỗ đầu tiên sang phải",
     "image_path": "cropped_dataset/bien_chinh/test/W.202b/2490_box01.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển cảnh báo sắp đến đoạn đường có từ hai chỗ ngoặt nguy hiểm liên tiếp trở lên (khúc cua đầu tiên vòng sang phải) kéo dài theo phạm vi trên biển phụ; các xe phải giảm tốc độ và giữ khoảng cách an toàn.",
+    "answer": "Biển báo nguy hiểm nhiều chỗ ngoặt nguy hiểm liên tiếp, trong đó chỗ ngoặt đầu tiên vòng sang bên phải (mã biển W.202b): cảnh báo sắp đến đoạn đường có từ hai chỗ ngoặt nguy hiểm liên tiếp trở lên (khúc cua đầu tiên vòng sang phải) kéo dài theo phạm vi trên biển phụ; các xe phải giảm tốc độ và giữ khoảng cách an toàn.",
     "primary_article_id": "QCVN41_C.2",
     "relevant_article_ids": [
       "QCVN41_C.2",
@@ -5519,7 +5519,7 @@
     "canonical_sign_code": "P.108a",
     "sign_type": "bien_chinh",
     "name_vie": "Cấm xe sơ-mi rơ-moóc",
-    "image_path": "cropped_dataset/bien_chinh/test/P.108a/1855_box00.jpg",
+    "image_path": "cropped_dataset/bien_chinh/test/P.108a/0698_box01.jpg",
     "question": "Biển chính trong ảnh là biển gì?",
     "answer": "Biển báo cấm xe sơ-mi rơ-moóc và các xe kéo rơ-moóc (mã biển P.108a).",
     "primary_article_id": "QCVN41_B.8A",
@@ -5546,9 +5546,9 @@
     "canonical_sign_code": "P.108a",
     "sign_type": "bien_chinh",
     "name_vie": "Cấm xe sơ-mi rơ-moóc",
-    "image_path": "cropped_dataset/bien_chinh/test/P.108a/1855_box00.jpg",
+    "image_path": "cropped_dataset/bien_chinh/test/P.108a/0698_box01.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện khung giờ cấm lưu thông hoặc hướng đường/phạm vi áp dụng lệnh cấm xe sơ-mi rơ-moóc.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo cấm xe sơ-mi rơ-moóc và các xe kéo rơ-moóc (mã biển P.108a), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện khung giờ cấm lưu thông hoặc hướng đường/phạm vi áp dụng lệnh cấm xe sơ-mi rơ-moóc.",
     "primary_article_id": "QCVN41_B.8A",
     "relevant_article_ids": [
       "QCVN41_B.8A",
@@ -5573,7 +5573,7 @@
     "canonical_sign_code": "P.108a",
     "sign_type": "bien_chinh",
     "name_vie": "Cấm xe sơ-mi rơ-moóc",
-    "image_path": "cropped_dataset/bien_chinh/test/P.108a/1855_box00.jpg",
+    "image_path": "cropped_dataset/bien_chinh/test/P.108a/0698_box01.jpg",
     "question": "Biển phụ bổ sung ý nghĩa gì cho biển chính?",
     "answer": "Biển phụ bổ sung thông tin về thời gian hiệu lực hoặc hướng tác dụng cụ thể cho biển cấm xe sơ-mi rơ-moóc P.108a.",
     "primary_article_id": "QCVN41_B.8A",
@@ -5600,9 +5600,9 @@
     "canonical_sign_code": "P.108a",
     "sign_type": "bien_chinh",
     "name_vie": "Cấm xe sơ-mi rơ-moóc",
-    "image_path": "cropped_dataset/bien_chinh/test/P.108a/1855_box00.jpg",
+    "image_path": "cropped_dataset/bien_chinh/test/P.108a/0698_box01.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển quy định cấm các loại xe ô tô sơ-mi rơ-moóc và các loại xe kéo rơ-moóc (trừ xe ưu tiên theo quy định) đi vào đoạn đường theo đúng phạm vi hoặc khung giờ chỉ dẫn trên biển phụ.",
+    "answer": "Biển báo cấm xe sơ-mi rơ-moóc và các xe kéo rơ-moóc (mã biển P.108a): quy định cấm các loại xe ô tô sơ-mi rơ-moóc và các loại xe kéo rơ-moóc (trừ xe ưu tiên theo quy định) đi vào đoạn đường theo đúng phạm vi hoặc khung giờ chỉ dẫn trên biển phụ.",
     "primary_article_id": "QCVN41_B.8A",
     "relevant_article_ids": [
       "QCVN41_B.8A",
@@ -5627,7 +5627,7 @@
     "canonical_sign_code": "P.108a",
     "sign_type": "bien_chinh",
     "name_vie": "Cấm xe sơ-mi rơ-moóc",
-    "image_path": "cropped_dataset/bien_chinh/test/P.108a/1855_box00.jpg",
+    "image_path": "cropped_dataset/bien_chinh/test/P.108a/0698_box01.jpg",
     "question": "Khi gặp biển P.108a, xe đầu kéo kéo sơ-mi rơ-moóc (xe container) và xe kéo rơ-moóc có được phép đi vào không?",
     "answer": "Không. Theo mục B.8a Phụ lục B QCVN 41:2024/BGTVT, biển P.108a cấm tất cả các loại xe sơ-mi rơ-moóc và các xe kéo rơ-moóc đi vào (trừ xe ưu tiên).",
     "primary_article_id": "QCVN41_B.8A",
@@ -5654,7 +5654,7 @@
     "canonical_sign_code": "P.108a",
     "sign_type": "bien_chinh",
     "name_vie": "Cấm xe sơ-mi rơ-moóc",
-    "image_path": "cropped_dataset/bien_chinh/test/P.108a/1855_box00.jpg",
+    "image_path": "cropped_dataset/bien_chinh/test/P.108a/0698_box01.jpg",
     "question": "Khi gặp biển cấm xe sơ-mi rơ-moóc (P.108a), xe ô tô con, xe máy và xe tải thông thường (không kéo rơ-moóc) có được phép đi vào không?",
     "answer": "Có. Biển P.108a chỉ cấm xe sơ-mi rơ-moóc và xe kéo rơ-moóc; các loại xe ô tô con, xe khách, xe tải đơn và xe máy vẫn được phép lưu thông bình thường.",
     "primary_article_id": "QCVN41_B.8A",
@@ -5710,7 +5710,7 @@
     "name_vie": "Cấm rẽ trái và phải",
     "image_path": "cropped_dataset/bien_chinh/test/P.137/2859_box01.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện loại phương tiện chịu hiệu lực cấm (như biển S.505a xe tải) hoặc khung thời gian áp dụng.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo cấm rẽ trái và cấm rẽ phải (mã biển P.137), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện loại phương tiện chịu hiệu lực cấm (như biển S.505a xe tải) hoặc khung thời gian áp dụng.",
     "primary_article_id": "QCVN41_B.35",
     "relevant_article_ids": [
       "QCVN41_B.35",
@@ -5764,7 +5764,7 @@
     "name_vie": "Cấm rẽ trái và phải",
     "image_path": "cropped_dataset/bien_chinh/test/P.137/2859_box01.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển quy định các phương tiện (thuộc đối tượng hoặc khung giờ ghi trên biển phụ) khi qua nút giao bị cấm đồng thời cả hành vi rẽ trái lẫn rẽ phải, chỉ được phép đi thẳng.",
+    "answer": "Biển báo cấm rẽ trái và cấm rẽ phải (mã biển P.137): quy định các phương tiện (thuộc đối tượng hoặc khung giờ ghi trên biển phụ) khi qua nút giao bị cấm đồng thời cả hành vi rẽ trái lẫn rẽ phải, chỉ được phép đi thẳng.",
     "primary_article_id": "QCVN41_B.35",
     "relevant_article_ids": [
       "QCVN41_B.35",
@@ -5872,7 +5872,7 @@
     "name_vie": "Cấm đi thẳng và rẽ phải",
     "image_path": "cropped_dataset/bien_chinh/test/P.139/1617_box00.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện đối tượng phương tiện (ví dụ biển phụ S.505a xe tải) hoặc thời gian áp dụng tại nút giao.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo cấm đi thẳng và cấm rẽ phải (mã biển P.139), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện đối tượng phương tiện (ví dụ biển phụ S.505a xe tải) hoặc thời gian áp dụng tại nút giao.",
     "primary_article_id": "QCVN41_B.37",
     "relevant_article_ids": [
       "QCVN41_B.37",
@@ -5926,7 +5926,7 @@
     "name_vie": "Cấm đi thẳng và rẽ phải",
     "image_path": "cropped_dataset/bien_chinh/test/P.139/1617_box00.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển quy định tại nơi đường giao nhau, các phương tiện thuộc đối tượng chỉ dẫn trên biển phụ bị cấm đi thẳng và cấm rẽ phải, chỉ được phép di chuyển sang hướng bên trái.",
+    "answer": "Biển báo cấm đi thẳng và cấm rẽ phải (mã biển P.139): quy định tại nơi đường giao nhau, các phương tiện thuộc đối tượng chỉ dẫn trên biển phụ bị cấm đi thẳng và cấm rẽ phải, chỉ được phép di chuyển sang hướng bên trái.",
     "primary_article_id": "QCVN41_B.37",
     "relevant_article_ids": [
       "QCVN41_B.37",
@@ -6034,7 +6034,7 @@
     "name_vie": "Đường giao nhau (ngã ba bên trái)",
     "image_path": "cropped_dataset/bien_chinh/test/W.205b/1617_box02.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện khoảng cách đến nút giao (S.502) hoặc loại phương tiện cần đặc biệt chú ý khi qua nút giao (S.505a).",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo nguy hiểm đường giao nhau cùng mức của các đường đồng cấp dạng ngã ba bên trái (mã biển W.205b), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện khoảng cách đến nút giao (S.502) hoặc loại phương tiện cần đặc biệt chú ý khi qua nút giao (S.505a).",
     "primary_article_id": "QCVN41_C.5",
     "relevant_article_ids": [
       "QCVN41_C.5",
@@ -6088,7 +6088,7 @@
     "name_vie": "Đường giao nhau (ngã ba bên trái)",
     "image_path": "cropped_dataset/bien_chinh/test/W.205b/1617_box02.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển cảnh báo sắp đến ngã ba giao nhau cùng mức với đường đồng cấp từ phía bên trái theo phạm vi/đối tượng chỉ dẫn trên biển phụ, yêu cầu người lái xe giảm tốc độ và chú ý quan sát nhường đường.",
+    "answer": "Biển báo nguy hiểm đường giao nhau cùng mức của các đường đồng cấp dạng ngã ba bên trái (mã biển W.205b): cảnh báo sắp đến ngã ba giao nhau cùng mức với đường đồng cấp từ phía bên trái theo phạm vi/đối tượng chỉ dẫn trên biển phụ, yêu cầu người lái xe giảm tốc độ và chú ý quan sát nhường đường.",
     "primary_article_id": "QCVN41_C.5",
     "relevant_article_ids": [
       "QCVN41_C.5",
@@ -6196,7 +6196,7 @@
     "name_vie": "Giới hạn tốc độ (50km/h)",
     "image_path": "cropped_dataset/bien_chinh/test/P.127_50/3049_box02.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện loại phương tiện áp dụng (S.505a), làn đường (S.504) hoặc khung giờ giới hạn tốc độ 50 km/h.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo cấm tốc độ tối đa cho phép là 50 km/h (mã biển P.127*50), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện loại phương tiện áp dụng (S.505a), làn đường (S.504) hoặc khung giờ giới hạn tốc độ 50 km/h.",
     "primary_article_id": "QCVN41_B.25",
     "relevant_article_ids": [
       "QCVN41_B.25",
@@ -6250,7 +6250,7 @@
     "name_vie": "Giới hạn tốc độ (50km/h)",
     "image_path": "cropped_dataset/bien_chinh/test/P.127_50/3049_box02.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển quy định cấm các phương tiện (thuộc đối tượng hoặc làn đường chỉ dẫn trên biển phụ) chạy với tốc độ vượt quá 50 km/h trên đoạn đường tính từ vị trí đặt biển (trừ các xe được ưu tiên theo quy định).",
+    "answer": "Biển báo cấm tốc độ tối đa cho phép là 50 km/h (mã biển P.127*50): quy định cấm các phương tiện (thuộc đối tượng hoặc làn đường chỉ dẫn trên biển phụ) chạy với tốc độ vượt quá 50 km/h trên đoạn đường tính từ vị trí đặt biển (trừ các xe được ưu tiên theo quy định).",
     "primary_article_id": "QCVN41_B.25",
     "relevant_article_ids": [
       "QCVN41_B.25",
@@ -6358,7 +6358,7 @@
     "name_vie": "Giới hạn tốc độ (60km/h)",
     "image_path": "cropped_dataset/bien_chinh/test/P.127_60/2610_box00.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện loại phương tiện áp dụng (ví dụ S.505a xe tải và xe container) hoặc phạm vi làn đường giới hạn 60 km/h.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo cấm tốc độ tối đa cho phép là 60 km/h (mã biển P.127*60), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện loại phương tiện áp dụng (ví dụ S.505a xe tải và xe container) hoặc phạm vi làn đường giới hạn 60 km/h.",
     "primary_article_id": "QCVN41_B.25",
     "relevant_article_ids": [
       "QCVN41_B.25",
@@ -6412,7 +6412,7 @@
     "name_vie": "Giới hạn tốc độ (60km/h)",
     "image_path": "cropped_dataset/bien_chinh/test/P.127_60/2610_box00.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển quy định các phương tiện (theo nhóm xe hoặc phạm vi làn đường trên biển phụ) không được phép vận hành với tốc độ lớn hơn 60 km/h kể từ vị trí đặt biển cho đến khi có biển báo hết hạn chế tốc độ.",
+    "answer": "Biển báo cấm tốc độ tối đa cho phép là 60 km/h (mã biển P.127*60): quy định các phương tiện (theo nhóm xe hoặc phạm vi làn đường trên biển phụ) không được phép vận hành với tốc độ lớn hơn 60 km/h kể từ vị trí đặt biển cho đến khi có biển báo hết hạn chế tốc độ.",
     "primary_article_id": "QCVN41_B.25",
     "relevant_article_ids": [
       "QCVN41_B.25",
@@ -6520,7 +6520,7 @@
     "name_vie": "Giới hạn tốc độ (80km/h)",
     "image_path": "cropped_dataset/bien_chinh/test/P.127_80/2243_box01.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện làn đường áp dụng (S.504) hoặc loại phương tiện cơ giới được phép/bị giới hạn ở mức tốc độ 80 km/h.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo cấm tốc độ tối đa cho phép là 80 km/h (mã biển P.127*80), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện làn đường áp dụng (S.504) hoặc loại phương tiện cơ giới được phép/bị giới hạn ở mức tốc độ 80 km/h.",
     "primary_article_id": "QCVN41_B.25",
     "relevant_article_ids": [
       "QCVN41_B.25",
@@ -6574,7 +6574,7 @@
     "name_vie": "Giới hạn tốc độ (80km/h)",
     "image_path": "cropped_dataset/bien_chinh/test/P.127_80/2243_box01.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển quy định cấm các loại xe cơ giới (trên làn đường hoặc thuộc nhóm phương tiện chỉ dẫn ở biển phụ, trừ xe ưu tiên) chạy vượt quá tốc độ tối đa 80 km/h trên tuyến đường.",
+    "answer": "Biển báo cấm tốc độ tối đa cho phép là 80 km/h (mã biển P.127*80): quy định cấm các loại xe cơ giới (trên làn đường hoặc thuộc nhóm phương tiện chỉ dẫn ở biển phụ, trừ xe ưu tiên) chạy vượt quá tốc độ tối đa 80 km/h trên tuyến đường.",
     "primary_article_id": "QCVN41_B.25",
     "relevant_article_ids": [
       "QCVN41_B.25",
@@ -6682,7 +6682,7 @@
     "name_vie": "Giới hạn tốc độ (40km/h)",
     "image_path": "cropped_dataset/bien_chinh/test/P.127_40/1296_box00.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện loại phương tiện chịu hiệu lực (ví dụ S.505a chỉ xe máy) hoặc phạm vi đoạn đường/nhánh rẽ giới hạn 40 km/h.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo cấm tốc độ tối đa cho phép là 40 km/h (mã biển P.127*40), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện loại phương tiện chịu hiệu lực (ví dụ S.505a chỉ xe máy) hoặc phạm vi đoạn đường/nhánh rẽ giới hạn 40 km/h.",
     "primary_article_id": "QCVN41_B.25",
     "relevant_article_ids": [
       "QCVN41_B.25",
@@ -6736,7 +6736,7 @@
     "name_vie": "Giới hạn tốc độ (40km/h)",
     "image_path": "cropped_dataset/bien_chinh/test/P.127_40/1296_box00.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển quy định các phương tiện thuộc đối tượng hoặc phạm vi chỉ dẫn trên biển phụ phải giảm tốc độ và không được chạy vượt quá 40 km/h khi đi qua đoạn đường này.",
+    "answer": "Biển báo cấm tốc độ tối đa cho phép là 40 km/h (mã biển P.127*40): quy định các phương tiện thuộc đối tượng hoặc phạm vi chỉ dẫn trên biển phụ phải giảm tốc độ và không được chạy vượt quá 40 km/h khi đi qua đoạn đường này.",
     "primary_article_id": "QCVN41_B.25",
     "relevant_article_ids": [
       "QCVN41_B.25",
@@ -6844,7 +6844,7 @@
     "name_vie": "Các xe chỉ được rẽ trái",
     "image_path": "cropped_dataset/bien_chinh/test/R.301e/0369_box00.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện đối tượng phương tiện hoặc phạm vi lối rẽ bắt buộc phải theo hướng rẽ trái.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển hiệu lệnh các xe chỉ được rẽ trái, đặt ở sau nơi đường giao nhau (mã biển R.301e), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện đối tượng phương tiện hoặc phạm vi lối rẽ bắt buộc phải theo hướng rẽ trái.",
     "primary_article_id": "QCVN41_D.1",
     "relevant_article_ids": [
       "QCVN41_D.1",
@@ -6898,7 +6898,7 @@
     "name_vie": "Các xe chỉ được rẽ trái",
     "image_path": "cropped_dataset/bien_chinh/test/R.301e/0369_box00.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển đặt sau ngã ba, ngã tư quy định bắt buộc các phương tiện (theo phạm vi/đối tượng trên biển phụ) chỉ được phép rẽ sang bên trái tại khu vực nút giao trước mặt (và được phép quay đầu xe).",
+    "answer": "Biển hiệu lệnh các xe chỉ được rẽ trái, đặt ở sau nơi đường giao nhau (mã biển R.301e): đặt sau ngã ba, ngã tư quy định bắt buộc các phương tiện (theo phạm vi/đối tượng trên biển phụ) chỉ được phép rẽ sang bên trái tại khu vực nút giao trước mặt (và được phép quay đầu xe).",
     "primary_article_id": "QCVN41_D.1",
     "relevant_article_ids": [
       "QCVN41_D.1",
@@ -7006,7 +7006,7 @@
     "name_vie": "Chiều cao tĩnh không thực tế",
     "image_path": "cropped_dataset/bien_chinh/test/W.239b_/0585_box06.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện khoảng cách từ vị trí đặt biển đến vị trí công trình có giới hạn chiều cao tĩnh không (cầu vượt, đường dây điện, dầm cầu).",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo nguy hiểm chiều cao tĩnh không thực tế của công trình phía trên đường (mã biển W.239b), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện khoảng cách từ vị trí đặt biển đến vị trí công trình có giới hạn chiều cao tĩnh không (cầu vượt, đường dây điện, dầm cầu).",
     "primary_article_id": "QCVN41_C.39",
     "relevant_article_ids": [
       "QCVN41_C.39",
@@ -7060,7 +7060,7 @@
     "name_vie": "Chiều cao tĩnh không thực tế",
     "image_path": "cropped_dataset/bien_chinh/test/W.239b_/0585_box06.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển cảnh báo phía trước (theo khoảng cách trên biển phụ) có công trình vượt trên đường với chiều cao tĩnh không thực tế ghi trên biển chính W.239b, giúp người lái xe phòng ngừa va chạm phần đỉnh xe vào kết cấu công trình.",
+    "answer": "Biển báo nguy hiểm chiều cao tĩnh không thực tế của công trình phía trên đường (mã biển W.239b): cảnh báo phía trước (theo khoảng cách trên biển phụ) có công trình vượt trên đường với chiều cao tĩnh không thực tế ghi trên biển chính W.239b, giúp người lái xe phòng ngừa va chạm phần đỉnh xe vào kết cấu công trình.",
     "primary_article_id": "QCVN41_C.39",
     "relevant_article_ids": [
       "QCVN41_C.39",
@@ -7168,7 +7168,7 @@
     "name_vie": "Nguy hiểm khác",
     "image_path": "cropped_dataset/bien_chinh/test/W.233/0670_box02.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ bắt buộc đi kèm để thuyết minh cụ thể tính chất nguy hiểm (như S.510a đường trơn băng tuyết, S.510b chú ý đường sắt) hoặc phạm vi đoạn đường nguy hiểm (S.501).",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo nguy hiểm khác (mã biển W.233), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ bắt buộc đi kèm để thuyết minh cụ thể tính chất nguy hiểm (như S.510a đường trơn băng tuyết, S.510b chú ý đường sắt) hoặc phạm vi đoạn đường nguy hiểm (S.501).",
     "primary_article_id": "QCVN41_C.33",
     "relevant_article_ids": [
       "QCVN41_C.33",
@@ -7222,7 +7222,7 @@
     "name_vie": "Nguy hiểm khác",
     "image_path": "cropped_dataset/bien_chinh/test/W.233/0670_box02.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển cảnh báo trên đoạn đường phía trước có mối nguy hiểm đặc thù được thuyết minh cụ thể trên biển phụ; người điều khiển phương tiện phải giảm tốc độ và đặc biệt chú ý quan sát để đảm bảo an toàn.",
+    "answer": "Biển báo nguy hiểm khác (mã biển W.233): cảnh báo trên đoạn đường phía trước có mối nguy hiểm đặc thù được thuyết minh cụ thể trên biển phụ; người điều khiển phương tiện phải giảm tốc độ và đặc biệt chú ý quan sát để đảm bảo an toàn.",
     "primary_article_id": "QCVN41_C.33",
     "relevant_article_ids": [
       "QCVN41_C.33",
@@ -7330,7 +7330,7 @@
     "name_vie": "Đường một chiều",
     "image_path": "cropped_dataset/bien_chinh/test/I.407a/2470_box01.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện loại phương tiện áp dụng hoặc phạm vi phần đường tổ chức lưu thông một chiều.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển chỉ dẫn đường một chiều theo hướng đi thẳng (mã biển I.407a), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện loại phương tiện áp dụng hoặc phạm vi phần đường tổ chức lưu thông một chiều.",
     "primary_article_id": "QCVN41_E.7",
     "relevant_article_ids": [
       "QCVN41_E.7",
@@ -7384,7 +7384,7 @@
     "name_vie": "Đường một chiều",
     "image_path": "cropped_dataset/bien_chinh/test/I.407a/2470_box01.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển chỉ dẫn đoạn đường phía trước (đặt sau nơi giao nhau) là đường một chiều theo phạm vi trên biển phụ; các phương tiện chỉ được phép đi theo chiều mũi tên chỉ dẫn và không được quay đầu đi ngược lại.",
+    "answer": "Biển chỉ dẫn đường một chiều theo hướng đi thẳng (mã biển I.407a): chỉ dẫn đoạn đường phía trước (đặt sau nơi giao nhau) là đường một chiều theo phạm vi trên biển phụ; các phương tiện chỉ được phép đi theo chiều mũi tên chỉ dẫn và không được quay đầu đi ngược lại.",
     "primary_article_id": "QCVN41_E.7",
     "relevant_article_ids": [
       "QCVN41_E.7",
@@ -7492,7 +7492,7 @@
     "name_vie": "Cấm đỗ xe",
     "image_path": "cropped_dataset/bien_chinh/test/P.131a/2611_box04.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện phạm vi hướng tác dụng (S.503), khung thời gian cấm đỗ xe (S.508) hoặc thuyết minh cấm đỗ xe (S.509b).",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo cấm đỗ xe (mã biển P.131a), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện phạm vi hướng tác dụng (S.503), khung thời gian cấm đỗ xe (S.508) hoặc thuyết minh cấm đỗ xe (S.509b).",
     "primary_article_id": "QCVN41_B.29",
     "relevant_article_ids": [
       "QCVN41_B.29",
@@ -7546,7 +7546,7 @@
     "name_vie": "Cấm đỗ xe",
     "image_path": "cropped_dataset/bien_chinh/test/P.131a/2611_box04.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển quy định cấm các loại xe cơ giới đỗ xe ở phía đường có đặt biển trong phạm vi hoặc khung giờ được chỉ dẫn trên biển phụ, nhưng cho phép xe dừng tạm thời để đón trả khách hoặc xếp dỡ hàng hóa.",
+    "answer": "Biển báo cấm đỗ xe (mã biển P.131a): quy định cấm các loại xe cơ giới đỗ xe ở phía đường có đặt biển trong phạm vi hoặc khung giờ được chỉ dẫn trên biển phụ, nhưng cho phép xe dừng tạm thời để đón trả khách hoặc xếp dỡ hàng hóa.",
     "primary_article_id": "QCVN41_B.29",
     "relevant_article_ids": [
       "QCVN41_B.29",
@@ -7654,7 +7654,7 @@
     "name_vie": "Cấm ô tô quay đầu xe (được rẽ trái)",
     "image_path": "cropped_dataset/bien_chinh/test/P.124b1/3189_box00.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện khung giờ cấm quay đầu hoặc phạm vi nút giao áp dụng đối với xe ô tô.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo cấm xe ô tô quay đầu xe (mã biển P.124b / P.124b1), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện khung giờ cấm quay đầu hoặc phạm vi nút giao áp dụng đối với xe ô tô.",
     "primary_article_id": "QCVN41_B.24",
     "relevant_article_ids": [
       "QCVN41_B.24",
@@ -7708,7 +7708,7 @@
     "name_vie": "Cấm ô tô quay đầu xe (được rẽ trái)",
     "image_path": "cropped_dataset/bien_chinh/test/P.124b1/3189_box00.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển quy định cấm các loại xe ô tô (và xe máy 3 bánh, trừ xe mô tô 2 bánh, xe gắn máy và xe ưu tiên) quay đầu xe theo kiểu chữ U trong khung giờ/phạm vi trên biển phụ, nhưng vẫn được phép rẽ trái.",
+    "answer": "Biển báo cấm xe ô tô quay đầu xe (mã biển P.124b / P.124b1): quy định cấm các loại xe ô tô (và xe máy 3 bánh, trừ xe mô tô 2 bánh, xe gắn máy và xe ưu tiên) quay đầu xe theo kiểu chữ U trong khung giờ/phạm vi trên biển phụ, nhưng vẫn được phép rẽ trái.",
     "primary_article_id": "QCVN41_B.24",
     "relevant_article_ids": [
       "QCVN41_B.24",
@@ -7816,7 +7816,7 @@
     "name_vie": "Giao nhau với đường sắt có rào chắn",
     "image_path": "cropped_dataset/bien_chinh/test/W.210/3123_box00.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện khoảng cách từ vị trí đặt biển đến điểm giao cắt đường sắt có rào chắn (S.502) hoặc thuyết minh chú ý đường sắt (S.510b).",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo nguy hiểm nơi giao nhau với đường sắt có rào chắn (mã biển W.210), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện khoảng cách từ vị trí đặt biển đến điểm giao cắt đường sắt có rào chắn (S.502) hoặc thuyết minh chú ý đường sắt (S.510b).",
     "primary_article_id": "QCVN41_C.10",
     "relevant_article_ids": [
       "QCVN41_C.10",
@@ -7870,7 +7870,7 @@
     "name_vie": "Giao nhau với đường sắt có rào chắn",
     "image_path": "cropped_dataset/bien_chinh/test/W.210/3123_box00.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển cảnh báo phía trước (theo khoảng cách chỉ dẫn trên biển phụ) là nơi đường bộ giao nhau cùng mức với đường sắt có lắp đặt rào chắn và nhân viên gác chắn; các xe phải giảm tốc độ, tuân thủ hiệu lệnh đèn/chuông và rào chắn.",
+    "answer": "Biển báo nguy hiểm nơi giao nhau với đường sắt có rào chắn (mã biển W.210): cảnh báo phía trước (theo khoảng cách chỉ dẫn trên biển phụ) là nơi đường bộ giao nhau cùng mức với đường sắt có lắp đặt rào chắn và nhân viên gác chắn; các xe phải giảm tốc độ, tuân thủ hiệu lệnh đèn/chuông và rào chắn.",
     "primary_article_id": "QCVN41_C.10",
     "relevant_article_ids": [
       "QCVN41_C.10",
@@ -7978,7 +7978,7 @@
     "name_vie": "Cấm rẽ trái và quay đầu xe",
     "image_path": "cropped_dataset/bien_chinh/test/P.124c/0347_box00.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện loại phương tiện hoặc khung thời gian áp dụng lệnh cấm rẽ trái và quay đầu xe.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo cấm rẽ trái và cấm quay đầu xe (mã biển P.124c), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện loại phương tiện hoặc khung thời gian áp dụng lệnh cấm rẽ trái và quay đầu xe.",
     "primary_article_id": "QCVN41_B.24",
     "relevant_article_ids": [
       "QCVN41_B.24",
@@ -8032,7 +8032,7 @@
     "name_vie": "Cấm rẽ trái và quay đầu xe",
     "image_path": "cropped_dataset/bien_chinh/test/P.124c/0347_box00.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển quy định cấm các loại phương tiện đồng thời không được rẽ trái và không được quay đầu xe tại nút giao thông theo đúng phạm vi hoặc khung giờ được chỉ dẫn trên biển phụ.",
+    "answer": "Biển báo cấm rẽ trái và cấm quay đầu xe (mã biển P.124c): quy định cấm các loại phương tiện đồng thời không được rẽ trái và không được quay đầu xe tại nút giao thông theo đúng phạm vi hoặc khung giờ được chỉ dẫn trên biển phụ.",
     "primary_article_id": "QCVN41_B.24",
     "relevant_article_ids": [
       "QCVN41_B.24",
@@ -8140,7 +8140,7 @@
     "name_vie": "Chỗ ngoặt nguy hiểm vòng bên phải",
     "image_path": "cropped_dataset/bien_chinh/test/W.201b/2829_box00.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện khoảng cách đến chỗ ngoặt (S.502) hoặc phạm vi chiều dài đoạn đường cong vòng bên phải (S.501).",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo nguy hiểm chỗ ngoặt nguy hiểm vòng bên phải (mã biển W.201b), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện khoảng cách đến chỗ ngoặt (S.502) hoặc phạm vi chiều dài đoạn đường cong vòng bên phải (S.501).",
     "primary_article_id": "QCVN41_C.1",
     "relevant_article_ids": [
       "QCVN41_C.1",
@@ -8194,7 +8194,7 @@
     "name_vie": "Chỗ ngoặt nguy hiểm vòng bên phải",
     "image_path": "cropped_dataset/bien_chinh/test/W.201b/2829_box00.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển cảnh báo sắp đến chỗ ngoặt nguy hiểm vòng về phía bên phải theo khoảng cách/phạm vi trên biển phụ; người điều khiển phương tiện phải giảm tốc độ, đi đúng làn đường và không vượt xe khác.",
+    "answer": "Biển báo nguy hiểm chỗ ngoặt nguy hiểm vòng bên phải (mã biển W.201b): cảnh báo sắp đến chỗ ngoặt nguy hiểm vòng về phía bên phải theo khoảng cách/phạm vi trên biển phụ; người điều khiển phương tiện phải giảm tốc độ, đi đúng làn đường và không vượt xe khác.",
     "primary_article_id": "QCVN41_C.1",
     "relevant_article_ids": [
       "QCVN41_C.1",
@@ -8302,7 +8302,7 @@
     "name_vie": "Chú ý chướng ngại vật – vòng tránh sang bên phải",
     "image_path": "cropped_dataset/bien_chinh/test/W.246c/0533_box03.jpg",
     "question": "Biển phụ có nội dung gì?",
-    "answer": "Biển phụ thể hiện khoảng cách đến chướng ngại vật hoặc phạm vi làn đường cần chuyển hướng để tránh chướng ngại vật.",
+    "answer": "Trong ảnh cắt đơn chỉ có Biển báo nguy hiểm chú ý chướng ngại vật phía trước – vòng tránh sang một bên (mã biển W.246c), không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì biển phụ thể hiện khoảng cách đến chướng ngại vật hoặc phạm vi làn đường cần chuyển hướng để tránh chướng ngại vật.",
     "primary_article_id": "QCVN41_C.46",
     "relevant_article_ids": [
       "QCVN41_C.46",
@@ -8356,7 +8356,7 @@
     "name_vie": "Chú ý chướng ngại vật – vòng tránh sang bên phải",
     "image_path": "cropped_dataset/bien_chinh/test/W.246c/0533_box03.jpg",
     "question": "Hãy giải thích ý nghĩa tổng thể của cụm biển.",
-    "answer": "Cụm biển cảnh báo phía trước có chướng ngại vật trên đường theo khoảng cách chỉ dẫn trên biển phụ, nhắc nhở các phương tiện giảm tốc độ và chủ động đi vòng tránh theo hướng vạch chéo chỉ dẫn trên biển chính.",
+    "answer": "Biển báo nguy hiểm chú ý chướng ngại vật phía trước – vòng tránh sang một bên (mã biển W.246c): cảnh báo phía trước có chướng ngại vật trên đường theo khoảng cách chỉ dẫn trên biển phụ, nhắc nhở các phương tiện giảm tốc độ và chủ động đi vòng tránh theo hướng vạch chéo chỉ dẫn trên biển chính.",
     "primary_article_id": "QCVN41_C.46",
     "relevant_article_ids": [
       "QCVN41_C.46",

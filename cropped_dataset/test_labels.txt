@@ -696,7 +696,6 @@ bien_chinh/test/P.108a/0698_box01.jpg	bien_chinh	34	31	P.108a	Cấm xe sơ-mi r�
 bien_chinh/test/I.407a/0698_box02.jpg	bien_chinh	45	42	I.407a	Đường một chiều
 bien_chinh/test/P.130/1965_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
 bien_chinh/test/P.111/1965_box01.jpg	bien_chinh	23	23	P.111	Cấm xe hai và ba bánh
-bien_chinh/test/P.106a_Xe tải/1965_box02.jpg	bien_chinh	14	14	P.106a*Xe tải	Cấm xe tải
 bien_chinh/test/P.127_60/2228_box00.jpg	bien_chinh	39	36	P.127*60	Giới hạn tốc độ (60km/h)
 bien_chinh/test/W.245a/2228_box01.jpg	bien_chinh	13	13	W.245a	Đi chậm
 bien_chinh/test/P.127_80/2228_box02.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
@@ -1339,7 +1338,7 @@ bien_chinh/test/P.127_60/2894_box08.jpg	bien_chinh	39	36	P.127*60	Giới hạn t
 bien_chinh/test/P.127_80/2894_box09.jpg	bien_chinh	40	37	P.127*80	Giới hạn tốc độ (80km/h)
 bien_phu/test/S.505a_Xe tải và công/2894_box10.jpg	bien_phu	28	1	S.505a*Xe tải và công	Xe tải và xe công*
 bien_chinh/test/P.127_40/0884_box00.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
-bien_chinh/test/P.127_40/0884_box01.jpg	bien_chinh	41	38	P.127*40	Giới hạn tốc độ (40km/h)
+bien_chinh/test/W.224/0884_box01.jpg	bien_chinh	0	0	W.224	Đường người đi bộ cắt ngang
 bien_chinh/test/P.130/1737_box00.jpg	bien_chinh	10	10	P.130	Cấm dừng và đỗ xe
 bien_chinh/test/W.245a/1635_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm
 bien_chinh/test/W.245a/2997_box00.jpg	bien_chinh	13	13	W.245a	Đi chậm

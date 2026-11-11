@@ -36,8 +36,8 @@
     "train": {
       "num_source_images": 2552,
       "images_with_boxes": 2552,
-      "total_cropped_signs": 6689,
-      "bien_chinh_crops": 6529,
+      "total_cropped_signs": 6687,
+      "bien_chinh_crops": 6527,
       "bien_phu_crops": 160,
       "skipped_boxes": 0,
       "classes_present": 52
@@ -45,8 +45,8 @@
     "test": {
       "num_source_images": 639,
       "images_with_boxes": 639,
-      "total_cropped_signs": 1645,
-      "bien_chinh_crops": 1615,
+      "total_cropped_signs": 1644,
+      "bien_chinh_crops": 1614,
       "bien_phu_crops": 30,
       "skipped_boxes": 0,
       "classes_present": 52
@@ -54,9 +54,9 @@
   },
   "groups": {
     "bien_chinh": {
-      "train_crops": 6529,
-      "test_crops": 1615,
-      "total_crops": 8144,
+      "train_crops": 6527,
+      "test_crops": 1614,
+      "total_crops": 8141,
       "num_classes": 49
     },
     "bien_phu": {
@@ -76,10 +76,10 @@
       "label_vie": "Đường người đi bộ cắt ngang",
       "label_en": "Pedestrian Crossing",
       "train_crops": 251,
-      "test_crops": 61,
-      "total_crops": 312,
+      "test_crops": 62,
+      "total_crops": 313,
       "train_source_images": 251,
-      "test_source_images": 61
+      "test_source_images": 62
     },
     {
       "class_id": 1,
@@ -243,9 +243,9 @@
       "safe_folder": "R.415a",
       "label_vie": "Biển gộp làn đường theo phương tiện",
       "label_en": "Lane Allocation",
-      "train_crops": 229,
+      "train_crops": 228,
       "test_crops": 51,
-      "total_crops": 280,
+      "total_crops": 279,
       "train_source_images": 228,
       "test_source_images": 51
     },
@@ -272,10 +272,10 @@
       "label_vie": "Cấm xe tải",
       "label_en": "No Trucks Allowed",
       "train_crops": 68,
-      "test_crops": 17,
-      "total_crops": 85,
+      "test_crops": 16,
+      "total_crops": 84,
       "train_source_images": 37,
-      "test_source_images": 10
+      "test_source_images": 9
     },
     {
       "class_id": 15,
@@ -397,10 +397,10 @@
       "safe_folder": "P.111",
       "label_vie": "Cấm xe hai và ba bánh",
       "label_en": "No Two or Three-wheeled Vehicles",
-      "train_crops": 375,
+      "train_crops": 378,
       "test_crops": 90,
-      "total_crops": 465,
-      "train_source_images": 375,
+      "total_crops": 468,
+      "train_source_images": 378,
       "test_source_images": 90
     },
     {
@@ -439,10 +439,10 @@
       "safe_folder": "W.246a",
       "label_vie": "Chướng ngoại vật phía trước",
       "label_en": "Obstacle on the Road",
-      "train_crops": 61,
+      "train_crops": 62,
       "test_crops": 19,
-      "total_crops": 80,
-      "train_source_images": 61,
+      "total_crops": 81,
+      "train_source_images": 62,
       "test_source_images": 19
     },
     {
@@ -467,10 +467,10 @@
       "safe_folder": "S.505a_Xe tải và công",
       "label_vie": "Xe tải và xe công*",
       "label_en": "Trucks and Containers",
-      "train_crops": 19,
+      "train_crops": 18,
       "test_crops": 8,
-      "total_crops": 27,
-      "train_source_images": 19,
+      "total_crops": 26,
+      "train_source_images": 18,
       "test_source_images": 8
     },
     {
@@ -495,10 +495,10 @@
       "safe_folder": "S.505a_Xe tải",
       "label_vie": "Chỉ dành cho xe tải*",
       "label_en": "Trucks Only",
-      "train_crops": 120,
+      "train_crops": 121,
       "test_crops": 18,
-      "total_crops": 138,
-      "train_source_images": 120,
+      "total_crops": 139,
+      "train_source_images": 121,
       "test_source_images": 18
     },
     {
@@ -551,10 +551,10 @@
       "safe_folder": "P.108a",
       "label_vie": "Cấm xe sơ-mi rơ-moóc",
       "label_en": "No Containers Allowed",
-      "train_crops": 67,
+      "train_crops": 63,
       "test_crops": 15,
-      "total_crops": 82,
-      "train_source_images": 67,
+      "total_crops": 78,
+      "train_source_images": 63,
       "test_source_images": 15
     },
     {
@@ -607,10 +607,10 @@
       "safe_folder": "P.127_50",
       "label_vie": "Giới hạn tốc độ (50km/h)",
       "label_en": "Speed limit (50km/h)",
-      "train_crops": 150,
+      "train_crops": 151,
       "test_crops": 39,
-      "total_crops": 189,
-      "train_source_images": 92,
+      "total_crops": 190,
+      "train_source_images": 93,
       "test_source_images": 22
     },
     {
@@ -649,10 +649,10 @@
       "safe_folder": "P.127_40",
       "label_vie": "Giới hạn tốc độ (40km/h)",
       "label_en": "Speed limit (40km/h)",
-      "train_crops": 214,
-      "test_crops": 61,
-      "total_crops": 275,
-      "train_source_images": 214,
+      "train_crops": 213,
+      "test_crops": 60,
+      "total_crops": 273,
+      "train_source_images": 213,
       "test_source_images": 60
     },
     {
@@ -705,10 +705,10 @@
       "safe_folder": "I.407a",
       "label_vie": "Đường một chiều",
       "label_en": "One-way street",
-      "train_crops": 159,
+      "train_crops": 157,
       "test_crops": 36,
-      "total_crops": 195,
-      "train_source_images": 155,
+      "total_crops": 193,
+      "train_source_images": 154,
       "test_source_images": 35
     },
     {
@@ -719,10 +719,10 @@
       "safe_folder": "P.131a",
       "label_vie": "Cấm đỗ xe",
       "label_en": "No Parking",
-      "train_crops": 352,
+      "train_crops": 353,
       "test_crops": 83,
-      "total_crops": 435,
-      "train_source_images": 341,
+      "total_crops": 436,
+      "train_source_images": 342,
       "test_source_images": 82
     },
     {

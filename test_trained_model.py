@@ -48,20 +48,32 @@ def main():
     if not safetensors_file.exists() and not bin_file.exists():
         print("\n[!] CẢNH BÁO: Không tìm thấy file trọng số 'adapter_model.safetensors' trong:")
         print(f"    -> {adapter_path}")
-        print("    Nguyên nhân: Trước đó file '.gitignore' có dòng '*.safetensors' nên khi git push từ nơi train,")
-        print("    file 'adapter_model.safetensors' (~70MB) đã bị Git bỏ qua (chỉ push 6 file json/config).")
-        print("\n    Cách khắc phục trên máy/Colab/Kaggle nơi bạn vừa train:")
-        print("      git pull origin main")
-        print("      git add -f qwen_vlm_freeform_lora_adapter/adapter_model.safetensors")
-        print("      git commit -m \"Add adapter_model.safetensors\"")
-        print("      git push origin main\n")
         return
 
     with open(VQA_DIR / "vqa_test.json", "r", encoding="utf-8") as f:
-        test_samples = json.load(f)
+        all_test_samples = json.load(f)
 
-    if args.num_samples and args.num_samples > 0:
-        test_samples = test_samples[: args.num_samples]
+    # Chọn tập mẫu đại diện đa dạng (gồm cả biển cảnh báo, biển cấm xe máy/ô tô, biển hiệu lệnh, biển phụ)
+    if args.num_samples and 0 < args.num_samples < len(all_test_samples):
+        preferred_labels = ["W.224", "P.104", "P.130", "R.301d", "S.505a*Xe máy"]
+        selected = []
+        seen_labels = set()
+        for item in all_test_samples:
+            lbl = item["dataset_label"]
+            if lbl in preferred_labels:
+                selected.append(item)
+                seen_labels.add(lbl)
+            if len(selected) >= args.num_samples:
+                break
+        if len(selected) < args.num_samples:
+            for item in all_test_samples:
+                if item not in selected:
+                    selected.append(item)
+                if len(selected) >= args.num_samples:
+                    break
+        test_samples = selected[: args.num_samples]
+    else:
+        test_samples = all_test_samples
 
     with open(VQA_DIR / "fewshot_exemplars.json", "r", encoding="utf-8") as f:
         fewshot_exemplars = json.load(f)
@@ -102,30 +114,37 @@ def main():
     with open(out_file, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
-    print("\n" + "=" * 88)
-    print(" KẾT QUẢ CHI TIẾT TRÊN TẬP TEST")
-    print("=" * 88)
-    for item in ft_summary["predictions"][:12]:
-        print(f"- [{item['id']}] Biển: {item['sign_code']} | Ảnh: {item['image_path']}")
-        print(f"  + Câu hỏi   : {item['question']}")
-        print(f"  + Đáp án    : {item['ground_truth']}")
-        print(f"  + Dự đoán   : {item['prediction']}")
-        print(f"  + Token-F1  : {item['token_f1']*100:.1f}% | ROUGE-L: {item['rouge_l']*100:.1f}%")
-        print("-" * 88)
+    print("\n" + "=" * 92)
+    print(" KẾT QUẢ DỰ ĐOÁN CHI TIẾT CỦA MODEL ĐÃ FINE-TUNE TRÊN TẬP TEST")
+    print("=" * 92)
+    zs_preds = {}
+    if "baseline_1_zeroshot" in results:
+        zs_preds = {r["vqa_id"]: r["predicted_answer"] for r in results["baseline_1_zeroshot"]["predictions"]}
 
-    print("\n" + "=" * 88)
-    print(" TỔNG HỢP ĐIỂM SỐ ĐÁNH GIÁ")
-    print("=" * 88)
+    for item in ft_summary["predictions"]:
+        print(f"- [{item['vqa_id']}] Mã biển: {item['dataset_label']} ({item['task_category']}) | Ảnh: {item['image_path']}")
+        print(f"  + Câu hỏi        : {item['question']}")
+        print(f"  + Đáp án chuẩn   : {item['gold_answer']}")
+        if item["vqa_id"] in zs_preds:
+            print(f"  + Zero-shot (B1) : {zs_preds[item['vqa_id']]}")
+        print(f"  + Fine-tuned VLM : {item['predicted_answer']}")
+        yn_info = f" | Yes/No Đúng: {item['yes_no_correct']}" if item["yes_no_correct"] is not None else ""
+        print(f"  + Điểm số        : Token-F1 = {item['token_f1']*100:.1f}% | ROUGE-L = {item['rouge_l']*100:.1f}%{yn_info}")
+        print("-" * 92)
+
+    print("\n" + "=" * 92)
+    print(" BẢNG TỔNG HỢP ĐIỂM SỐ ĐÁNH GIÁ")
+    print("=" * 92)
     for k, res in results.items():
         yn_str = f"{res['yes_no_accuracy']*100:.2f}%" if res["yes_no_accuracy"] is not None else "N/A"
         print(
-            f"{res['method_title']:<45} | "
+            f"{res['method_title']:<42} | "
             f"Token-F1: {res['overall_token_f1']*100:6.2f}% | "
             f"ROUGE-L: {res['overall_rouge_l']*100:6.2f}% | "
             f"BLEU-4: {res['overall_bleu4']*100:6.2f}% | "
             f"Yes/No Acc: {yn_str}"
         )
-    print("=" * 88)
+    print("=" * 92)
     print(f"[✓] Đã lưu toàn bộ kết quả dự đoán tại: {out_file}")
 
 

@@ -4,7 +4,7 @@
     "law_name": "Quy chuẩn kỹ thuật Quốc gia về báo hiệu đường bộ (National Technical Regulation on Traffic Signs and Signals)",
     "source_pdf": "C:/ki8/DSP/datadsp/archive/51-bgtvt-kem.pdf",
     "total_pdf_pages": 403,
-    "total_cropped_images": 8334,
+    "total_cropped_images": 8331,
     "total_dataset_classes": 52,
     "bien_chinh_classes": 49,
     "bien_phu_classes": 3,
@@ -31,8 +31,8 @@
         "train_dir": "cropped_dataset/bien_chinh/train/W.224",
         "test_dir": "cropped_dataset/bien_chinh/test/W.224",
         "train_crops_count": 251,
-        "test_crops_count": 61,
-        "total_crops_count": 312,
+        "test_crops_count": 62,
+        "total_crops_count": 313,
         "sample_train_crops": [
           "cropped_dataset/bien_chinh/train/W.224/0162_box02.jpg",
           "cropped_dataset/bien_chinh/train/W.224/0163_box02.jpg",
@@ -732,9 +732,9 @@
       "cropped_folders": {
         "train_dir": "cropped_dataset/bien_chinh/train/R.415a",
         "test_dir": "cropped_dataset/bien_chinh/test/R.415a",
-        "train_crops_count": 229,
+        "train_crops_count": 228,
         "test_crops_count": 51,
-        "total_crops_count": 280,
+        "total_crops_count": 279,
         "sample_train_crops": [
           "cropped_dataset/bien_chinh/train/R.415a/0252_box00.jpg",
           "cropped_dataset/bien_chinh/train/R.415a/0253_box00.jpg",
@@ -849,8 +849,8 @@
         "train_dir": "cropped_dataset/bien_chinh/train/P.106a_Xe tải",
         "test_dir": "cropped_dataset/bien_chinh/test/P.106a_Xe tải",
         "train_crops_count": 68,
-        "test_crops_count": 17,
-        "total_crops_count": 85,
+        "test_crops_count": 16,
+        "total_crops_count": 84,
         "sample_train_crops": [
           "cropped_dataset/bien_chinh/train/P.106a_Xe tải/0751_box06.jpg",
           "cropped_dataset/bien_chinh/train/P.106a_Xe tải/0752_box09.jpg",
@@ -861,9 +861,9 @@
         "sample_test_crops": [
           "cropped_dataset/bien_chinh/test/P.106a_Xe tải/0758_box09.jpg",
           "cropped_dataset/bien_chinh/test/P.106a_Xe tải/1329_box00.jpg",
-          "cropped_dataset/bien_chinh/test/P.106a_Xe tải/1965_box02.jpg",
           "cropped_dataset/bien_chinh/test/P.106a_Xe tải/3138_box01.jpg",
-          "cropped_dataset/bien_chinh/test/P.106a_Xe tải/3138_box02.jpg"
+          "cropped_dataset/bien_chinh/test/P.106a_Xe tải/3138_box02.jpg",
+          "cropped_dataset/bien_chinh/test/P.106a_Xe tải/3138_box03.jpg"
         ]
       },
       "pdf_template_images": [
@@ -1372,9 +1372,9 @@
       "cropped_folders": {
         "train_dir": "cropped_dataset/bien_chinh/train/P.111",
         "test_dir": "cropped_dataset/bien_chinh/test/P.111",
-        "train_crops_count": 375,
+        "train_crops_count": 378,
         "test_crops_count": 90,
-        "total_crops_count": 465,
+        "total_crops_count": 468,
         "sample_train_crops": [
           "cropped_dataset/bien_chinh/train/P.111/0751_box03.jpg",
           "cropped_dataset/bien_chinh/train/P.111/0752_box03.jpg",
@@ -1546,9 +1546,9 @@
       "cropped_folders": {
         "train_dir": "cropped_dataset/bien_chinh/train/W.246a",
         "test_dir": "cropped_dataset/bien_chinh/test/W.246a",
-        "train_crops_count": 61,
+        "train_crops_count": 62,
         "test_crops_count": 19,
-        "total_crops_count": 80,
+        "total_crops_count": 81,
         "sample_train_crops": [
           "cropped_dataset/bien_chinh/train/W.246a/0962_box01.jpg",
           "cropped_dataset/bien_chinh/train/W.246a/0963_box01.jpg",
@@ -1662,15 +1662,15 @@
       "cropped_folders": {
         "train_dir": "cropped_dataset/bien_phu/train/S.505a_Xe tải và công",
         "test_dir": "cropped_dataset/bien_phu/test/S.505a_Xe tải và công",
-        "train_crops_count": 19,
+        "train_crops_count": 18,
         "test_crops_count": 8,
-        "total_crops_count": 27,
+        "total_crops_count": 26,
         "sample_train_crops": [
-          "cropped_dataset/bien_phu/train/S.505a_Xe tải và công/1193_box02.jpg",
           "cropped_dataset/bien_phu/train/S.505a_Xe tải và công/2888_box09.jpg",
           "cropped_dataset/bien_phu/train/S.505a_Xe tải và công/2890_box10.jpg",
           "cropped_dataset/bien_phu/train/S.505a_Xe tải và công/2891_box10.jpg",
-          "cropped_dataset/bien_phu/train/S.505a_Xe tải và công/2892_box10.jpg"
+          "cropped_dataset/bien_phu/train/S.505a_Xe tải và công/2892_box10.jpg",
+          "cropped_dataset/bien_phu/train/S.505a_Xe tải và công/2893_box10.jpg"
         ],
         "sample_test_crops": [
           "cropped_dataset/bien_phu/test/S.505a_Xe tải và công/2889_box10.jpg",
@@ -1778,9 +1778,9 @@
       "cropped_folders": {
         "train_dir": "cropped_dataset/bien_phu/train/S.505a_Xe tải",
         "test_dir": "cropped_dataset/bien_phu/test/S.505a_Xe tải",
-        "train_crops_count": 120,
+        "train_crops_count": 121,
         "test_crops_count": 18,
-        "total_crops_count": 138,
+        "total_crops_count": 139,
         "sample_train_crops": [
           "cropped_dataset/bien_phu/train/S.505a_Xe tải/1153_box03.jpg",
           "cropped_dataset/bien_phu/train/S.505a_Xe tải/1155_box03.jpg",
@@ -2009,9 +2009,9 @@
       "cropped_folders": {
         "train_dir": "cropped_dataset/bien_chinh/train/P.108a",
         "test_dir": "cropped_dataset/bien_chinh/test/P.108a",
-        "train_crops_count": 67,
+        "train_crops_count": 63,
         "test_crops_count": 15,
-        "total_crops_count": 82,
+        "total_crops_count": 78,
         "sample_train_crops": [
           "cropped_dataset/bien_chinh/train/P.108a/0414_box01.jpg",
           "cropped_dataset/bien_chinh/train/P.108a/0415_box01.jpg",
@@ -2242,9 +2242,9 @@
       "cropped_folders": {
         "train_dir": "cropped_dataset/bien_chinh/train/P.127_50",
         "test_dir": "cropped_dataset/bien_chinh/test/P.127_50",
-        "train_crops_count": 150,
+        "train_crops_count": 151,
         "test_crops_count": 39,
-        "total_crops_count": 189,
+        "total_crops_count": 190,
         "sample_train_crops": [
           "cropped_dataset/bien_chinh/train/P.127_50/1539_box03.jpg",
           "cropped_dataset/bien_chinh/train/P.127_50/1540_box03.jpg",
@@ -2416,9 +2416,9 @@
       "cropped_folders": {
         "train_dir": "cropped_dataset/bien_chinh/train/P.127_40",
         "test_dir": "cropped_dataset/bien_chinh/test/P.127_40",
-        "train_crops_count": 214,
-        "test_crops_count": 61,
-        "total_crops_count": 275,
+        "train_crops_count": 213,
+        "test_crops_count": 60,
+        "total_crops_count": 273,
         "sample_train_crops": [
           "cropped_dataset/bien_chinh/train/P.127_40/0467_box00.jpg",
           "cropped_dataset/bien_chinh/train/P.127_40/0468_box00.jpg",
@@ -2641,9 +2641,9 @@
       "cropped_folders": {
         "train_dir": "cropped_dataset/bien_chinh/train/I.407a",
         "test_dir": "cropped_dataset/bien_chinh/test/I.407a",
-        "train_crops_count": 159,
+        "train_crops_count": 157,
         "test_crops_count": 36,
-        "total_crops_count": 195,
+        "total_crops_count": 193,
         "sample_train_crops": [
           "cropped_dataset/bien_chinh/train/I.407a/0691_box02.jpg",
           "cropped_dataset/bien_chinh/train/I.407a/0692_box02.jpg",
@@ -2700,9 +2700,9 @@
       "cropped_folders": {
         "train_dir": "cropped_dataset/bien_chinh/train/P.131a",
         "test_dir": "cropped_dataset/bien_chinh/test/P.131a",
-        "train_crops_count": 352,
+        "train_crops_count": 353,
         "test_crops_count": 83,
-        "total_crops_count": 435,
+        "total_crops_count": 436,
         "sample_train_crops": [
           "cropped_dataset/bien_chinh/train/P.131a/0001_box00.jpg",
           "cropped_dataset/bien_chinh/train/P.131a/0004_box00.jpg",
@@ -3044,13 +3044,13 @@
           "dataset_label": "W.224",
           "variant_detail": null,
           "train_crops": 251,
-          "test_crops": 61,
-          "total_crops": 312
+          "test_crops": 62,
+          "total_crops": 313
         }
       ],
       "total_train_crops": 251,
-      "total_test_crops": 61,
-      "total_crops": 312,
+      "total_test_crops": 62,
+      "total_crops": 313,
       "primary_article_id": "QCVN41_C.24",
       "relevant_article_ids": [
         "QCVN41_C.24",
@@ -3526,14 +3526,14 @@
           "class_id": 12,
           "dataset_label": "R.415a",
           "variant_detail": null,
-          "train_crops": 229,
+          "train_crops": 228,
           "test_crops": 51,
-          "total_crops": 280
+          "total_crops": 279
         }
       ],
-      "total_train_crops": 229,
+      "total_train_crops": 228,
       "total_test_crops": 51,
-      "total_crops": 280,
+      "total_crops": 279,
       "primary_article_id": "QCVN41_D.17",
       "relevant_article_ids": [
         "QCVN41_D.17",
@@ -3607,13 +3607,13 @@
           "dataset_label": "P.106a*Xe tải",
           "variant_detail": "Xe tải",
           "train_crops": 68,
-          "test_crops": 17,
-          "total_crops": 85
+          "test_crops": 16,
+          "total_crops": 84
         }
       ],
       "total_train_crops": 68,
-      "total_test_crops": 17,
-      "total_crops": 85,
+      "total_test_crops": 16,
+      "total_crops": 84,
       "primary_article_id": "QCVN41_B.6",
       "relevant_article_ids": [
         "QCVN41_B.6",
@@ -3970,14 +3970,14 @@
           "class_id": 23,
           "dataset_label": "P.111",
           "variant_detail": null,
-          "train_crops": 375,
+          "train_crops": 378,
           "test_crops": 90,
-          "total_crops": 465
+          "total_crops": 468
         }
       ],
-      "total_train_crops": 375,
+      "total_train_crops": 378,
       "total_test_crops": 90,
-      "total_crops": 465,
+      "total_crops": 468,
       "primary_article_id": "QCVN41_B.11",
       "relevant_article_ids": [
         "QCVN41_B.11",
@@ -4059,17 +4059,17 @@
           "class_id": 28,
           "dataset_label": "S.505a*Xe tải và công",
           "variant_detail": "Xe tải và công",
-          "train_crops": 19,
+          "train_crops": 18,
           "test_crops": 8,
-          "total_crops": 27
+          "total_crops": 26
         },
         {
           "class_id": 30,
           "dataset_label": "S.505a*Xe tải",
           "variant_detail": "Xe tải",
-          "train_crops": 120,
+          "train_crops": 121,
           "test_crops": 18,
-          "total_crops": 138
+          "total_crops": 139
         }
       ],
       "total_train_crops": 160,
@@ -4107,14 +4107,14 @@
           "class_id": 26,
           "dataset_label": "W.246a",
           "variant_detail": "Hai bên",
-          "train_crops": 61,
+          "train_crops": 62,
           "test_crops": 19,
-          "total_crops": 80
+          "total_crops": 81
         }
       ],
-      "total_train_crops": 61,
+      "total_train_crops": 62,
       "total_test_crops": 19,
-      "total_crops": 80,
+      "total_crops": 81,
       "primary_article_id": "QCVN41_C.46",
       "relevant_article_ids": [
         "QCVN41_C.46",
@@ -4348,14 +4348,14 @@
           "class_id": 34,
           "dataset_label": "P.108a",
           "variant_detail": null,
-          "train_crops": 67,
+          "train_crops": 63,
           "test_crops": 15,
-          "total_crops": 82
+          "total_crops": 78
         }
       ],
-      "total_train_crops": 67,
+      "total_train_crops": 63,
       "total_test_crops": 15,
-      "total_crops": 82,
+      "total_crops": 78,
       "primary_article_id": "QCVN41_B.8A",
       "relevant_article_ids": [
         "QCVN41_B.8A",
@@ -4509,9 +4509,9 @@
           "class_id": 38,
           "dataset_label": "P.127*50",
           "variant_detail": "50 km/h",
-          "train_crops": 150,
+          "train_crops": 151,
           "test_crops": 39,
-          "total_crops": 189
+          "total_crops": 190
         },
         {
           "class_id": 39,
@@ -4533,14 +4533,14 @@
           "class_id": 41,
           "dataset_label": "P.127*40",
           "variant_detail": "40 km/h",
-          "train_crops": 214,
-          "test_crops": 61,
-          "total_crops": 275
+          "train_crops": 213,
+          "test_crops": 60,
+          "total_crops": 273
         }
       ],
       "total_train_crops": 911,
-      "total_test_crops": 222,
-      "total_crops": 1133,
+      "total_test_crops": 221,
+      "total_crops": 1132,
       "primary_article_id": "QCVN41_B.25",
       "relevant_article_ids": [
         "QCVN41_B.25",
@@ -4694,14 +4694,14 @@
           "class_id": 45,
           "dataset_label": "I.407a",
           "variant_detail": null,
-          "train_crops": 159,
+          "train_crops": 157,
           "test_crops": 36,
-          "total_crops": 195
+          "total_crops": 193
         }
       ],
-      "total_train_crops": 159,
+      "total_train_crops": 157,
       "total_test_crops": 36,
-      "total_crops": 195,
+      "total_crops": 193,
       "primary_article_id": "QCVN41_E.7",
       "relevant_article_ids": [
         "QCVN41_E.7",
@@ -4735,14 +4735,14 @@
           "class_id": 46,
           "dataset_label": "P.131a",
           "variant_detail": null,
-          "train_crops": 352,
+          "train_crops": 353,
           "test_crops": 83,
-          "total_crops": 435
+          "total_crops": 436
         }
       ],
-      "total_train_crops": 352,
+      "total_train_crops": 353,
       "total_test_crops": 83,
-      "total_crops": 435,
+      "total_crops": 436,
       "primary_article_id": "QCVN41_B.29",
       "relevant_article_ids": [
         "QCVN41_B.29",

@@ -20,6 +20,7 @@ import json
 import sys
 from pathlib import Path
 from collections import Counter
+from PIL import Image
 
 sys.stdout.reconfigure(encoding="utf-8")
 
@@ -81,9 +82,31 @@ def main():
             if not cls_folder.exists():
                 continue
 
-            # Ưu tiên lấy các ảnh có dung lượng file lớn nhất (ảnh rõ nét nhất trong tập đó)
+            # Ưu tiên lấy các ảnh rõ nét, không bị cắt mép và đúng chuẩn tỷ lệ khung hình
             jpg_files = sorted(cls_folder.glob("*.jpg"), key=lambda p: (-p.stat().st_size, p.name))
-            selected_files = jpg_files[:max_imgs]
+            clean_candidates = []
+            for p in jpg_files:
+                stem_num = int(p.name.split("_")[0])
+                # Với P.123a (cid=7), bỏ qua chuỗi 0335..0346 (biển ghép có thêm hình xe máy bên dưới)
+                if cid == 7 and 335 <= stem_num <= 346:
+                    continue
+                # Với P.108a (cid=34), ưu tiên ảnh cắt sát biển chính (không dính biển phụ 6:00-22:00 ở 1820..1856)
+                if cid == 34 and 1820 <= stem_num <= 1856:
+                    continue
+                try:
+                    with Image.open(p) as im:
+                        w, h = im.size
+                    ratio = w / h if h > 0 else 1.0
+                    if cid != 31 and (ratio < 0.65 or ratio > 1.65):
+                        continue
+                except Exception:
+                    continue
+                clean_candidates.append(p)
+
+            if len(clean_candidates) >= max_imgs:
+                selected_files = clean_candidates[:max_imgs]
+            else:
+                selected_files = (clean_candidates + [p for p in jpg_files if p not in clean_candidates])[:max_imgs]
 
             cls_qas = qa_by_class.get(cid, {})
             primary_aid = cls_meta["primary_article_id"]

@@ -684,7 +684,6 @@ test/P.108a/0698_box01.jpg,bien_chinh,0698_box01.jpg,0698.jpg,1,34,31,P.108a,P.1
 test/I.407a/0698_box02.jpg,bien_chinh,0698_box02.jpg,0698.jpg,2,45,42,I.407a,I.407a,Đường một chiều,One-way street,349,232,385,268,36,36,0.382292,0.462963,0.0375,0.066667
 test/P.130/1965_box00.jpg,bien_chinh,1965_box00.jpg,1965.jpg,0,10,10,P.130,P.130,Cấm dừng và đỗ xe,No Stopping and No Parking,338,54,397,113,59,59,0.382468,0.15453,0.061387,0.109847
 test/P.111/1965_box01.jpg,bien_chinh,1965_box01.jpg,1965.jpg,1,23,23,P.111,P.111,Cấm xe hai và ba bánh,No Two or Three-wheeled Vehicles,339,117,400,178,61,61,0.384909,0.273301,0.063068,0.112993
-test/P.106a_Xe tải/1965_box02.jpg,bien_chinh,1965_box02.jpg,1965.jpg,2,14,14,P.106a*Xe tải,P.106a_Xe tải,Cấm xe tải,No Trucks Allowed,339,117,400,178,61,61,0.384806,0.272862,0.062949,0.11281
 test/P.127_60/2228_box00.jpg,bien_chinh,2228_box00.jpg,2228.jpg,0,39,36,P.127*60,P.127_60,Giới hạn tốc độ (60km/h),Speed limit (60km/h),394,37,435,78,41,41,0.431771,0.106481,0.042708,0.075926
 test/W.245a/2228_box01.jpg,bien_chinh,2228_box01.jpg,2228.jpg,1,13,13,W.245a,W.245a,Đi chậm,Slow Down,767,162,807,200,40,38,0.819792,0.335185,0.041667,0.07037
 test/P.127_80/2228_box02.jpg,bien_chinh,2228_box02.jpg,2228.jpg,2,40,37,P.127*80,P.127_80,Giới hạn tốc độ (80km/h),Speed limit (80km/h),340,38,382,79,42,41,0.376042,0.108333,0.04375,0.075926
@@ -1315,7 +1314,7 @@ test/P.127_50/2894_box07.jpg,bien_chinh,2894_box07.jpg,2894.jpg,7,38,35,P.127*50
 test/P.127_60/2894_box08.jpg,bien_chinh,2894_box08.jpg,2894.jpg,8,39,36,P.127*60,P.127_60,Giới hạn tốc độ (60km/h),Speed limit (60km/h),366,214,404,249,38,35,0.200521,0.214352,0.019792,0.032407
 test/P.127_80/2894_box09.jpg,bien_chinh,2894_box09.jpg,2894.jpg,9,40,37,P.127*80,P.127_80,Giới hạn tốc độ (80km/h),Speed limit (80km/h),190,198,224,237,34,39,0.107813,0.201389,0.017708,0.036111
 test/P.127_40/0884_box00.jpg,bien_chinh,0884_box00.jpg,0884.jpg,0,41,38,P.127*40,P.127_40,Giới hạn tốc độ (40km/h),Speed limit (40km/h),336,209,400,271,64,62,0.383333,0.444444,0.066667,0.114815
-test/P.127_40/0884_box01.jpg,bien_chinh,0884_box01.jpg,0884.jpg,1,41,38,P.127*40,P.127_40,Giới hạn tốc độ (40km/h),Speed limit (40km/h),86,299,109,321,23,22,0.101562,0.574074,0.023958,0.040741
+test/W.224/0884_box01.jpg,bien_chinh,0884_box01.jpg,0884.jpg,1,0,0,W.224,W.224,Đường người đi bộ cắt ngang,Pedestrian Crossing,86,299,109,321,23,22,0.101562,0.574074,0.023958,0.040741
 test/P.130/1737_box00.jpg,bien_chinh,1737_box00.jpg,1737.jpg,0,10,10,P.130,P.130,Cấm dừng và đỗ xe,No Stopping and No Parking,422,209,440,225,18,16,0.448902,0.402263,0.018942,0.030123
 test/W.245a/1635_box00.jpg,bien_chinh,1635_box00.jpg,1635.jpg,0,13,13,W.245a,W.245a,Đi chậm,Slow Down,396,287,429,323,33,36,0.429688,0.564815,0.034375,0.066667
 test/W.245a/2997_box00.jpg,bien_chinh,2997_box00.jpg,2997.jpg,0,13,13,W.245a,W.245a,Đi chậm,Slow Down,1660,386,1838,545,178,159,0.910937,0.431019,0.092708,0.147222

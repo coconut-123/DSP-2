@@ -133,7 +133,10 @@ def main():
 
     for grp in ["bien_chinh", "bien_phu"]:
         for sp in ["train", "test"]:
-            (OUTPUT_DIR / grp / sp).mkdir(parents=True, exist_ok=True)
+            target_sp_dir = OUTPUT_DIR / grp / sp
+            if target_sp_dir.exists():
+                shutil.rmtree(target_sp_dir)
+            target_sp_dir.mkdir(parents=True, exist_ok=True)
 
     splits = {
         "train": train_list,

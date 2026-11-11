@@ -103,7 +103,7 @@ train/S.505a_Xe tải/1614_box01.jpg,bien_phu,1614_box01.jpg,1614.jpg,1,30,2,S.5
 train/S.505a_Xe tải/1190_box01.jpg,bien_phu,1190_box01.jpg,1190.jpg,1,30,2,S.505a*Xe tải,S.505a_Xe tải,Chỉ dành cho xe tải*,Trucks Only,439,201,490,273,51,72,0.483854,0.438889,0.053125,0.133333
 train/S.505a_Xe tải/1561_box02.jpg,bien_phu,1561_box02.jpg,1561.jpg,2,30,2,S.505a*Xe tải,S.505a_Xe tải,Chỉ dành cho xe tải*,Trucks Only,386,264,433,299,47,35,0.426563,0.521296,0.048958,0.064815
 train/S.505a_Xe máy/1287_box00.jpg,bien_phu,1287_box00.jpg,1287.jpg,0,25,0,S.505a*Xe máy,S.505a_Xe máy,Chỉ dành cho xe máy*,Motorcycles Only,754,472,789,495,35,23,0.803646,0.89537,0.036458,0.042593
-train/S.505a_Xe tải và công/1193_box02.jpg,bien_phu,1193_box02.jpg,1193.jpg,2,28,1,S.505a*Xe tải và công,S.505a_Xe tải và công,Xe tải và xe công*,Trucks and Containers,456,178,519,271,63,93,0.507812,0.415741,0.065625,0.172222
+train/S.505a_Xe tải/1193_box02.jpg,bien_phu,1193_box02.jpg,1193.jpg,2,30,2,S.505a*Xe tải,S.505a_Xe tải,Chỉ dành cho xe tải*,Trucks Only,456,178,519,271,63,93,0.507812,0.415741,0.065625,0.172222
 train/S.505a_Xe máy/1279_box01.jpg,bien_phu,1279_box01.jpg,1279.jpg,1,25,0,S.505a*Xe máy,S.505a_Xe máy,Chỉ dành cho xe máy*,Motorcycles Only,816,449,842,467,26,18,0.863542,0.848148,0.027083,0.033333
 train/S.505a_Xe tải/2860_box02.jpg,bien_phu,2860_box02.jpg,2860.jpg,2,30,2,S.505a*Xe tải,S.505a_Xe tải,Chỉ dành cho xe tải*,Trucks Only,1603,334,1889,503,286,169,0.909375,0.3875,0.148958,0.156481
 train/S.505a_Xe tải/1185_box03.jpg,bien_phu,1185_box03.jpg,1185.jpg,3,30,2,S.505a*Xe tải,S.505a_Xe tải,Chỉ dành cho xe tải*,Trucks Only,312,215,350,271,38,56,0.344792,0.45,0.039583,0.103704

@@ -330,10 +330,10 @@ QA_SPECS_52 = [
     # 25: S.505a*Xe máy
     {
         "label": "S.505a*Xe máy",
-        "q1": "Biển chính phía trên là biển báo cấm tốc độ tối đa cho phép (ví dụ P.127 giới hạn 40 km/h) hoặc biển báo cấm/hiệu lệnh đi kèm.",
-        "q2": "Biển phụ là biển số S.505a có hình biểu tượng xe mô tô (xe máy), chỉ định loại phương tiện chịu hiệu lực của biển chính là xe máy.",
+        "q1": "Trong ảnh là biển phụ chỉ loại xe chịu hiệu lực: Xe máy (mã biển S.505a*Xe máy), được đặt ngay bên dưới biển báo chính.",
+        "q2": "Biển phụ là biển số S.505a có hình biểu tượng xe mô tô (xe máy), chỉ định loại phương tiện chịu hiệu lực của biển chính là xe máy (mã biển S.505a*Xe máy).",
         "q3": "Biển phụ S.505a (Xe máy) bổ sung ý nghĩa giới hạn đối tượng áp dụng của biển chính: quy định trên biển chính chỉ có hiệu lực đối với xe mô tô, xe gắn máy.",
-        "q4": "Cụm biển kết hợp giữa biển chính và biển phụ S.505a (Xe máy) quy định hiệu lực của biển chính (như giới hạn tốc độ tối đa 40 km/h) chỉ áp dụng riêng đối với người điều khiển xe máy.",
+        "q4": "Biển phụ chỉ loại xe Xe máy (mã biển S.505a*Xe máy) khi kết hợp với biển chính phía trên quy định hiệu lực của biển chính chỉ áp dụng riêng đối với người điều khiển xe mô tô, xe gắn máy.",
         "q5_q": "Khi dưới biển cấm hoặc biển hạn chế tốc độ có đặt biển phụ S.505a hình xe máy, xe ô tô con có bị bắt buộc phải chịu hiệu lực của biển chính đó không?",
         "q5_a": "Không. Vì biển phụ S.505a chỉ vẽ hình xe máy nên hiệu lực của biển chính phía trên chỉ áp dụng riêng cho xe máy, không áp dụng cho xe ô tô.",
         "q6_q": "Khi gặp cụm biển có biển phụ S.505a hình xe máy đặt ngay dưới biển chính, người điều khiển xe máy có bắt buộc phải chấp hành hiệu lực của biển chính không?",
@@ -366,10 +366,10 @@ QA_SPECS_52 = [
     # 28: S.505a*Xe tải và công
     {
         "label": "S.505a*Xe tải và công",
-        "q1": "Biển chính phía trên là biển báo cấm tốc độ tối đa cho phép (ví dụ P.127 giới hạn 60 km/h) hoặc biển báo giao thông chính đi kèm.",
-        "q2": "Biển phụ là biển số S.505a có hình biểu tượng xe ô tô tải và xe sơ-mi rơ-moóc (xe container).",
+        "q1": "Trong ảnh là biển phụ chỉ loại xe chịu hiệu lực: Xe ô tô tải và xe sơ-mi rơ-moóc/container (mã biển S.505a*Xe tải và công), đặt bên dưới biển báo chính.",
+        "q2": "Biển phụ là biển số S.505a có hình biểu tượng xe ô tô tải và xe sơ-mi rơ-moóc (xe container) (mã biển S.505a*Xe tải và công).",
         "q3": "Biển phụ S.505a (Xe tải và xe công) bổ sung ý nghĩa xác định đúng nhóm phương tiện phải chấp hành biển chính là xe ô tô tải và xe đầu kéo sơ-mi rơ-moóc.",
-        "q4": "Cụm biển kết hợp giữa biển chính và biển phụ S.505a (Xe tải và công) quy định hiệu lực của biển chính (như giới hạn tốc độ tối đa hoặc quy định làn đường) chỉ áp dụng đối với xe ô tô tải và xe container.",
+        "q4": "Biển phụ chỉ loại xe Xe tải và công (mã biển S.505a*Xe tải và công) khi đặt dưới biển chính quy định hiệu lực của biển chính chỉ áp dụng đối với xe ô tô tải và xe sơ-mi rơ-moóc (container).",
         "q5_q": "Khi biển chính đi kèm biển phụ S.505a (Xe tải và công), xe máy và xe ô tô con có thuộc đối tượng điều chỉnh của biển phụ này không?",
         "q5_a": "Không. Biển phụ S.505a (Xe tải và công) chỉ áp dụng cho xe ô tô tải và xe sơ-mi rơ-moóc (container), không áp dụng cho xe máy và ô tô con.",
         "q6_q": "Khi gặp cụm biển có gắn biển phụ S.505a (Xe tải và công), người điều khiển xe ô tô tải và xe đầu kéo container có bắt buộc phải tuân thủ hiệu lực của biển chính phía trên không?",
@@ -390,10 +390,10 @@ QA_SPECS_52 = [
     # 30: S.505a*Xe tải
     {
         "label": "S.505a*Xe tải",
-        "q1": "Biển chính phía trên là biển báo cấm hoặc biển cảnh báo (ví dụ biển cấm rẽ phải P.123b, cấm đi thẳng và rẽ phải P.139).",
-        "q2": "Biển phụ là biển số S.505a có hình biểu tượng xe ô tô tải, chỉ định đối tượng áp dụng là xe tải.",
+        "q1": "Trong ảnh là biển phụ chỉ loại xe chịu hiệu lực: Xe ô tô tải (mã biển S.505a*Xe tải), đặt bên dưới biển báo chính.",
+        "q2": "Biển phụ là biển số S.505a có hình biểu tượng xe ô tô tải, chỉ định đối tượng áp dụng là xe tải (mã biển S.505a*Xe tải).",
         "q3": "Biển phụ S.505a (Xe tải) bổ sung ý nghĩa thu hẹp đối tượng chịu hiệu lực của biển chính: lệnh cấm hoặc hiệu lệnh của biển chính chỉ áp dụng đối với xe ô tô tải.",
-        "q4": "Cụm biển kết hợp giữa biển chính và biển phụ S.505a (Xe tải) quy định lệnh cấm/cảnh báo trên biển chính chỉ có hiệu lực đối với phương tiện xe ô tô tải, các phương tiện khác như ô tô con và xe máy vẫn lưu thông bình thường.",
+        "q4": "Biển phụ chỉ loại xe Xe tải (mã biển S.505a*Xe tải) khi kết hợp với biển chính quy định lệnh cấm hoặc hiệu lệnh trên biển chính chỉ có hiệu lực đối với phương tiện xe ô tô tải, các phương tiện khác như ô tô con và xe máy vẫn lưu thông bình thường.",
         "q5_q": "Nếu phía dưới biển cấm rẽ phải (P.123b) có gắn biển phụ S.505a (Xe tải), xe ô tô tải có được phép rẽ phải tại nút giao đó không?",
         "q5_a": "Không. Vì biển phụ S.505a chỉ định đối tượng chịu hiệu lực là xe tải nên xe ô tô tải bị cấm rẽ phải tại nút giao này.",
         "q6_q": "Nếu phía dưới biển cấm rẽ phải (P.123b) có gắn biển phụ S.505a (Xe tải), xe ô tô con và xe máy có được phép rẽ phải bình thường không?",
@@ -669,11 +669,26 @@ def main():
         sample_imgs = cls_info.get("cropped_folders", {}).get("sample_train_crops", [])
         sample_img = sample_imgs[0] if sample_imgs else ""
 
+        sign_type = cls_info.get("sign_type", "bien_chinh")
+        q1_ans = spec["q1"]
+        q2_ans = spec["q2"]
+        q3_ans = spec["q3"]
+        q4_ans = spec["q4"]
+
+        if sign_type == "bien_chinh":
+            q1_clean = q1_ans.rstrip(".")
+            q2_body = q2_ans[0].lower() + q2_ans[1:] if q2_ans else ""
+            q2_ans = f"Trong ảnh cắt đơn chỉ có {q1_clean}, không có biển phụ đi kèm. Nếu đặt kết hợp trên thực tế thì {q2_body}"
+            if q4_ans.startswith("Cụm biển "):
+                q4_ans = f"{q1_clean}: {q4_ans[len('Cụm biển '):]}"
+            elif spec["label"].split("*")[0] not in q4_ans:
+                q4_ans = f"{q1_clean}: {q4_ans}"
+
         qa_items = [
-            ("q1", "descriptive", None, "Biển chính trong ảnh là biển gì?", spec["q1"]),
-            ("q2", "descriptive", None, "Biển phụ có nội dung gì?", spec["q2"]),
-            ("q3", "descriptive", None, "Biển phụ bổ sung ý nghĩa gì cho biển chính?", spec["q3"]),
-            ("q4", "descriptive", None, "Hãy giải thích ý nghĩa tổng thể của cụm biển.", spec["q4"]),
+            ("q1", "descriptive", None, "Biển chính trong ảnh là biển gì?", q1_ans),
+            ("q2", "descriptive", None, "Biển phụ có nội dung gì?", q2_ans),
+            ("q3", "descriptive", None, "Biển phụ bổ sung ý nghĩa gì cho biển chính?", q3_ans),
+            ("q4", "descriptive", None, "Hãy giải thích ý nghĩa tổng thể của cụm biển.", q4_ans),
             ("q5", "yes_no", "Không", spec["q5_q"], spec["q5_a"]),
             ("q6", "yes_no", "Có", spec["q6_q"], spec["q6_a"]),
         ]

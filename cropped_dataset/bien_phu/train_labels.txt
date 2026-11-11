@@ -102,7 +102,7 @@ train/S.505a_Xe tải/1614_box01.jpg	bien_phu	30	2	S.505a*Xe tải	Chỉ dành c
 train/S.505a_Xe tải/1190_box01.jpg	bien_phu	30	2	S.505a*Xe tải	Chỉ dành cho xe tải*
 train/S.505a_Xe tải/1561_box02.jpg	bien_phu	30	2	S.505a*Xe tải	Chỉ dành cho xe tải*
 train/S.505a_Xe máy/1287_box00.jpg	bien_phu	25	0	S.505a*Xe máy	Chỉ dành cho xe máy*
-train/S.505a_Xe tải và công/1193_box02.jpg	bien_phu	28	1	S.505a*Xe tải và công	Xe tải và xe công*
+train/S.505a_Xe tải/1193_box02.jpg	bien_phu	30	2	S.505a*Xe tải	Chỉ dành cho xe tải*
 train/S.505a_Xe máy/1279_box01.jpg	bien_phu	25	0	S.505a*Xe máy	Chỉ dành cho xe máy*
 train/S.505a_Xe tải/2860_box02.jpg	bien_phu	30	2	S.505a*Xe tải	Chỉ dành cho xe tải*
 train/S.505a_Xe tải/1185_box03.jpg	bien_phu	30	2	S.505a*Xe tải	Chỉ dành cho xe tải*
