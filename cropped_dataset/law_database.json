@@ -8,7 +8,7 @@
     "total_dataset_classes": 52,
     "bien_chinh_classes": 49,
     "bien_phu_classes": 3,
-    "unique_canonical_sign_codes": 47,
+    "unique_canonical_sign_codes": 52,
     "total_legal_articles_extracted": 267,
     "general_dieu_articles_count": 84,
     "appendix_sections_count": 183
@@ -1479,7 +1479,7 @@
       "sign_type": "bien_phu",
       "sign_type_name": "Biển phụ (Nhóm S)",
       "dataset_label": "S.505a*Xe máy",
-      "canonical_sign_code": "S.505a",
+      "canonical_sign_code": "S.505a*Xe máy",
       "variant_detail": "Xe máy",
       "qcvn_group_code": "S",
       "qcvn_group_name": "Biển phụ (Nhóm S)",
@@ -1506,9 +1506,7 @@
           "cropped_dataset/bien_phu/test/S.505a_Xe máy/1420_box03.jpg"
         ]
       },
-      "pdf_template_images": [
-        "data/pdf_signs/S.505a/S.505a_01.png"
-      ],
+      "pdf_template_images": [],
       "primary_article_id": "QCVN41_F.5",
       "relevant_article_ids": [
         "QCVN41_F.5",
@@ -1652,7 +1650,7 @@
       "sign_type": "bien_phu",
       "sign_type_name": "Biển phụ (Nhóm S)",
       "dataset_label": "S.505a*Xe tải và công",
-      "canonical_sign_code": "S.505a",
+      "canonical_sign_code": "S.505a*Xe tải và công",
       "variant_detail": "Xe tải và công",
       "qcvn_group_code": "S",
       "qcvn_group_name": "Biển phụ (Nhóm S)",
@@ -1680,9 +1678,7 @@
           "cropped_dataset/bien_phu/test/S.505a_Xe tải và công/2906_box05.jpg"
         ]
       },
-      "pdf_template_images": [
-        "data/pdf_signs/S.505a/S.505a_01.png"
-      ],
+      "pdf_template_images": [],
       "primary_article_id": "QCVN41_F.5",
       "relevant_article_ids": [
         "QCVN41_F.5",
@@ -1768,7 +1764,7 @@
       "sign_type": "bien_phu",
       "sign_type_name": "Biển phụ (Nhóm S)",
       "dataset_label": "S.505a*Xe tải",
-      "canonical_sign_code": "S.505a",
+      "canonical_sign_code": "S.505a*Xe tải",
       "variant_detail": "Xe tải",
       "qcvn_group_code": "S",
       "qcvn_group_name": "Biển phụ (Nhóm S)",
@@ -1796,9 +1792,7 @@
           "cropped_dataset/bien_phu/test/S.505a_Xe tải/1184_box02.jpg"
         ]
       },
-      "pdf_template_images": [
-        "data/pdf_signs/S.505a/S.505a_01.png"
-      ],
+      "pdf_template_images": [],
       "primary_article_id": "QCVN41_F.5",
       "relevant_article_ids": [
         "QCVN41_F.5",
@@ -2232,7 +2226,7 @@
       "sign_type": "bien_chinh",
       "sign_type_name": "Biển chính (Nhóm P, W, R, I)",
       "dataset_label": "P.127*50",
-      "canonical_sign_code": "P.127",
+      "canonical_sign_code": "P.127*50",
       "variant_detail": "50 km/h",
       "qcvn_group_code": "P",
       "qcvn_group_name": "Biển báo cấm (Nhóm P)",
@@ -2260,9 +2254,7 @@
           "cropped_dataset/bien_chinh/test/P.127_50/2883_box05.jpg"
         ]
       },
-      "pdf_template_images": [
-        "data/pdf_signs/P.127/P.127_01.png"
-      ],
+      "pdf_template_images": [],
       "primary_article_id": "QCVN41_B.25",
       "relevant_article_ids": [
         "QCVN41_B.25",
@@ -2290,7 +2282,7 @@
       "sign_type": "bien_chinh",
       "sign_type_name": "Biển chính (Nhóm P, W, R, I)",
       "dataset_label": "P.127*60",
-      "canonical_sign_code": "P.127",
+      "canonical_sign_code": "P.127*60",
       "variant_detail": "60 km/h",
       "qcvn_group_code": "P",
       "qcvn_group_name": "Biển báo cấm (Nhóm P)",
@@ -2318,9 +2310,7 @@
           "cropped_dataset/bien_chinh/test/P.127_60/0775_box02.jpg"
         ]
       },
-      "pdf_template_images": [
-        "data/pdf_signs/P.127/P.127_01.png"
-      ],
+      "pdf_template_images": [],
       "primary_article_id": "QCVN41_B.25",
       "relevant_article_ids": [
         "QCVN41_B.25",
@@ -2348,7 +2338,7 @@
       "sign_type": "bien_chinh",
       "sign_type_name": "Biển chính (Nhóm P, W, R, I)",
       "dataset_label": "P.127*80",
-      "canonical_sign_code": "P.127",
+      "canonical_sign_code": "P.127*80",
       "variant_detail": "80 km/h",
       "qcvn_group_code": "P",
       "qcvn_group_name": "Biển báo cấm (Nhóm P)",
@@ -2376,9 +2366,7 @@
           "cropped_dataset/bien_chinh/test/P.127_80/1912_box02.jpg"
         ]
       },
-      "pdf_template_images": [
-        "data/pdf_signs/P.127/P.127_01.png"
-      ],
+      "pdf_template_images": [],
       "primary_article_id": "QCVN41_B.25",
       "relevant_article_ids": [
         "QCVN41_B.25",
@@ -2406,7 +2394,7 @@
       "sign_type": "bien_chinh",
       "sign_type_name": "Biển chính (Nhóm P, W, R, I)",
       "dataset_label": "P.127*40",
-      "canonical_sign_code": "P.127",
+      "canonical_sign_code": "P.127*40",
       "variant_detail": "40 km/h",
       "qcvn_group_code": "P",
       "qcvn_group_name": "Biển báo cấm (Nhóm P)",
@@ -2434,9 +2422,7 @@
           "cropped_dataset/bien_chinh/test/P.127_40/0533_box02.jpg"
         ]
       },
-      "pdf_template_images": [
-        "data/pdf_signs/P.127/P.127_01.png"
-      ],
+      "pdf_template_images": [],
       "primary_article_id": "QCVN41_B.25",
       "relevant_article_ids": [
         "QCVN41_B.25",
@@ -4041,7 +4027,7 @@
       }
     },
     {
-      "canonical_sign_code": "S.505a",
+      "canonical_sign_code": "S.505a*Xe máy",
       "sign_type": "bien_phu",
       "qcvn_group_code": "S",
       "qcvn_group_name": "Biển phụ (Nhóm S)",
@@ -4054,27 +4040,11 @@
           "train_crops": 21,
           "test_crops": 4,
           "total_crops": 25
-        },
-        {
-          "class_id": 28,
-          "dataset_label": "S.505a*Xe tải và công",
-          "variant_detail": "Xe tải và công",
-          "train_crops": 18,
-          "test_crops": 8,
-          "total_crops": 26
-        },
-        {
-          "class_id": 30,
-          "dataset_label": "S.505a*Xe tải",
-          "variant_detail": "Xe tải",
-          "train_crops": 121,
-          "test_crops": 18,
-          "total_crops": 139
         }
       ],
-      "total_train_crops": 160,
-      "total_test_crops": 30,
-      "total_crops": 190,
+      "total_train_crops": 21,
+      "total_test_crops": 4,
+      "total_crops": 25,
       "primary_article_id": "QCVN41_F.5",
       "relevant_article_ids": [
         "QCVN41_F.5",
@@ -4177,6 +4147,46 @@
       }
     },
     {
+      "canonical_sign_code": "S.505a*Xe tải và công",
+      "sign_type": "bien_phu",
+      "qcvn_group_code": "S",
+      "qcvn_group_name": "Biển phụ (Nhóm S)",
+      "official_qcvn_name": "Loại xe (Biển phụ chỉ loại xe chịu hiệu lực: Xe tải và xe container)",
+      "dataset_classes": [
+        {
+          "class_id": 28,
+          "dataset_label": "S.505a*Xe tải và công",
+          "variant_detail": "Xe tải và công",
+          "train_crops": 18,
+          "test_crops": 8,
+          "total_crops": 26
+        }
+      ],
+      "total_train_crops": 18,
+      "total_test_crops": 8,
+      "total_crops": 26,
+      "primary_article_id": "QCVN41_F.5",
+      "relevant_article_ids": [
+        "QCVN41_F.5",
+        "QCVN41_Điều_11",
+        "QCVN41_Điều_15",
+        "QCVN41_Điều_41",
+        "QCVN41_Điều_42",
+        "QCVN41_Điều_44"
+      ],
+      "legal_regulation": {
+        "article_id": "QCVN41_F.5",
+        "section": "F.5",
+        "chapter_or_appendix": "Phụ lục F - Ý nghĩa và sử dụng Các biển phụ (Nhóm S)",
+        "title": "Phụ lục F - Mục F.5: Biển số S.505a \"Loại xe\"",
+        "pages_in_pdf": [
+          152
+        ],
+        "summary": "Biển số S.505a \"Loại xe\" Biển số S.505a được đặt bên dưới các Biển báo cấm và Biển hiệu lệnh hay Biển chỉ dẫn để chỉ loại xe chịu hiệu lực của Biển báo cấm, Biển hiệu lệnh hay Biển chỉ dẫn. Tùy theo loại xe chịu hiệu lực mà bố trí Hình vẽ cho phù hợp.",
+        "full_text": "Biển số S.505a \"Loại xe\" Biển số S.505a được đặt bên dưới các Biển báo cấm và Biển hiệu lệnh hay Biển chỉ dẫn để chỉ loại xe chịu hiệu lực của Biển báo cấm, Biển hiệu lệnh hay Biển chỉ dẫn. Tùy theo loại xe chịu hiệu lực mà bố trí Hình vẽ cho phù hợp. Hình F.5 - Biển số S.505a"
+      }
+    },
+    {
       "canonical_sign_code": "P.104",
       "sign_type": "bien_chinh",
       "qcvn_group_code": "P",
@@ -4214,6 +4224,46 @@
         ],
         "summary": "Biển số P.104 \"Cấm xe máy\" Để báo đường cấm các loại xe máy, trừ các xe được ưu tiên theo quy định, đặt Biển số P.104 \"Cấm xe máy\". Biển không có giá trị cấm những người dắt xe máy.",
         "full_text": "Biển số P.104 \"Cấm xe máy\" Để báo đường cấm các loại xe máy, trừ các xe được ưu tiên theo quy định, đặt Biển số P.104 \"Cấm xe máy\". Biển không có giá trị cấm những người dắt xe máy. Hình B.4 - Biển số P.104"
+      }
+    },
+    {
+      "canonical_sign_code": "S.505a*Xe tải",
+      "sign_type": "bien_phu",
+      "qcvn_group_code": "S",
+      "qcvn_group_name": "Biển phụ (Nhóm S)",
+      "official_qcvn_name": "Loại xe (Biển phụ chỉ loại xe chịu hiệu lực: Xe tải)",
+      "dataset_classes": [
+        {
+          "class_id": 30,
+          "dataset_label": "S.505a*Xe tải",
+          "variant_detail": "Xe tải",
+          "train_crops": 121,
+          "test_crops": 18,
+          "total_crops": 139
+        }
+      ],
+      "total_train_crops": 121,
+      "total_test_crops": 18,
+      "total_crops": 139,
+      "primary_article_id": "QCVN41_F.5",
+      "relevant_article_ids": [
+        "QCVN41_F.5",
+        "QCVN41_Điều_11",
+        "QCVN41_Điều_15",
+        "QCVN41_Điều_41",
+        "QCVN41_Điều_42",
+        "QCVN41_Điều_44"
+      ],
+      "legal_regulation": {
+        "article_id": "QCVN41_F.5",
+        "section": "F.5",
+        "chapter_or_appendix": "Phụ lục F - Ý nghĩa và sử dụng Các biển phụ (Nhóm S)",
+        "title": "Phụ lục F - Mục F.5: Biển số S.505a \"Loại xe\"",
+        "pages_in_pdf": [
+          152
+        ],
+        "summary": "Biển số S.505a \"Loại xe\" Biển số S.505a được đặt bên dưới các Biển báo cấm và Biển hiệu lệnh hay Biển chỉ dẫn để chỉ loại xe chịu hiệu lực của Biển báo cấm, Biển hiệu lệnh hay Biển chỉ dẫn. Tùy theo loại xe chịu hiệu lực mà bố trí Hình vẽ cho phù hợp.",
+        "full_text": "Biển số S.505a \"Loại xe\" Biển số S.505a được đặt bên dưới các Biển báo cấm và Biển hiệu lệnh hay Biển chỉ dẫn để chỉ loại xe chịu hiệu lực của Biển báo cấm, Biển hiệu lệnh hay Biển chỉ dẫn. Tùy theo loại xe chịu hiệu lực mà bố trí Hình vẽ cho phù hợp. Hình F.5 - Biển số S.505a"
       }
     },
     {
@@ -4499,7 +4549,7 @@
       }
     },
     {
-      "canonical_sign_code": "P.127",
+      "canonical_sign_code": "P.127*50",
       "sign_type": "bien_chinh",
       "qcvn_group_code": "P",
       "qcvn_group_name": "Biển báo cấm (Nhóm P)",
@@ -4512,7 +4562,39 @@
           "train_crops": 151,
           "test_crops": 39,
           "total_crops": 190
-        },
+        }
+      ],
+      "total_train_crops": 151,
+      "total_test_crops": 39,
+      "total_crops": 190,
+      "primary_article_id": "QCVN41_B.25",
+      "relevant_article_ids": [
+        "QCVN41_B.25",
+        "QCVN41_Điều_11",
+        "QCVN41_Điều_15",
+        "QCVN41_Điều_21",
+        "QCVN41_Điều_22",
+        "QCVN41_Điều_26"
+      ],
+      "legal_regulation": {
+        "article_id": "QCVN41_B.25",
+        "section": "B.25",
+        "chapter_or_appendix": "Phụ lục B - Ý nghĩa và sử dụng Biển báo cấm (Nhóm P)",
+        "title": "Phụ lục B - Mục B.25: Biển số P.125 \"Cấm vượt\"",
+        "pages_in_pdf": [
+          88
+        ],
+        "summary": "Biển số P.125 \"Cấm vượt\" a) Để báo cấm các loại xe cơ giới vượt nhau, đặt Biển số P.125 \"Cấm vượt\". b) Biển có hiệu lực cấm tất cả các loại xe cơ giới vượt nhau (kể cả xe được ưu tiên theo quy định) nhưng được phép vượt xe máy 2 bánh, xe gắn máy.",
+        "full_text": "Biển số P.125 \"Cấm vượt\" a) Để báo cấm các loại xe cơ giới vượt nhau, đặt Biển số P.125 \"Cấm vượt\". b) Biển có hiệu lực cấm tất cả các loại xe cơ giới vượt nhau (kể cả xe được ưu tiên theo quy định) nhưng được phép vượt xe máy 2 bánh, xe gắn máy. c) Biển hết hiệu lực cấm khi có Biển số P.133 \"Hết cấm vượt\" hoặc đến vị trí đặt Biển số P.135 \"Hết tất cả các lệnh cấm\" nếu đồng thời có nhiều Biển cấm khác hết tác dụng. Hình B.25 - Biển số P.125"
+      }
+    },
+    {
+      "canonical_sign_code": "P.127*60",
+      "sign_type": "bien_chinh",
+      "qcvn_group_code": "P",
+      "qcvn_group_name": "Biển báo cấm (Nhóm P)",
+      "official_qcvn_name": "Tốc độ tối đa cho phép (60 km/h)",
+      "dataset_classes": [
         {
           "class_id": 39,
           "dataset_label": "P.127*60",
@@ -4520,7 +4602,39 @@
           "train_crops": 371,
           "test_crops": 88,
           "total_crops": 459
-        },
+        }
+      ],
+      "total_train_crops": 371,
+      "total_test_crops": 88,
+      "total_crops": 459,
+      "primary_article_id": "QCVN41_B.25",
+      "relevant_article_ids": [
+        "QCVN41_B.25",
+        "QCVN41_Điều_11",
+        "QCVN41_Điều_15",
+        "QCVN41_Điều_21",
+        "QCVN41_Điều_22",
+        "QCVN41_Điều_26"
+      ],
+      "legal_regulation": {
+        "article_id": "QCVN41_B.25",
+        "section": "B.25",
+        "chapter_or_appendix": "Phụ lục B - Ý nghĩa và sử dụng Biển báo cấm (Nhóm P)",
+        "title": "Phụ lục B - Mục B.25: Biển số P.125 \"Cấm vượt\"",
+        "pages_in_pdf": [
+          88
+        ],
+        "summary": "Biển số P.125 \"Cấm vượt\" a) Để báo cấm các loại xe cơ giới vượt nhau, đặt Biển số P.125 \"Cấm vượt\". b) Biển có hiệu lực cấm tất cả các loại xe cơ giới vượt nhau (kể cả xe được ưu tiên theo quy định) nhưng được phép vượt xe máy 2 bánh, xe gắn máy.",
+        "full_text": "Biển số P.125 \"Cấm vượt\" a) Để báo cấm các loại xe cơ giới vượt nhau, đặt Biển số P.125 \"Cấm vượt\". b) Biển có hiệu lực cấm tất cả các loại xe cơ giới vượt nhau (kể cả xe được ưu tiên theo quy định) nhưng được phép vượt xe máy 2 bánh, xe gắn máy. c) Biển hết hiệu lực cấm khi có Biển số P.133 \"Hết cấm vượt\" hoặc đến vị trí đặt Biển số P.135 \"Hết tất cả các lệnh cấm\" nếu đồng thời có nhiều Biển cấm khác hết tác dụng. Hình B.25 - Biển số P.125"
+      }
+    },
+    {
+      "canonical_sign_code": "P.127*80",
+      "sign_type": "bien_chinh",
+      "qcvn_group_code": "P",
+      "qcvn_group_name": "Biển báo cấm (Nhóm P)",
+      "official_qcvn_name": "Tốc độ tối đa cho phép (80 km/h)",
+      "dataset_classes": [
         {
           "class_id": 40,
           "dataset_label": "P.127*80",
@@ -4528,7 +4642,39 @@
           "train_crops": 176,
           "test_crops": 34,
           "total_crops": 210
-        },
+        }
+      ],
+      "total_train_crops": 176,
+      "total_test_crops": 34,
+      "total_crops": 210,
+      "primary_article_id": "QCVN41_B.25",
+      "relevant_article_ids": [
+        "QCVN41_B.25",
+        "QCVN41_Điều_11",
+        "QCVN41_Điều_15",
+        "QCVN41_Điều_21",
+        "QCVN41_Điều_22",
+        "QCVN41_Điều_26"
+      ],
+      "legal_regulation": {
+        "article_id": "QCVN41_B.25",
+        "section": "B.25",
+        "chapter_or_appendix": "Phụ lục B - Ý nghĩa và sử dụng Biển báo cấm (Nhóm P)",
+        "title": "Phụ lục B - Mục B.25: Biển số P.125 \"Cấm vượt\"",
+        "pages_in_pdf": [
+          88
+        ],
+        "summary": "Biển số P.125 \"Cấm vượt\" a) Để báo cấm các loại xe cơ giới vượt nhau, đặt Biển số P.125 \"Cấm vượt\". b) Biển có hiệu lực cấm tất cả các loại xe cơ giới vượt nhau (kể cả xe được ưu tiên theo quy định) nhưng được phép vượt xe máy 2 bánh, xe gắn máy.",
+        "full_text": "Biển số P.125 \"Cấm vượt\" a) Để báo cấm các loại xe cơ giới vượt nhau, đặt Biển số P.125 \"Cấm vượt\". b) Biển có hiệu lực cấm tất cả các loại xe cơ giới vượt nhau (kể cả xe được ưu tiên theo quy định) nhưng được phép vượt xe máy 2 bánh, xe gắn máy. c) Biển hết hiệu lực cấm khi có Biển số P.133 \"Hết cấm vượt\" hoặc đến vị trí đặt Biển số P.135 \"Hết tất cả các lệnh cấm\" nếu đồng thời có nhiều Biển cấm khác hết tác dụng. Hình B.25 - Biển số P.125"
+      }
+    },
+    {
+      "canonical_sign_code": "P.127*40",
+      "sign_type": "bien_chinh",
+      "qcvn_group_code": "P",
+      "qcvn_group_name": "Biển báo cấm (Nhóm P)",
+      "official_qcvn_name": "Tốc độ tối đa cho phép (40 km/h)",
+      "dataset_classes": [
         {
           "class_id": 41,
           "dataset_label": "P.127*40",
@@ -4538,9 +4684,9 @@
           "total_crops": 273
         }
       ],
-      "total_train_crops": 911,
-      "total_test_crops": 221,
-      "total_crops": 1132,
+      "total_train_crops": 213,
+      "total_test_crops": 60,
+      "total_crops": 273,
       "primary_article_id": "QCVN41_B.25",
       "relevant_article_ids": [
         "QCVN41_B.25",

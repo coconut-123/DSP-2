@@ -173,6 +173,17 @@ VIET_NAME_TO_CODE_RULES: List[Tuple[List[str], List[str], str]] = [
     (["chỗ quay xe"], [], "I.409"),
     (["đường một chiều"], [], "I.407a"),
     (["camera giám sát"], [], "Camera"),
+    (["ngã ba bên phải"], [], "W.205c"),
+    (["ngã ba bên trái"], [], "W.205b"),
+    (["đường đồng cấp dạng ngã tư", "giao nhau với đường đồng cấp"], ["ngã ba"], "W.205a"),
+    (["giao nhau với đường không ưu tiên"], [], "W.207"),
+    (["vòng tránh sang hai bên"], [], "W.246a"),
+    (["vòng tránh sang một bên"], [], "W.246c"),
+    (["chiều cao tĩnh không"], [], "W.239b*"),
+    (["nguy hiểm khác"], [], "W.233"),
+    (["s.505a*xe tải và công", "xe ô tô tải và xe sơ-mi rơ-moóc"], [], "S.505a*Xe tải và công"),
+    (["s.505a*xe máy", "biểu tượng xe mô tô (xe máy)"], [], "S.505a*Xe máy"),
+    (["s.505a*xe tải", "biểu tượng xe ô tô tải, chỉ định"], ["công", "rơ-moóc"], "S.505a*Xe tải"),
 ]
 
 
