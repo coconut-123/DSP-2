@@ -136,7 +136,7 @@ VIET_NAME_TO_CODE_RULES: List[Tuple[List[str], List[str], str]] = [
     (["cấm xe ô tô tải", "cấm ô tô tải", "cấm xe tải"], ["khách", "công"], "P.106a*Xe tải"),
     (["cấm sơ-mi rơ-moóc", "cấm xe sơ-mi rơ-moóc", "rơ-moóc"], [], "P.108a"),
     (["cấm ô tô quay đầu", "cấm xe ô tô quay đầu"], [], "P.124b1"),
-    (["cấm xe ô tô", "cấm ô tô"], ["tải", "khách", "quay đầu", "rẽ", "máy"], "P.103a"),
+    (["cấm xe ô tô", "cấm ô tô", "cấm các loại xe ô tô"], ["cấm xe ô tô tải", "cấm ô tô khách", "quay đầu", "cấm rẽ", "cấm xe máy"], "P.103a"),
     (["cấm mô tô và xe máy", "cấm xe máy", "cấm xe mô tô"], ["hai và ba bánh"], "P.104"),
     (["cấm xe hai và ba bánh", "hai và ba bánh"], [], "P.111"),
     (["cấm đi ngược chiều", "ngược chiều"], [], "P.102"),
@@ -214,24 +214,31 @@ def extract_sign_code_from_text(text: str) -> Optional[str]:
 
 def resolve_valid_sign_and_fix_answer(vlm_text: str, q1_text: str = "") -> Tuple[Optional[str], str]:
     """
-    Kiểm tra chéo giữa tên biển tiếng Việt mà VLM nhận diện được và mã biển trong ngoặc:
-    - Nếu VLM đọc đúng tên biển ("Biển báo cấm xe ô tô") nhưng ghi nhầm mã không tồn tại ("P.105a"),
-      hàm tự động sửa về đúng mã chuẩn trong 52 mã biển ("P.103a").
+    Kiểm tra chéo giữa tên biển (q1), phần giải thích ý nghĩa (q4) và mã biển:
+    - Nếu phần giải thích ý nghĩa (q4) nói đúng nội dung biển (ví dụ: cấm các loại xe ô tô -> P.103a)
+      nhưng dòng nhận diện (q1) bị lệch (ví dụ: P.104 hoặc P.105a), tự động đồng bộ cả tên biển và mã biển về đúng biển chuẩn.
     """
-    combined_for_name = f"{q1_text} {vlm_text}"
-    code_by_name = match_sign_code_by_vietnamese_name(combined_for_name)
-    raw_code = extract_sign_code_from_text(vlm_text) or extract_sign_code_from_text(q1_text)
+    exp_part = vlm_text.split("**Giải thích ý nghĩa:**")[-1] if "**Giải thích ý nghĩa:**" in vlm_text else vlm_text
+    code_by_exp = match_sign_code_by_vietnamese_name(exp_part)
+    code_by_q1 = match_sign_code_by_vietnamese_name(q1_text)
+    raw_code = extract_sign_code_from_text(exp_part) or extract_sign_code_from_text(q1_text)
 
     valid_code = None
-    if code_by_name and code_by_name in signs_catalog:
-        valid_code = code_by_name
-    elif raw_code and raw_code in signs_catalog:
-        valid_code = raw_code
+    for cand in (code_by_exp, code_by_q1, raw_code):
+        if cand and cand in signs_catalog:
+            valid_code = cand
+            break
 
     fixed_text = vlm_text
     if valid_code:
         canonical = signs_catalog[valid_code]["canonical_sign_code"]
-        if raw_code and raw_code != canonical and raw_code in fixed_text:
+        # Nếu dòng q1_text bị lệch sang biển khác so với phần giải thích ý nghĩa, đồng bộ lại dòng đầu chuẩn QCVN
+        if code_by_exp and code_by_q1 and code_by_exp != code_by_q1 and "**Giải thích ý nghĩa:**" in fixed_text:
+            qas = qa_by_sign.get(valid_code, [])
+            true_q1 = next((q["answer"] for q in qas if q.get("id", "").endswith("_q1")), None)
+            if true_q1:
+                fixed_text = f"{true_q1}\n\n**Giải thích ý nghĩa:** {exp_part.strip()}"
+        elif raw_code and raw_code != canonical and raw_code in fixed_text:
             fixed_text = fixed_text.replace(raw_code, canonical)
 
     return valid_code, fixed_text
