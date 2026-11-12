@@ -642,7 +642,8 @@ def load_base_qwen_vlm(model_id: str = DEFAULT_VLM_ID, use_4bit: bool = True):
 
 def finetune_proposed_vlm(
     model_id: str = DEFAULT_VLM_ID,
-    max_steps: int = 100,
+    num_train_epochs: int = 3,
+    max_steps: int = -1,
     learning_rate: float = 2e-4,
     lora_r: int = 16,
     lora_alpha: int = 32,
@@ -674,14 +675,16 @@ def finetune_proposed_vlm(
         output_dir=str(ADAPTER_OUT_DIR),
         per_device_train_batch_size=1,
         gradient_accumulation_steps=4,
-        warmup_steps=10,
+        num_train_epochs=num_train_epochs,
         max_steps=max_steps,
+        warmup_ratio=0.05,
+        lr_scheduler_type="cosine",
         learning_rate=learning_rate,
         fp16=torch.cuda.is_available() and not torch.cuda.is_bf16_supported(),
         bf16=torch.cuda.is_available() and torch.cuda.is_bf16_supported(),
-        logging_steps=10,
-        save_strategy="steps",
-        save_steps=max(20, max_steps // 2),
+        logging_steps=20,
+        save_strategy="epoch" if max_steps <= 0 else "steps",
+        save_steps=max(50, max_steps // 2) if max_steps > 0 else 200,
         save_total_limit=2,
         report_to="none",
         remove_unused_columns=False,
@@ -706,13 +709,18 @@ def main():
     parser.add_argument("--mode", choices=["train", "eval", "all"], default="all")
     parser.add_argument("--model_id", type=str, default=DEFAULT_VLM_ID)
     parser.add_argument("--bge_id", type=str, default=DEFAULT_BGE_ID)
-    parser.add_argument("--max_steps", type=int, default=80)
+    parser.add_argument("--epochs", type=int, default=3)
+    parser.add_argument("--max_steps", type=int, default=-1)
     parser.add_argument("--max_eval_samples", type=int, default=60)
     parser.add_argument("--top_k_laws", type=int, default=3)
     args = parser.parse_args()
 
     if args.mode in ("train", "all"):
-        finetune_proposed_vlm(model_id=args.model_id, max_steps=args.max_steps)
+        finetune_proposed_vlm(
+            model_id=args.model_id,
+            num_train_epochs=args.epochs,
+            max_steps=args.max_steps,
+        )
 
     if args.mode in ("eval", "all"):
         with open(VQA_DIR / "vqa_test.json", "r", encoding="utf-8") as f:
